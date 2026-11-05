@@ -1,0 +1,424 @@
+{
+  "dataset": "realdisp",
+  "name": "REALDISP (ideal placement)",
+  "sampling_rate_hz": 50,
+  "devices": [
+    "Xsens MTx"
+  ],
+  "n_participants": 17,
+  "sensor_placements": [
+    "back",
+    "left calf",
+    "left lower arm",
+    "left thigh",
+    "left upper arm",
+    "right calf",
+    "right lower arm",
+    "right thigh",
+    "right upper arm"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "arms inner rotation",
+    "cycling",
+    "elliptical bike",
+    "frontal crossing of arms",
+    "frontal elevation of arms",
+    "frontal hand claps",
+    "heels (alternating) to the backside",
+    "jogging",
+    "jump front and back",
+    "jump legs/arms open/closed",
+    "jump rope",
+    "jump sideways",
+    "jump up",
+    "knees (alternating) bending forward",
+    "knees (alternating) to the breast",
+    "knees bending (crouching)",
+    "lateral bend",
+    "lateral bend with arm up",
+    "lateral elevation of arms",
+    "reach heels backwards",
+    "repetitive forward stretching",
+    "rotation on the knees",
+    "rowing",
+    "running",
+    "shoulders high-amplitude rotation",
+    "shoulders low-amplitude rotation",
+    "trunk twist (arms outstretched)",
+    "trunk twist (elbows bent)",
+    "upper trunk and lower body opposite twist",
+    "waist bends (reach foot with opposite hand)",
+    "waist bends forward",
+    "waist rotation",
+    "walking"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "channels": [
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "right lower arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "right lower arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "right lower arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "right lower arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "right lower arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "right lower arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "right upper arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "right upper arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "right upper arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "right upper arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "right upper arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "right upper arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "back",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "back",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "back",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "back",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "back",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "back",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "left upper arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "left upper arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "left upper arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "left upper arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "left upper arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "left upper arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "left lower arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "left lower arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "left lower arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "left lower arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "left lower arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "left lower arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "right calf",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "right calf",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "right calf",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "right calf",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "right calf",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "right calf",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "right thigh",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "right thigh",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "right thigh",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "right thigh",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "right thigh",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "right thigh",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "left thigh",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "left thigh",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "left thigh",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "left thigh",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "left thigh",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "left thigh",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "left calf",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "left calf",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "left calf",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "left calf",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "left calf",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "left calf",
+      "unit": "rad/s"
+    }
+  ],
+  "canonical_map": {
+    "frontal hand claps": "exercise (upper body)",
+    "jogging": "jogging",
+    "trunk twist (arms outstretched)": "exercise (upper body)",
+    "reach heels backwards": "exercise (lower body)",
+    "knees (alternating) to the breast": "exercise (lower body)",
+    "jump legs/arms open/closed": "jumping",
+    "frontal crossing of arms": "exercise (upper body)",
+    "waist bends forward": "exercise (upper body)",
+    "jump sideways": "jumping",
+    "shoulders high-amplitude rotation": "exercise (upper body)",
+    "trunk twist (elbows bent)": "exercise (upper body)",
+    "waist bends (reach foot with opposite hand)": "exercise (upper body)",
+    "running": "running",
+    "waist rotation": "exercise (upper body)",
+    "arms inner rotation": "exercise (upper body)",
+    "jump rope": "rope jumping",
+    "rowing": "rowing",
+    "frontal elevation of arms": "exercise (upper body)",
+    "lateral elevation of arms": "exercise (upper body)",
+    "lateral bend with arm up": "exercise (upper body)",
+    "upper trunk and lower body opposite twist": "exercise (upper body)",
+    "shoulders low-amplitude rotation": "exercise (upper body)",
+    "knees bending (crouching)": "exercise (lower body)",
+    "heels (alternating) to the backside": "exercise (lower body)",
+    "jump up": "jumping",
+    "knees (alternating) bending forward": "exercise (lower body)",
+    "rotation on the knees": "exercise (lower body)",
+    "jump front and back": "jumping",
+    "repetitive forward stretching": "exercise (upper body)",
+    "cycling": "cycling",
+    "walking": "walking",
+    "lateral bend": "exercise (upper body)",
+    "elliptical bike": "cycling"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "sampling_rate_hz": 25.0,
+  "n_participants": 8,
+  "devices": [
+    "xsens mtx"
+  ],
+  "sensor_placements": [
+    "torso (t)",
+    "right arm (ra)",
+    "left arm (la)",
+    "right leg (rl)",
+    "left leg (ll)"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "sitting",
+    "standing",
+    "lying on back and on right side",
+    "ascending and descending stairs",
+    "standing in an elevator still",
+    "moving around in an elevator",
+    "walking in a parking lot",
+    "walking on a treadmill with a speed of 4 km/h (in flat and 15 deg inclined positions)",
+    "running on a treadmill with a speed of 8 km/h",
+    "exercising on a stepper",
+    "exercising on a cross trainer",
+    "cycling on an exercise bike in horizontal and vertical positions",
+    "rowing",
+    "jumping",
+    "playing basketball"
+  ],
+  "protocol_type": "observational",
+  "setting": "both",
+  "_raw": {
+    "acquisition": "```json\n{\n \"sampling_rate_hz\": \"25\",\n \"n_participants\": \"8\",\n \"devices\": \"Xsens MTx\",\n \"modalities\": \"accelerometer, gyroscope, magnetometer\"\n}\n```",
+    "placement_units": "```json\n{\n \"sensor_placements\": \"Torso (T), right arm (RA), left arm (LA), right leg (RL), left leg (LL)\",\n \"accelerometer_unit\": \"m/s^2\",\n \"gyroscope_unit\": \"rad/s\"\n}\n```",
+    "activities": "```json\n{\n \"activities\": [\n  \"sitting\",\n  \"standing\",\n  \"lying on back and on right side\",\n  \"ascending and descending stairs\",\n  \"standing in an elevator still\",\n  \"moving around in an elevator\",\n  \"walking in a parking lot\",\n  \"walking on a treadmill with a speed of 4 km/h (in flat and 15 deg inclined positions)\",\n  \"running on a treadmill with a speed of 8 km/h\",\n  \"exercising on a stepper\",\n  \"exercising on a cross trainer\",\n  \"cycling on an exercise bike in horizontal and vertical positions\",\n  \"rowing\",\n  \"jumping\",\n  \"playing basketball\"\n ]\n}\n```",
+    "protocol": "```json\n{\n \"protocol_type\": \"observational\",\n \"setting\": \"both\"\n}\n```"
+  }
+}

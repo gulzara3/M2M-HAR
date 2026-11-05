@@ -1,0 +1,52 @@
+{
+  "sampling_rate_hz": 9,
+  "n_participants": 9,
+  "devices": [
+    "imus (inertial measurement units) placed on hand",
+    "chest",
+    "and ankle",
+    "and a hr-monitor"
+  ],
+  "sensor_placements": [
+    "wrist on the dominant arm",
+    "chest",
+    "dominant side's ankle"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer",
+    "heart rate",
+    "temperature"
+  ],
+  "accelerometer_unit": "ms-2",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "lying",
+    "sitting",
+    "standing",
+    "walking",
+    "running",
+    "cycling",
+    "nordic walking",
+    "watching tv",
+    "computer work",
+    "car driving",
+    "ascending stairs",
+    "descending stairs",
+    "vacuum cleaning",
+    "ironing",
+    "folding laundry",
+    "house cleaning",
+    "playing soccer",
+    "rope jumping"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "{\n \"sampling_rate_hz\": 9,\n \"n_participants\": 9,\n \"devices\": \"IMUs (Inertial Measurement Units) placed on hand, chest, and ankle, and a HR-monitor\",\n \"modalities\": \"accelerometer, gyroscope, magnetometer, heart rate, temperature\"\n}",
+    "placement_units": "{\n \"sensor_placements\": \"wrist on the dominant arm, chest, dominant side's ankle\",\n \"accelerometer_unit\": \"ms-2\",\n \"gyroscope_unit\": \"rad/s\"\n}",
+    "activities": "{\n \"activities\": [\"lying\", \"sitting\", \"standing\", \"walking\", \"running\", \"cycling\", \"Nordic walking\", \"watching TV\", \"computer work\", \"car driving\", \"ascending stairs\", \"descending stairs\", \"vacuum cleaning\", \"ironing\", \"folding laundry\", \"house cleaning\", \"playing soccer\", \"rope jumping\"]\n}",
+    "protocol": "{\n \"protocol_type\": \"experimental\",\n \"setting\": \"laboratory\"\n}"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "sampling_rate_hz": 20,
+  "n_participants": 51,
+  "devices": [
+    "nexus 5",
+    "nexus 5x",
+    "galaxy s6",
+    "lg g watch"
+  ],
+  "sensor_placements": [],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": null,
+  "gyroscope_unit": null,
+  "activities": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "k",
+    "l",
+    "m",
+    "n",
+    "o",
+    "p",
+    "q",
+    "r"
+  ],
+  "protocol_type": null,
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "```json\n{\n \"sampling_rate_hz\": 20,\n \"n_participants\": 51,\n \"devices\": \"Nexus 5, Nexus 5X, Galaxy S6, LG G watch\",\n \"modalities\": \"accelerometer, gyroscope\"\n}\n```",
+    "placement_units": "```json\n{\n \"sensor_placements\": null,\n \"accelerometer_unit\": null,\n \"gyroscope_unit\": null\n}\n```",
+    "activities": "```json\n{\n \"activities\": \"A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R\"\n}\n```",
+    "protocol": "```json\n{\n \"protocol_type\": null,\n \"setting\": \"laboratory\"\n}\n```"
+  }
+}

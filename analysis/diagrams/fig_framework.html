@@ -1,0 +1,126 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  :root{--ink:#14171c;--ink2:#4b5260;--line:#c9ced6;--blue:#2a78d6;--green:#1baf7a;--amber:#d68f00;--orange:#eb6834;--pink:#d35d91;
+        --bluebg:#eef4fc;--greenbg:#e9f7f1;--amberbg:#fdf5e3;--orangebg:#fdf0ea;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{width:1600px;background:#fff;font-family:Inter,"DejaVu Sans",sans-serif;color:var(--ink);padding:18px 18px 14px}
+  .m{font-family:"Latin Modern Math","DejaVu Serif",serif;font-style:italic;font-size:1.08em}
+  .row{display:grid;grid-template-columns:1fr 46px 1fr 46px 1fr 46px 1.08fr;align-items:stretch}
+  .lane{border-radius:14px;padding:12px 12px 12px;display:flex;flex-direction:column;gap:0;position:relative}
+  .lane h2{font-size:17px;font-weight:700;letter-spacing:.2px;display:flex;align-items:center;gap:8px;margin-bottom:10px}
+  .lane h2 .n{display:inline-flex;width:26px;height:26px;border-radius:50%;color:#fff;font-size:14px;align-items:center;justify-content:center}
+  .lane .sub{font-size:12.5px;color:var(--ink2);margin:-6px 0 10px 34px}
+  .b{background:#fff;border:1.6px solid var(--line);border-radius:9px;padding:8px 10px;font-size:13px;line-height:1.35}
+  .b b{font-size:13.5px}
+  .b .d{color:var(--ink2);font-size:12px;display:block;margin-top:2px}
+  .dn{height:20px;display:flex;justify-content:center;align-items:center}
+  .dn::after{content:"";width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-top:9px solid #7d8593}
+  .dn.t{height:26px}
+  .dn.t::before{content:"";position:absolute}
+  .conn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
+  .conn .arr{width:40px;height:16px;position:relative}
+  .conn .arr::before{content:"";position:absolute;left:0;right:10px;top:6px;height:4px;background:#7d8593;border-radius:2px}
+  .conn .arr::after{content:"";position:absolute;right:0;top:0;border-top:8px solid transparent;border-bottom:8px solid transparent;border-left:12px solid #7d8593}
+  .conn .lab{font-size:22px;font-weight:600;color:var(--ink)}
+  .L1{background:var(--bluebg)} .L1 h2 .n{background:var(--blue)} .L1 .b{border-color:#a9c8ee}
+  .L2{background:var(--greenbg)} .L2 h2 .n{background:var(--green)} .L2 .b{border-color:#9fdcc4}
+  .L3{background:var(--amberbg)} .L3 h2 .n{background:var(--amber)} .L3 .b{border-color:#efd08e}
+  .L4{background:var(--orangebg)} .L4 h2 .n{background:var(--orange)} .L4 .b{border-color:#f3bea6}
+  .io{border-style:dashed !important;background:#fbfbfc}
+  .out{border-width:2.2px !important}
+  .L1 .out{border-color:var(--blue) !important} .L2 .out{border-color:var(--green) !important} .L3 .out{border-color:var(--amber) !important}
+  .probes{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+  .probes .b{padding:6px 8px;font-size:12px}
+  .probes .b b{font-size:12.5px}
+  .chip{display:inline-block;font-size:11px;padding:1px 7px;border-radius:10px;margin:2px 3px 0 0;border:1px solid}
+  .ok{color:#0f7a54;border-color:#7fd1b2;background:#effaf5} .bad{color:#b2361f;border-color:#f0a58f;background:#fff1ec} .na{color:#5b616c;border-color:#c9ced6;background:#f6f7f9}
+  .groups{display:flex;gap:5px;margin-top:5px;flex-wrap:wrap}
+  .g{font-size:11px;border-radius:6px;padding:2px 6px;background:#dbe8fa;color:#1d5aa6}
+  .bottom{margin-top:14px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;border:1.6px solid #e4c3b3;background:#fffaf7;border-radius:12px;padding:10px 12px}
+  .bottom h3{font-size:14px;margin-bottom:5px;color:#b5481c}
+  .bottom p{font-size:12.5px;line-height:1.4;color:var(--ink)}
+  .cond{display:flex;gap:4px;margin-top:4px;flex-wrap:wrap}
+  .cond span{font-size:11.5px;border-radius:6px;padding:2px 7px;color:#fff}
+  .raw{position:absolute;top:-2px;right:12px}
+  .legend{display:flex;gap:18px;justify-content:flex-end;font-size:12px;color:var(--ink2);margin-top:8px}
+  .legend i{display:inline-block;width:22px;height:0;border-top:2px dashed #9aa1ad;vertical-align:middle;margin-right:6px}
+</style></head><body>
+<div class="row">
+  <!-- Lane 1 -->
+  <div class="lane L1">
+    <h2><span class="n">1</span>Knowledge acquisition</h2>
+    <div class="sub">grounded LLM extraction</div>
+    <div class="b io"><b>Documentation bundle <span class="m">𝒟</span></b><span class="d">landing page · README · data-set paper (PDF)</span></div>
+    <div class="dn"></div>
+    <div class="b"><b>Chunking &amp; dense retrieval</b><span class="d">220-word chunks, 40-word overlap; all-mpnet-base-v2; top-<span class="m">k</span>=6 per field group (Eq. 4)</span></div>
+    <div class="dn"></div>
+    <div class="b"><b>Schema-constrained open LLM</b><span class="d">4-bit NF4, greedy; JSON with <i>null</i> when silent</span>
+      <div class="groups"><span class="g">G1 acquisition</span><span class="g">G2 placement &amp; units</span><span class="g">G3 activities</span><span class="g">G4 protocol</span></div></div>
+    <div class="dn"></div>
+    <div class="b"><b>Repair &amp; normalisation</b><span class="d">json-repair; unit synonyms; numeric parsing; label → 33-class taxonomy</span></div>
+    <div class="dn"></div>
+    <div class="b out"><b>Extracted record <span class="m">r̂</span> ∈ ℛ</b><span class="d">10 fields + per-channel map</span></div>
+  </div>
+  <div class="conn"><div class="arr"></div><div class="lab"><span class="m">r̂</span></div></div>
+  <!-- Lane 2 -->
+  <div class="lane L2">
+    <h2><span class="n">2</span>Signal verification</h2>
+    <div class="sub">deterministic probes on raw files</div>
+    <div class="b io"><b>Raw recordings <span class="m">𝒳</span></b><span class="d">native units, native rate, subject &amp; label columns</span></div>
+    <div class="dn"></div>
+    <div class="probes">
+      <div class="b"><b>π<sub>rate</sub></b><span class="d">median Δ<span class="m">t</span> of timestamps, ±10 % (Eq. 6)</span></div>
+      <div class="b"><b>π<sub>acc</sub></b><span class="d">resting gravity norm → g / m·s⁻² / mg (Eq. 7–8)</span></div>
+      <div class="b"><b>π<sub>gyr</sub></b><span class="d">p99 of |ω| &gt; 20 → deg/s (Eq. 9)</span></div>
+      <div class="b"><b>π<sub>file</sub></b><span class="d">unique subject IDs and label values</span></div>
+    </div>
+    <div class="dn"></div>
+    <div class="b"><b>Reconciliation <span class="m">ρ</span>(<span class="m">r̂<sub>j</sub></span>, π<sub><span class="m">j</span></sub>(𝒳))</b><span class="d">per-field status (Eq. 10):</span>
+      <div><span class="chip ok">confirmed</span><span class="chip bad">contradicted → corrected</span><span class="chip na">unverifiable → kept</span></div></div>
+    <div class="dn"></div>
+    <div class="b out"><b>Verified record <span class="m">r̃</span> + audit report</b><span class="d">flags documentation–data discrepancies (also on gold)</span></div>
+  </div>
+  <div class="conn"><div class="arr"></div><div class="lab"><span class="m">r̃</span></div></div>
+  <!-- Lane 3 -->
+  <div class="lane L3">
+    <h2><span class="n">3</span>Record compilation</h2>
+    <div class="sub">metadata → model inputs, <span class="m">𝒞</span>(<span class="m">r</span>)</div>
+    <div class="b"><b>Physical normalisation Φ<sub><span class="m">r</span></sub></b><span class="d">applied to 𝒳: acc → g, gyro → rad/s (×1/5); resample to 30 Hz using rate <span class="m">f<sub>r</sub></span> (Eq. 11)</span></div>
+    <div class="dn"></div>
+    <div class="b"><b>Windowing</b><span class="d">5 s windows, 2.5 s stride, clip ±20; ≤ 20 k windows per data set</span></div>
+    <div class="dn"></div>
+    <div class="b"><b>Channel descriptions τ<sub><span class="m">r</span></sub>(<span class="m">c</span>)</b><span class="d">“accelerometer x-axis, chest, m/s²” → text encoder <span class="m">E<sub>T</sub></span> (Eq. 12)</span></div>
+    <div class="dn"></div>
+    <div class="b"><b>Label prototypes</b><span class="d">canonical class texts (training); held-out raw label names (zero-shot) → <span class="m">p<sub>k</sub></span> = <span class="m">E<sub>T</sub></span>(<span class="m">y<sub>k</sub></span>)</span></div>
+    <div class="dn"></div>
+    <div class="b out"><b>Compiled inputs</b><span class="d">(<span class="m">x̃</span>, {<span class="m">e<sub>c</sub></span>}, {<span class="m">p<sub>k</sub></span>}) per window</span></div>
+  </div>
+  <div class="conn"><div class="arr"></div><div class="lab" style="font-size:13px;text-align:center">inputs</div></div>
+  <!-- Lane 4 -->
+  <div class="lane L4">
+    <h2><span class="n">4</span>Metadata-conditioned encoder</h2>
+    <div class="sub">language-aligned, channel-agnostic (Fig. 2)</div>
+    <div class="b"><b>Per-channel conv stem → 10 tokens</b><span class="d">+ positional + projected channel text <span class="m">W<sub>e</sub>e<sub>c</sub></span> (Eq. 13)</span></div>
+    <div class="dn"></div>
+    <div class="b"><b>Transformer over all channel tokens</b><span class="d">3 layers, <span class="m">d</span>=128, padding mask (3–54 channels)</span></div>
+    <div class="dn"></div>
+    <div class="b"><b>Embedding <span class="m">z</span> ∈ ℝ<sup>768</sup>, ‖<span class="m">z</span>‖=1</b><span class="d">cosine logits to prototypes / temperature (Eq. 14–15)</span></div>
+    <div class="dn"></div>
+    <div class="b"><b>Training objective</b><span class="d">cross-entropy over canonical class prototypes of the five training data sets (Eq. 16); AdamW, one-cycle, 25 epochs</span></div>
+    <div class="dn"></div>
+    <div class="probes">
+      <div class="b"><b>Zero-shot</b><span class="d">nearest held-out label prototype</span></div>
+      <div class="b"><b>Few-shot</b><span class="d">logistic probe, 1 % / 10 % labels</span></div>
+    </div>
+    <div class="dn"></div>
+    <div class="b out" style="border-color:var(--orange)!important"><b>Held-out accuracy <span class="m">A</span>(<span class="m">r</span>)</b><span class="d">4 unseen data sets × 3 seeds</span></div>
+  </div>
+</div>
+<div class="bottom">
+  <div><h3>E1–E2 · How good is the record?</h3><p>Field accuracy of <span class="m">r̂</span> against gold <span class="m">r</span>*, five open model families × two context variants; probe contradiction rates and repair of <span class="m">r̂</span> → <span class="m">r̃</span> on independent fields.</p></div>
+  <div><h3>E3 · What is a record worth?</h3><p>The same encoder trained and evaluated under five metadata regimes:</p>
+    <div class="cond"><span style="background:#2a78d6">M0 none</span><span style="background:#eb6834">M1 generic</span><span style="background:#1baf7a">M2 extracted <span class="m" style="color:#fff">r̂</span></span><span style="background:#d68f00">M3 verified <span class="m" style="color:#fff">r̃</span></span><span style="background:#d35d91">M4 gold <span class="m" style="color:#fff">r</span>*</span></div></div>
+  <div><h3>E4 · What does each error cost? · E5 · Labels</h3><p>Defect operator δ<sub><span class="m">k,s</span></sub>(<span class="m">r</span>*) for <span class="m">k</span> ∈ {placement, axis, unit, rate, label}, severity <span class="m">s</span> ∈ {25, 50, 100 %}: cost Δ<sub><span class="m">k,s</span></sub> = <span class="m">A</span>(<span class="m">r</span>*) − <span class="m">A</span>(δ<sub><span class="m">k,s</span></sub>(<span class="m">r</span>*)) (Eq. 17). E5 compares label-alignment methods.</p></div>
+</div>
+</body></html>

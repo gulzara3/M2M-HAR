@@ -1,0 +1,42 @@
+{
+  "sampling_rate_hz": 50,
+  "n_participants": 10,
+  "devices": [
+    "shimmer2 wearable sensors"
+  ],
+  "sensor_placements": [
+    "chest",
+    "right wrist",
+    "left ankle"
+  ],
+  "modalities": [
+    "acceleration",
+    "gyroscope",
+    "magnetometer",
+    "ecg"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "deg/s",
+  "activities": [
+    "l1: standing still",
+    "l2: sitting and relaxing",
+    "l3: lying down",
+    "l4: walking",
+    "l5: climbing stairs",
+    "l6: waist bends forward",
+    "l7: frontal elevation of arms",
+    "l8: knees bending (crouching)",
+    "l9: cycling",
+    "l10: jogging",
+    "l11: running",
+    "l12: jump front & back"
+  ],
+  "protocol_type": "one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",
+  "setting": "one of 'laboratory', 'free-living', 'both', or null.",
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": 50,\n  \"n_participants\": 10,\n  \"devices\": \"Shimmer2 wearable sensors\",\n  \"modalities\": \"acceleration, gyroscope, magnetometer, ECG\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": \"chest, right wrist, left ankle\",\n  \"accelerometer_unit\": \"m/s^2\",\n  \"gyroscope_unit\": \"deg/s\"\n}",
+    "activities": "{\n  \"activities\": \"L1: Standing still, L2: Sitting and relaxing, L3: Lying down, L4: Walking, L5: Climbing stairs, L6: Waist bends forward, L7: Frontal elevation of arms, L8: Knees bending (crouching), L9: Cycling, L10: Jogging, L11: Running, L12: Jump front & back\"\n}",
+    "protocol": "{\n  \"protocol_type\": \"One of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.\",\n  \"setting\": \"One of 'laboratory', 'free-living', 'both', or null.\"\n}"
+  }
+}

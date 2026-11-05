@@ -1,0 +1,30 @@
+{
+  "sampling_rate_hz": 50,
+  "n_participants": 24,
+  "devices": [
+    "iphone 6s"
+  ],
+  "sensor_placements": [],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": null,
+  "gyroscope_unit": null,
+  "activities": [
+    "downstairs",
+    "upstairs",
+    "sitting",
+    "standing",
+    "walking",
+    "jogging"
+  ],
+  "protocol_type": "observational",
+  "setting": "free-living",
+  "_raw": {
+    "acquisition": "```json\n{\n \"sampling_rate_hz\": 50,\n \"n_participants\": 24,\n \"devices\": \"iPhone 6s\",\n \"modalities\": \"accelerometer, gyroscope\"\n}\n```",
+    "placement_units": "```json\n{\n \"sensor_placements\": null,\n \"accelerometer_unit\": null,\n \"gyroscope_unit\": null\n}\n```",
+    "activities": "```json\n{\n \"activities\": \"downstairs, upstairs, sitting, standing, walking, jogging\"\n}\n```",
+    "protocol": "```json\n{\n \"protocol_type\": \"observational\",\n \"setting\": \"free-living\"\n}\n```"
+  }
+}

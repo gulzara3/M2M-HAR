@@ -1,0 +1,80 @@
+{
+  "dataset": "wisdm19",
+  "name": "WISDM 2019 (phone accelerometer)",
+  "sampling_rate_hz": 20,
+  "devices": [
+    "Google Nexus 5/5X or Samsung Galaxy S5 smartphone",
+    "LG G Watch"
+  ],
+  "n_participants": 51,
+  "sensor_placements": [
+    "front trouser pocket (smartphone)"
+  ],
+  "modalities": [
+    "accelerometer"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": null,
+  "activities": [
+    "brushing teeth",
+    "clapping",
+    "dribbling (basketball)",
+    "drinking from cup",
+    "eating chips",
+    "eating pasta",
+    "eating sandwich",
+    "eating soup",
+    "folding clothes",
+    "jogging",
+    "kicking (soccer ball)",
+    "playing catch with tennis ball",
+    "sitting",
+    "stairs",
+    "standing",
+    "typing",
+    "walking",
+    "writing"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "channels": [
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "front trouser pocket (smartphone)",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "front trouser pocket (smartphone)",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "front trouser pocket (smartphone)",
+      "unit": "m/s^2"
+    }
+  ],
+  "canonical_map": {
+    "eating sandwich": "eating",
+    "writing": "writing/typing",
+    "jogging": "jogging",
+    "typing": "writing/typing",
+    "eating soup": "eating",
+    "walking": "walking",
+    "standing": "standing",
+    "eating pasta": "eating",
+    "stairs": "ascending stairs",
+    "eating chips": "eating",
+    "kicking (soccer ball)": "playing sport",
+    "dribbling (basketball)": "playing sport",
+    "folding clothes": "folding laundry",
+    "sitting": "sitting",
+    "drinking from cup": "drinking",
+    "clapping": "clapping",
+    "playing catch with tennis ball": "playing sport",
+    "brushing teeth": "brushing teeth"
+  }
+}

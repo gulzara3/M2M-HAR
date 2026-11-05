@@ -1,0 +1,50 @@
+{
+  "sampling_rate_hz": 9.0,
+  "n_participants": 9,
+  "devices": [
+    "z520 cpu",
+    "viliv i.2."
+  ],
+  "sensor_placements": [
+    "wrist",
+    "chest",
+    "ankle"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer",
+    "heart rate"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "lying quietly while doing nothing",
+    "small movements \u2013 e.g. changing the lying posture \u2013 are allowed",
+    "sitting in a chair in whatever posture the subject feels comfortable, changing sitting postures is also allowed",
+    "standing still or standing still and talking, possibly gesticulating",
+    "ironing 1-2 shirts or t-shirts",
+    "vacuum cleaning one or two office rooms (which includes moving objects, e.g. chairs, placed on the floor)",
+    "ascending stairs",
+    "descending stairs",
+    "normal walking",
+    "nordic walking",
+    "cycling",
+    "running",
+    "watching tv",
+    "computer work",
+    "car driving",
+    "ascending stairs",
+    "descending stairs",
+    "vacuum cleaning",
+    "ironing"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": \"9Hz\",\n  \"n_participants\": \"9\",\n  \"devices\": \"Z520 CPU, Viliv I.2.\",\n  \"modalities\": \"accelerometer, gyroscope, magnetometer, heart rate\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": [\"wrist\", \"chest\", \"ankle\"],\n  \"accelerometer_unit\": \"m/s^2\",\n  \"gyroscope_unit\": \"rad/s\"\n}",
+    "activities": "{\n  \"activities\": [\n    \"lying quietly while doing nothing\",\n    \"small movements \u2013 e.g. changing the lying posture \u2013 are allowed\",\n    \"sitting in a chair in whatever posture the subject feels comfortable, changing sitting postures is also allowed\",\n    \"standing still or standing still and talking, possibly gesticulating\",\n    \"ironing 1-2 shirts or T-shirts\",\n    \"vacuum cleaning one or two office rooms (which includes moving objects, e.g. chairs, placed on the floor)\",\n    \"ascending stairs\",\n    \"descending stairs\",\n    \"normal walking\",\n    \"Nordic walking\",\n    \"cycling\",\n    \"running\",\n    \"watching TV\",\n    \"computer work\",\n    \"car driving\",\n    \"ascending stairs\",\n    \"descending stairs\",\n    \"vacuum cleaning\",\n    \"ironing\"\n  ]\n}",
+    "protocol": "{\n  \"protocol_type\": \"experimental\",\n  \"setting\": \"laboratory\"\n}"
+  }
+}

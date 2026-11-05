@@ -1,0 +1,10 @@
+dataset,name,sessions,subjects,labels,channels,placements,hours,split,rate_hz,acc_unit,gyro_unit
+hapt,HAPT (UCI-HAR raw with postural transitions),1214,30,12,6,waist (smartphone),4.5,train,50,g,rad/s
+pamap2,PAMAP2,107,9,12,18,ankle (dominant side); chest; wrist (dominant arm),5.4,train,100,m/s^2,rad/s
+wisdm19,WISDM 2019 (phone accelerometer),910,51,18,3,front trouser pocket (smartphone),66.7,train,20,m/s^2,—
+dsads,DSADS (Daily and Sports Activities),152,8,19,30,left arm; left leg; right arm; right leg; torso,12.7,train,25,m/s^2,rad/s
+realdisp,REALDISP (ideal placement),540,17,33,54,back; left calf; left lower arm; left thigh; left upper arm; right calf; right lower arm; right thigh; right upper arm,4.0,train,50,m/s^2,rad/s
+mhealth,MHEALTH,126,10,12,15,chest; left ankle; right lower arm,1.9,test,50,m/s^2,deg/s
+uschad,USC-HAD,840,14,12,6,front right hip,7.8,test,100,g,deg/s
+harth,HARTH,4257,22,12,6,lower back; right thigh,35.1,test,50,g,—
+motionsense,MotionSense,360,24,6,6,front trouser pocket (smartphone),7.8,test,50,g,rad/s

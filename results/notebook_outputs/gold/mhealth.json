@@ -1,0 +1,142 @@
+{
+  "dataset": "mhealth",
+  "name": "MHEALTH",
+  "sampling_rate_hz": 50,
+  "devices": [
+    "Shimmer2 wearable sensors"
+  ],
+  "n_participants": 10,
+  "sensor_placements": [
+    "chest",
+    "left ankle",
+    "right lower arm"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "deg/s",
+  "activities": [
+    "climbing stairs",
+    "cycling",
+    "frontal elevation of arms",
+    "jogging",
+    "jump front and back",
+    "knees bending (crouching)",
+    "lying down",
+    "running",
+    "sitting and relaxing",
+    "standing still",
+    "waist bends forward",
+    "walking"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "channels": [
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "chest",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "chest",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "chest",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "left ankle",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "left ankle",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "left ankle",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "left ankle",
+      "unit": "deg/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "left ankle",
+      "unit": "deg/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "left ankle",
+      "unit": "deg/s"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "right lower arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "right lower arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "right lower arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "right lower arm",
+      "unit": "deg/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "right lower arm",
+      "unit": "deg/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "right lower arm",
+      "unit": "deg/s"
+    }
+  ],
+  "canonical_map": {
+    "jogging": "jogging",
+    "running": "running",
+    "cycling": "cycling",
+    "walking": "walking",
+    "lying down": "lying",
+    "climbing stairs": "ascending stairs",
+    "sitting and relaxing": "sitting",
+    "frontal elevation of arms": "exercise (upper body)",
+    "knees bending (crouching)": "exercise (lower body)",
+    "jump front and back": "jumping",
+    "waist bends forward": "exercise (upper body)",
+    "standing still": "standing"
+  }
+}

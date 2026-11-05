@@ -1,0 +1,53 @@
+{
+  "sampling_rate_hz": 100.0,
+  "n_participants": 9,
+  "devices": [
+    "colibri wireless imus",
+    "bm-cs5sr hr-monitor",
+    "viliv s5 umpc"
+  ],
+  "sensor_placements": [
+    "waist",
+    "chest",
+    "right wrist",
+    "ankle",
+    "front trouser pocket"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer",
+    "temperature",
+    "heart rate"
+  ],
+  "accelerometer_unit": "g",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "lying",
+    "sitting",
+    "standing",
+    "walking",
+    "running",
+    "cycling",
+    "nordic walking",
+    "watching tv",
+    "computer work",
+    "car driving",
+    "ascending stairs",
+    "descending stairs",
+    "vacuum cleaning",
+    "ironing",
+    "folding laundry",
+    "house cleaning",
+    "playing soccer",
+    "rope jumping"
+  ],
+  "protocol_type": "observational",
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": \"100Hz (IMUs), ~9Hz (HR-monitor)\",\n  \"n_participants\": \"9\",\n  \"devices\": \"Colibri wireless IMUs, BM-CS5SR HR-monitor, Viliv S5 UMPC\",\n  \"modalities\": \"accelerometer, gyroscope, magnetometer, temperature, heart rate\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": \"waist, chest, right wrist, ankle, front trouser pocket\",\n  \"accelerometer_unit\": \"g\",\n  \"gyroscope_unit\": \"rad/s\"\n}",
+    "activities": "{\n  \"activities\": [\n    \"lying\",\n    \"sitting\",\n    \"standing\",\n    \"walking\",\n    \"running\",\n    \"cycling\",\n    \"Nordic walking\",\n    \"watching TV\",\n    \"computer work\",\n    \"car driving\",\n    \"ascending stairs\",\n    \"descending stairs\",\n    \"vacuum cleaning\",\n    \"ironing\",\n    \"folding laundry\",\n    \"house cleaning\",\n    \"playing soccer\",\n    \"rope jumping\"\n  ]\n}",
+    "protocol": "{\n  \"protocol_type\": \"observational\",\n  \"setting\": \"laboratory\"\n}"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "sampling_rate_hz": 50.0,
+  "n_participants": 22,
+  "devices": [
+    "axivity ax3"
+  ],
+  "sensor_placements": [
+    "right thigh",
+    "lower back"
+  ],
+  "modalities": [
+    "accelerometer"
+  ],
+  "accelerometer_unit": "g",
+  "gyroscope_unit": "null",
+  "activities": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "13",
+    "14",
+    "130",
+    "140"
+  ],
+  "protocol_type": "observational",
+  "setting": "free-living",
+  "_raw": {
+    "acquisition": "```json\n{\n \"sampling_rate_hz\": \"50\",\n \"n_participants\": 22,\n \"devices\": \"Axivity AX3\",\n \"modalities\": \"accelerometer\"\n}\n```",
+    "placement_units": "```json\n{\n \"sensor_placements\": \"right thigh, lower back\",\n \"accelerometer_unit\": \"g\",\n \"gyroscope_unit\": \"null\"\n}\n```",
+    "activities": "```json\n{\n \"activities\": [\n  1,\n  2,\n  3,\n  4,\n  5,\n  6,\n  7,\n  8,\n  13,\n  14,\n  130,\n  140\n ]\n}\n```",
+    "protocol": "```json\n{\n \"protocol_type\": \"observational\",\n \"setting\": \"free-living\"\n}\n```"
+  }
+}

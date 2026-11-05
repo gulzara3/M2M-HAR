@@ -1,0 +1,161 @@
+{
+  "dataset": "pamap2",
+  "name": "PAMAP2",
+  "sampling_rate_hz": 100,
+  "devices": [
+    "Colibri wireless IMU",
+    "BM-CS5SR heart-rate monitor"
+  ],
+  "n_participants": 9,
+  "sensor_placements": [
+    "ankle (dominant side)",
+    "chest",
+    "wrist (dominant arm)"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "Nordic walking",
+    "ascending stairs",
+    "cycling",
+    "descending stairs",
+    "ironing",
+    "lying",
+    "rope jumping",
+    "running",
+    "sitting",
+    "standing",
+    "vacuum cleaning",
+    "walking"
+  ],
+  "protocol_type": "experimental",
+  "setting": "both",
+  "channels": [
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "wrist (dominant arm)",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "wrist (dominant arm)",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "wrist (dominant arm)",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "wrist (dominant arm)",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "wrist (dominant arm)",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "wrist (dominant arm)",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "chest",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "chest",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "chest",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "chest",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "chest",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "chest",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "ankle (dominant side)",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "ankle (dominant side)",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "ankle (dominant side)",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "ankle (dominant side)",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "ankle (dominant side)",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "ankle (dominant side)",
+      "unit": "rad/s"
+    }
+  ],
+  "canonical_map": {
+    "descending stairs": "descending stairs",
+    "running": "running",
+    "rope jumping": "rope jumping",
+    "cycling": "cycling",
+    "standing": "standing",
+    "walking": "walking",
+    "Nordic walking": "nordic walking",
+    "ironing": "ironing",
+    "sitting": "sitting",
+    "lying": "lying",
+    "ascending stairs": "ascending stairs",
+    "vacuum cleaning": "vacuum cleaning"
+  }
+}

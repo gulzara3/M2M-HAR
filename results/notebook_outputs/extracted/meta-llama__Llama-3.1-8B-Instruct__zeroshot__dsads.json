@@ -1,0 +1,43 @@
+{
+  "sampling_rate_hz": 25,
+  "n_participants": 8,
+  "devices": [
+    "xsens mtx units"
+  ],
+  "sensor_placements": [
+    "torso",
+    "arms",
+    "and legs"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer"
+  ],
+  "accelerometer_unit": null,
+  "gyroscope_unit": null,
+  "activities": [
+    "sitting (a1)",
+    "standing (a2)",
+    "lying on back and on right side (a3 and a4)",
+    "ascending and descending stairs (a5 and a6)",
+    "standing in an elevator still (a7) and moving around in an elevator (a8)",
+    "walking in a parking lot (a9)",
+    "walking on a treadmill with a speed of 4 km/h (in flat and 15 deg inclined positions) (a10 and a11)",
+    "running on a treadmill with a speed of 8 km/h (a12)",
+    "exercising on a stepper (a13)",
+    "exercising on a cross trainer (a14)",
+    "cycling on an exercise bike in horizontal and vertical positions (a15 and a16)",
+    "rowing (a17)",
+    "jumping (a18)",
+    "and playing basketball (a19)"
+  ],
+  "protocol_type": null,
+  "setting": null,
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": 25,\n  \"n_participants\": 8,\n  \"devices\": \"Xsens MTx units\",\n  \"modalities\": \"accelerometer, gyroscope, magnetometer\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": \"torso, arms, and legs\",\n  \"accelerometer_unit\": null,\n  \"gyroscope_unit\": null\n}",
+    "activities": "{\n  \"activities\": \"sitting (A1), standing (A2), lying on back and on right side (A3 and A4), ascending and descending stairs (A5 and A6), standing in an elevator still (A7) and moving around in an elevator (A8), walking in a parking lot (A9), walking on a treadmill with a speed of 4 km/h (in flat and 15 deg inclined positions) (A10 and A11), running on a treadmill with a speed of 8 km/h (A12), exercising on a stepper (A13), exercising on a cross trainer (A14), cycling on an exercise bike in horizontal and vertical positions (A15 and A16), rowing (A17), jumping (A18), and playing basketball (A19)\"\n}",
+    "protocol": "{\n  \"protocol_type\": null,\n  \"setting\": null\n}"
+  }
+}

@@ -1,0 +1,132 @@
+{
+ "probe_acc": {
+  "harth": 1.0,
+  "hapt": 1.01,
+  "uschad": 1.01,
+  "motionsense": 1.03,
+  "wisdm19": 9.78,
+  "mhealth": 9.84,
+  "pamap2": 9.84,
+  "dsads": 9.85,
+  "realdisp": 10.05
+ },
+ "probe_gyr": {
+  "mhealth": 1.0,
+  "hapt": 1.4,
+  "dsads": 2.2,
+  "motionsense": 3.2,
+  "pamap2": 3.9,
+  "realdisp": 4.1,
+  "uschad": 106.8
+ },
+ "verif_by_field": {
+  "accelerometer_unit": {
+   "n": 90,
+   "before": 0.5222,
+   "after": 1.0
+  },
+  "sampling_rate_hz": {
+   "n": 40,
+   "before": 0.65,
+   "after": 1.0
+  },
+  "gyroscope_unit": {
+   "n": 70,
+   "before": 0.6571,
+   "after": 0.8571
+  }
+ },
+ "verif_by_family_all": {
+  "Llama-3.1-8B-Instruct": {
+   "before": 0.475,
+   "after": 0.95,
+   "n": 40
+  },
+  "Mistral-7B-Instruct-v0.3": {
+   "before": 0.575,
+   "after": 0.95,
+   "n": 40
+  },
+  "Qwen2.5-14B-Instruct": {
+   "before": 0.65,
+   "after": 0.95,
+   "n": 40
+  },
+  "Qwen2.5-7B-Instruct": {
+   "before": 0.6,
+   "after": 0.95,
+   "n": 40
+  },
+  "gemma-2-9b-it": {
+   "before": 0.675,
+   "after": 0.95,
+   "n": 40
+  }
+ },
+ "verif_by_family_accunit": {
+  "Llama-3.1-8B-Instruct": {
+   "before": 0.3889,
+   "after": 1.0,
+   "n": 18
+  },
+  "Mistral-7B-Instruct-v0.3": {
+   "before": 0.5556,
+   "after": 1.0,
+   "n": 18
+  },
+  "Qwen2.5-14B-Instruct": {
+   "before": 0.5,
+   "after": 1.0,
+   "n": 18
+  },
+  "Qwen2.5-7B-Instruct": {
+   "before": 0.5556,
+   "after": 1.0,
+   "n": 18
+  },
+  "gemma-2-9b-it": {
+   "before": 0.6111,
+   "after": 1.0,
+   "n": 18
+  }
+ },
+ "verif_overall": {
+  "before": 0.595,
+  "after": 0.95,
+  "n": 200
+ },
+ "value_reliability": {
+  "Activity-label semantics": {
+   "extraction": 82.87786265383424,
+   "cost": 27.5871,
+   "ci": [
+    20.7883,
+    35.3589
+   ]
+  },
+  "Accelerometer unit": {
+   "extraction": 52.22222222222223,
+   "cost": 23.1414,
+   "ci": [
+    14.7103,
+    32.7917
+   ]
+  },
+  "Sampling rate": {
+   "extraction": 84.44444444444443,
+   "cost": 1.895,
+   "ci": [
+    -4.5302,
+    7.3
+   ]
+  },
+  "Sensor placement": {
+   "extraction": 66.5560196788267,
+   "cost": -0.2752,
+   "ci": [
+    -4.0445,
+    3.5396
+   ]
+  }
+ }
+}

@@ -1,0 +1,38 @@
+{
+  "sampling_rate_hz": 50,
+  "n_participants": 30,
+  "devices": [
+    "samsung galaxy s ii smartphone"
+  ],
+  "sensor_placements": [
+    "waist"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "standing",
+    "sitting",
+    "lying",
+    "walking",
+    "walking downstairs",
+    "walking upstairs",
+    "stand-to-sit",
+    "sit-to-stand",
+    "sit-to-lie",
+    "lie-to-sit",
+    "stand-to-lie",
+    "lie-to-stand"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": 50,\n  \"n_participants\": 30,\n  \"devices\": \"Samsung Galaxy S II smartphone\",\n  \"modalities\": \"accelerometer, gyroscope\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": \"waist\",\n  \"accelerometer_unit\": \"m/s^2\",\n  \"gyroscope_unit\": \"rad/s\"\n}",
+    "activities": "{\n  \"activities\": [\n    \"standing\",\n    \"sitting\",\n    \"lying\",\n    \"walking\",\n    \"walking downstairs\",\n    \"walking upstairs\",\n    \"stand-to-sit\",\n    \"sit-to-stand\",\n    \"sit-to-lie\",\n    \"lie-to-sit\",\n    \"stand-to-lie\",\n    \"lie-to-stand\"\n  ]\n}",
+    "protocol": "{\n  \"protocol_type\": \"experimental\",\n  \"setting\": \"laboratory\"\n}"
+  }
+}

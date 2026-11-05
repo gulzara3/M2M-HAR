@@ -1,0 +1,7 @@
+# Lightweight environment: m2m_tools, tests and the analysis scripts (regenerate every paper number and figure).
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+matplotlib>=3.6
+pytest>=7
+jsonschema>=4

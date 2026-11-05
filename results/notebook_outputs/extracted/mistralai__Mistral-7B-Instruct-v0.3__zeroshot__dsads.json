@@ -1,0 +1,50 @@
+{
+  "sampling_rate_hz": 25,
+  "n_participants": 8,
+  "devices": [
+    "xsens mtx"
+  ],
+  "sensor_placements": [
+    "torso",
+    "right arm",
+    "left arm",
+    "right leg",
+    "left leg"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer"
+  ],
+  "accelerometer_unit": "null",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "sitting",
+    "standing",
+    "lying on back",
+    "lying on right side",
+    "ascending stairs",
+    "descending stairs",
+    "standing in an elevator still",
+    "moving around in an elevator",
+    "walking in a parking lot",
+    "walking on a treadmill (flat)",
+    "walking on a treadmill (15 deg inclined)",
+    "running on a treadmill",
+    "exercising on a stepper",
+    "exercising on a cross trainer",
+    "cycling on an exercise bike (horizontal)",
+    "cycling on an exercise bike (vertical)",
+    "rowing",
+    "jumping",
+    "playing basketball"
+  ],
+  "protocol_type": "observational",
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": 25,\n  \"n_participants\": 8,\n  \"devices\": \"Xsens MTx\",\n  \"modalities\": \"accelerometer, gyroscope, magnetometer\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": \"torso, right arm, left arm, right leg, left leg\",\n  \"accelerometer_unit\": \"null\",\n  \"gyroscope_unit\": \"rad/s\"\n}",
+    "activities": "{\n  \"activities\": [\n    \"sitting\",\n    \"standing\",\n    \"lying on back\",\n    \"lying on right side\",\n    \"ascending stairs\",\n    \"descending stairs\",\n    \"standing in an elevator still\",\n    \"moving around in an elevator\",\n    \"walking in a parking lot\",\n    \"walking on a treadmill (flat)\",\n    \"walking on a treadmill (15 deg inclined)\",\n    \"running on a treadmill\",\n    \"exercising on a stepper\",\n    \"exercising on a cross trainer\",\n    \"cycling on an exercise bike (horizontal)\",\n    \"cycling on an exercise bike (vertical)\",\n    \"rowing\",\n    \"jumping\",\n    \"playing basketball\"\n  ]\n}",
+    "protocol": "{\n  \"protocol_type\": \"observational\",\n  \"setting\": \"laboratory\"\n}"
+  }
+}

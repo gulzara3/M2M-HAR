@@ -1,0 +1,51 @@
+{
+  "sampling_rate_hz": 100.0,
+  "n_participants": 9,
+  "devices": [
+    "3 colibri wireless imus and a bm-cs5sr hr-monitor"
+  ],
+  "sensor_placements": [
+    "body locations where sensors were worn (e.g. 'waist'",
+    "'chest'",
+    "'right wrist'",
+    "'ankle'",
+    "'front trouser pocket')."
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer",
+    "heart rate"
+  ],
+  "accelerometer_unit": "ms^-2",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "lying",
+    "sitting",
+    "standing",
+    "walking",
+    "running",
+    "cycling",
+    "nordic walking",
+    "watching tv",
+    "computer work",
+    "car driving",
+    "ascending stairs",
+    "descending stairs",
+    "vacuum cleaning",
+    "ironing",
+    "folding laundry",
+    "house cleaning",
+    "playing soccer",
+    "rope jumping",
+    "other (transient activities)"
+  ],
+  "protocol_type": "observational",
+  "setting": "both",
+  "_raw": {
+    "acquisition": "```json\n{\n \"sampling_rate_hz\": \"100\",\n \"n_participants\": 9,\n \"devices\": \"3 Colibri wireless IMUs and a BM-CS5SR HR-monitor\",\n \"modalities\": \"accelerometer, gyroscope, magnetometer, heart rate\"\n}\n```",
+    "placement_units": "```json\n{\n \"sensor_placements\": \"Body locations where sensors were worn (e.g. 'waist', 'chest', 'right wrist', 'ankle', 'front trouser pocket').\",\n \"accelerometer_unit\": \"ms^-2\",\n \"gyroscope_unit\": \"rad/s\"\n}\n```",
+    "activities": "```json\n{\n \"activities\": [\n  \"lying\",\n  \"sitting\",\n  \"standing\",\n  \"walking\",\n  \"running\",\n  \"cycling\",\n  \"Nordic walking\",\n  \"watching TV\",\n  \"computer work\",\n  \"car driving\",\n  \"ascending stairs\",\n  \"descending stairs\",\n  \"vacuum cleaning\",\n  \"ironing\",\n  \"folding laundry\",\n  \"house cleaning\",\n  \"playing soccer\",\n  \"rope jumping\",\n  \"other (transient activities)\"\n ]\n}\n```",
+    "protocol": "```json\n{\n \"protocol_type\": \"observational\",\n \"setting\": \"both\"\n}\n```"
+  }
+}

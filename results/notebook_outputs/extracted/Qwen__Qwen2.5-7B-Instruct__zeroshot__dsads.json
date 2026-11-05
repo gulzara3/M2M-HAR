@@ -1,0 +1,50 @@
+{
+  "sampling_rate_hz": 25,
+  "n_participants": 8,
+  "devices": [
+    "five xsens mtx units"
+  ],
+  "sensor_placements": [
+    "t (torso)",
+    "ra (right arm)",
+    "la (left arm)",
+    "rl (right leg)",
+    "ll (left leg)"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer"
+  ],
+  "accelerometer_unit": null,
+  "gyroscope_unit": null,
+  "activities": [
+    "['sitting'",
+    "'standing'",
+    "'lying on back'",
+    "'lying on right side'",
+    "'ascending stairs'",
+    "'descending stairs'",
+    "'standing in elevator still'",
+    "'moving around in elevator'",
+    "'walking in a parking lot'",
+    "'walking on a treadmill (flat)'",
+    "'walking on a treadmill (15 deg incline)'",
+    "'running on a treadmill'",
+    "'exercising on a stepper'",
+    "'exercising on a cross trainer'",
+    "'cycling on an exercise bike (horizontal)'",
+    "'cycling on an exercise bike (vertical)'",
+    "'rowing'",
+    "'jumping'",
+    "'playing basketball']"
+  ],
+  "protocol_type": "observational",
+  "setting": "both",
+  "_raw": {
+    "acquisition": "```json\n{\n \"sampling_rate_hz\": 25,\n \"n_participants\": 8,\n \"devices\": \"Five Xsens MTx units\",\n \"modalities\": \"accelerometer, gyroscope, magnetometer\"\n}\n```",
+    "placement_units": "```json\n{\n \"sensor_placements\": \"T (torso), RA (right arm), LA (left arm), RL (right leg), LL (left leg)\",\n \"accelerometer_unit\": null,\n \"gyroscope_unit\": null\n}\n```",
+    "activities": "```json\n{\n \"activities\": \"['sitting', 'standing', 'lying on back', 'lying on right side', 'ascending stairs', 'descending stairs', 'standing in elevator still', 'moving around in elevator', 'walking in a parking lot', 'walking on a treadmill (flat)', 'walking on a treadmill (15 deg incline)', 'running on a treadmill', 'exercising on a stepper', 'exercising on a cross trainer', 'cycling on an exercise bike (horizontal)', 'cycling on an exercise bike (vertical)', 'rowing', 'jumping', 'playing basketball']\"\n}\n```",
+    "protocol": "```json\n{\n \"protocol_type\": \"observational\",\n \"setting\": \"both\"\n}\n```"
+  }
+}

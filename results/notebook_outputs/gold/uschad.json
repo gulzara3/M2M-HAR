@@ -1,0 +1,86 @@
+{
+  "dataset": "uschad",
+  "name": "USC-HAD",
+  "sampling_rate_hz": 100,
+  "devices": [
+    "MotionNode"
+  ],
+  "n_participants": 14,
+  "sensor_placements": [
+    "front right hip"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "g",
+  "gyroscope_unit": "deg/s",
+  "activities": [
+    "elevator down",
+    "elevator up",
+    "jumping up",
+    "running forward",
+    "sitting",
+    "sleeping",
+    "standing",
+    "walking downstairs",
+    "walking forward",
+    "walking left",
+    "walking right",
+    "walking upstairs"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "channels": [
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "front right hip",
+      "unit": "g"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "front right hip",
+      "unit": "g"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "front right hip",
+      "unit": "g"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "front right hip",
+      "unit": "deg/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "front right hip",
+      "unit": "deg/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "front right hip",
+      "unit": "deg/s"
+    }
+  ],
+  "canonical_map": {
+    "walking downstairs": "descending stairs",
+    "walking upstairs": "ascending stairs",
+    "jumping up": "jumping",
+    "elevator up": "elevator",
+    "standing": "standing",
+    "walking forward": "walking",
+    "walking left": "walking",
+    "walking right": "walking",
+    "sitting": "sitting",
+    "running forward": "running",
+    "elevator down": "elevator",
+    "sleeping": "sleeping"
+  }
+}

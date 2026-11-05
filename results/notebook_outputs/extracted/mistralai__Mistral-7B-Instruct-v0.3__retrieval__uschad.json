@@ -1,0 +1,38 @@
+{
+  "sampling_rate_hz": 100,
+  "n_participants": null,
+  "devices": [
+    "motionnode"
+  ],
+  "sensor_placements": [
+    "not specified in the documentation"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "g",
+  "gyroscope_unit": "dps",
+  "activities": [
+    "walking forward",
+    "walking left",
+    "walking right",
+    "walking upstairs",
+    "walking downstairs",
+    "running forward",
+    "jumping up",
+    "sitting",
+    "standing",
+    "sleeping",
+    "elevator up",
+    "elevator down"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": 100,\n  \"n_participants\": null,\n  \"devices\": \"MotionNode\",\n  \"modalities\": \"accelerometer, gyroscope\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": \"Not specified in the documentation\",\n  \"accelerometer_unit\": \"g\",\n  \"gyroscope_unit\": \"dps\"\n}",
+    "activities": "{\n  \"activities\": [\"Walking Forward\", \"Walking Left\", \"Walking Right\", \"Walking Upstairs\", \"Walking Downstairs\", \"Running Forward\", \"Jumping Up\", \"Sitting\", \"Standing\", \"Sleeping\", \"Elevator Up\", \"Elevator Down\"]\n}",
+    "protocol": "{\n  \"protocol_type\": \"experimental\",\n  \"setting\": \"laboratory\"\n}"
+  }
+}

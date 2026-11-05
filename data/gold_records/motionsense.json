@@ -1,0 +1,74 @@
+{
+  "dataset": "motionsense",
+  "name": "MotionSense",
+  "sampling_rate_hz": 50,
+  "devices": [
+    "Apple iPhone 6s"
+  ],
+  "n_participants": 24,
+  "sensor_placements": [
+    "front trouser pocket (smartphone)"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "g",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "jogging",
+    "sitting",
+    "standing",
+    "walking",
+    "walking downstairs",
+    "walking upstairs"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "channels": [
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "front trouser pocket (smartphone)",
+      "unit": "g"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "front trouser pocket (smartphone)",
+      "unit": "g"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "front trouser pocket (smartphone)",
+      "unit": "g"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "front trouser pocket (smartphone)",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "front trouser pocket (smartphone)",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "front trouser pocket (smartphone)",
+      "unit": "rad/s"
+    }
+  ],
+  "canonical_map": {
+    "walking downstairs": "descending stairs",
+    "walking upstairs": "ascending stairs",
+    "jogging": "jogging",
+    "standing": "standing",
+    "walking": "walking",
+    "sitting": "sitting"
+  }
+}

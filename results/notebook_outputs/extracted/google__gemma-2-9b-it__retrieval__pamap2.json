@@ -1,0 +1,51 @@
+{
+  "sampling_rate_hz": 9.0,
+  "n_participants": 9,
+  "devices": [
+    "viliv i",
+    "xsens mtx",
+    "shimmer2",
+    "axivity ax3"
+  ],
+  "sensor_placements": [
+    "1 imu over the wrist on the dominant arm",
+    "1 imu on the chest",
+    "1 imu on the dominant side's ankle"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer",
+    "heart rate"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "lying",
+    "sitting",
+    "standing",
+    "walking",
+    "running",
+    "cycling",
+    "nordic walking",
+    "watching tv",
+    "computer work",
+    "car driving",
+    "ascending stairs",
+    "descending stairs",
+    "vacuum cleaning",
+    "ironing",
+    "folding laundry",
+    "house cleaning",
+    "playing soccer",
+    "rope jumping"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "```json\n{\n \"sampling_rate_hz\": \"9\",\n \"n_participants\": \"9\",\n \"devices\": \"Viliv I, Xsens MTx, Shimmer2, Axivity AX3\",\n \"modalities\": \"accelerometer, gyroscope, magnetometer, heart rate\"\n}\n```",
+    "placement_units": "```json\n{\n \"sensor_placements\": \"1 IMU over the wrist on the dominant arm, 1 IMU on the chest, 1 IMU on the dominant side's ankle\",\n \"accelerometer_unit\": \"m/s^2\",\n \"gyroscope_unit\": \"rad/s\"\n}\n```",
+    "activities": "```json\n{\n \"activities\": [\n  \"lying\",\n  \"sitting\",\n  \"standing\",\n  \"walking\",\n  \"running\",\n  \"cycling\",\n  \"Nordic walking\",\n  \"watching TV\",\n  \"computer work\",\n  \"car driving\",\n  \"ascending stairs\",\n  \"descending stairs\",\n  \"vacuum cleaning\",\n  \"ironing\",\n  \"folding laundry\",\n  \"house cleaning\",\n  \"playing soccer\",\n  \"rope jumping\"\n ]\n}\n```",
+    "protocol": "```json\n{\n \"protocol_type\": \"experimental\",\n \"setting\": \"laboratory\"\n}\n```"
+  }
+}

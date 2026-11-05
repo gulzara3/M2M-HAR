@@ -1,0 +1,50 @@
+{
+  "sampling_rate_hz": 100.0,
+  "n_participants": 9,
+  "devices": [
+    "3 colibri wireless inertial measurement units (imu) and a heart rate monitor (hr-monitor)"
+  ],
+  "sensor_placements": [
+    "body locations where sensors were worn (e.g. 'wrist'",
+    "'chest'",
+    "'ankle'",
+    "'front trouser pocket')."
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer",
+    "heart rate"
+  ],
+  "accelerometer_unit": "ms-2, scale: \u00b116g, resolution: 13-bit",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "the list of activity class names exactly as the data set labels them is: 1 lying",
+    "2 sitting",
+    "3 standing",
+    "4 walking",
+    "5 running",
+    "6 cycling",
+    "7 nordic walking",
+    "9 watching tv",
+    "10 computer work",
+    "11 car driving",
+    "12 ascending stairs",
+    "13 descending stairs",
+    "16 vacuum cleaning",
+    "17 ironing",
+    "18 folding laundry",
+    "19 house cleaning",
+    "20 playing soccer",
+    "24 rope jumping",
+    "0 other (transient activities)"
+  ],
+  "protocol_type": "one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",
+  "setting": "one of 'laboratory', 'free-living', 'both', or null.",
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": \"100Hz\",\n  \"n_participants\": 9,\n  \"devices\": \"3 Colibri wireless inertial measurement units (IMU) and a heart rate monitor (HR-monitor)\",\n  \"modalities\": \"accelerometer, gyroscope, magnetometer, heart rate\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": \"Body locations where sensors were worn (e.g. 'wrist', 'chest', 'ankle', 'front trouser pocket').\",\n  \"accelerometer_unit\": \"ms-2, scale: \u00b116g, resolution: 13-bit\",\n  \"gyroscope_unit\": \"rad/s\"\n}",
+    "activities": "{\n  \"activities\": \"The list of activity class names exactly as the data set labels them is: 1 lying, 2 sitting, 3 standing, 4 walking, 5 running, 6 cycling, 7 Nordic walking, 9 watching TV, 10 computer work, 11 car driving, 12 ascending stairs, 13 descending stairs, 16 vacuum cleaning, 17 ironing, 18 folding laundry, 19 house cleaning, 20 playing soccer, 24 rope jumping, 0 other (transient activities)\"\n}",
+    "protocol": "{\n  \"protocol_type\": \"One of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.\",\n  \"setting\": \"One of 'laboratory', 'free-living', 'both', or null.\"\n}"
+  }
+}

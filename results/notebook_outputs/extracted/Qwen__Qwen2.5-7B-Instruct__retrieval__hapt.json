@@ -1,0 +1,36 @@
+{
+  "sampling_rate_hz": 50,
+  "n_participants": null,
+  "devices": [
+    "smartphone"
+  ],
+  "sensor_placements": [],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "g",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "standing",
+    "sitting",
+    "lying",
+    "walking",
+    "walking downstairs",
+    "walking upstairs",
+    "stand-to-sit",
+    "sit-to-stand",
+    "sit-to-lie",
+    "lie-to-sit",
+    "stand-to-lie",
+    "lie-to-stand"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "```json\n{\n \"sampling_rate_hz\": 50,\n \"n_participants\": null,\n \"devices\": \"smartphone\",\n \"modalities\": \"accelerometer, gyroscope\"\n}\n```",
+    "placement_units": "```json\n{\n \"sensor_placements\": null,\n \"accelerometer_unit\": \"g\",\n \"gyroscope_unit\": \"rad/s\"\n}\n```",
+    "activities": "```json\n{\n \"activities\": \"standing, sitting, lying, walking, walking downstairs, walking upstairs, stand-to-sit, sit-to-stand, sit-to-lie, lie-to-sit, stand-to-lie, lie-to-stand\"\n}\n```",
+    "protocol": "```json\n{\n \"protocol_type\": \"experimental\",\n \"setting\": \"laboratory\"\n}\n```"
+  }
+}

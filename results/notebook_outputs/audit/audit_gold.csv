@@ -1,0 +1,91 @@
+dataset,field,status,documented,data,confidence,corrected
+hapt,sampling_rate_hz,unverifiable,50,,none,False
+hapt,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False
+hapt,gyroscope_unit,confirmed,rad/s,rad/s (p99≈1.4),medium,False
+hapt,n_participants,confirmed,30,30,high,False
+hapt,sensor_placements,confirmed,['waist (smartphone)'],['waist (smartphone)'],medium,False
+hapt,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False
+hapt,activities,confirmed,12,12,high,False
+hapt,devices,unverifiable,['Samsung Galaxy S II smartphone'],,none,False
+hapt,protocol_type,unverifiable,experimental,,none,False
+hapt,setting,unverifiable,laboratory,,none,False
+pamap2,sampling_rate_hz,confirmed,100,100.00000000009095,high,False
+pamap2,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False
+pamap2,gyroscope_unit,confirmed,rad/s,rad/s (p99≈3.9),medium,False
+pamap2,n_participants,confirmed,9,9,high,False
+pamap2,sensor_placements,confirmed,"['ankle (dominant side)', 'chest', 'wrist (dominant arm)']","['ankle (dominant side)', 'chest', 'wrist (dominant arm)']",medium,False
+pamap2,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False
+pamap2,activities,confirmed,12,12,high,False
+pamap2,devices,unverifiable,"['Colibri wireless IMU', 'BM-CS5SR heart-rate monitor']",,none,False
+pamap2,protocol_type,unverifiable,experimental,,none,False
+pamap2,setting,unverifiable,both,,none,False
+wisdm19,sampling_rate_hz,confirmed,20,20.00501525827587,high,False
+wisdm19,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.78),high,False
+wisdm19,gyroscope_unit,unverifiable,,,none,False
+wisdm19,n_participants,confirmed,51,51,high,False
+wisdm19,sensor_placements,confirmed,['front trouser pocket (smartphone)'],['front trouser pocket (smartphone)'],medium,False
+wisdm19,modalities,confirmed,['accelerometer'],['accelerometer'],medium,False
+wisdm19,activities,confirmed,18,18,high,False
+wisdm19,devices,unverifiable,"['Google Nexus 5/5X or Samsung Galaxy S5 smartphone', 'LG G Watch']",,none,False
+wisdm19,protocol_type,unverifiable,experimental,,none,False
+wisdm19,setting,unverifiable,laboratory,,none,False
+dsads,sampling_rate_hz,unverifiable,25,,none,False
+dsads,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.85),high,False
+dsads,gyroscope_unit,confirmed,rad/s,rad/s (p99≈2.2),medium,False
+dsads,n_participants,confirmed,8,8,high,False
+dsads,sensor_placements,confirmed,"['left arm', 'left leg', 'right arm', 'right leg', 'torso']","['left arm', 'left leg', 'right arm', 'right leg', 'torso']",medium,False
+dsads,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False
+dsads,activities,confirmed,19,19,high,False
+dsads,devices,unverifiable,['Xsens MTx'],,none,False
+dsads,protocol_type,unverifiable,experimental,,none,False
+dsads,setting,unverifiable,both,,none,False
+realdisp,sampling_rate_hz,confirmed,50,50.000000000045475,high,False
+realdisp,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈10.05),high,False
+realdisp,gyroscope_unit,confirmed,rad/s,rad/s (p99≈4.1),medium,False
+realdisp,n_participants,confirmed,17,17,high,False
+realdisp,sensor_placements,confirmed,"['back', 'left calf', 'left lower arm', 'left thigh', 'left upper arm', 'right calf', 'right lower arm', 'right thigh', 'right upper arm']","['back', 'left calf', 'left lower arm', 'left thigh', 'left upper arm', 'right calf', 'right lower arm', 'right thigh', 'right upper arm']",medium,False
+realdisp,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False
+realdisp,activities,confirmed,33,33,high,False
+realdisp,devices,unverifiable,['Xsens MTx'],,none,False
+realdisp,protocol_type,unverifiable,experimental,,none,False
+realdisp,setting,unverifiable,laboratory,,none,False
+mhealth,sampling_rate_hz,unverifiable,50,,none,False
+mhealth,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False
+mhealth,gyroscope_unit,contradicted,deg/s,rad/s (p99≈1.0),medium,True
+mhealth,n_participants,confirmed,10,10,high,False
+mhealth,sensor_placements,confirmed,"['chest', 'left ankle', 'right lower arm']","['chest', 'left ankle', 'right lower arm']",medium,False
+mhealth,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False
+mhealth,activities,confirmed,12,12,high,False
+mhealth,devices,unverifiable,['Shimmer2 wearable sensors'],,none,False
+mhealth,protocol_type,unverifiable,experimental,,none,False
+mhealth,setting,unverifiable,laboratory,,none,False
+uschad,sampling_rate_hz,unverifiable,100,,none,False
+uschad,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False
+uschad,gyroscope_unit,confirmed,deg/s,deg/s (p99≈106.8),medium,False
+uschad,n_participants,confirmed,14,14,high,False
+uschad,sensor_placements,confirmed,['front right hip'],['front right hip'],medium,False
+uschad,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False
+uschad,activities,confirmed,12,12,high,False
+uschad,devices,unverifiable,['MotionNode'],,none,False
+uschad,protocol_type,unverifiable,experimental,,none,False
+uschad,setting,unverifiable,laboratory,,none,False
+harth,sampling_rate_hz,confirmed,50,50.000047683761295,high,False
+harth,accelerometer_unit,confirmed,g,g (|a|≈1.00),high,False
+harth,gyroscope_unit,unverifiable,,,none,False
+harth,n_participants,confirmed,22,22,high,False
+harth,sensor_placements,confirmed,"['lower back', 'right thigh']","['lower back', 'right thigh']",medium,False
+harth,modalities,confirmed,['accelerometer'],['accelerometer'],medium,False
+harth,activities,confirmed,12,12,high,False
+harth,devices,unverifiable,['Axivity AX3'],,none,False
+harth,protocol_type,unverifiable,observational,,none,False
+harth,setting,unverifiable,free-living,,none,False
+motionsense,sampling_rate_hz,unverifiable,50,,none,False
+motionsense,accelerometer_unit,confirmed,g,g (|a|≈1.03),high,False
+motionsense,gyroscope_unit,confirmed,rad/s,rad/s (p99≈3.2),medium,False
+motionsense,n_participants,confirmed,24,24,high,False
+motionsense,sensor_placements,confirmed,['front trouser pocket (smartphone)'],['front trouser pocket (smartphone)'],medium,False
+motionsense,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False
+motionsense,activities,confirmed,6,6,high,False
+motionsense,devices,unverifiable,['Apple iPhone 6s'],,none,False
+motionsense,protocol_type,unverifiable,experimental,,none,False
+motionsense,setting,unverifiable,laboratory,,none,False

@@ -1,0 +1,47 @@
+{
+  "sampling_rate_hz": 20.0,
+  "n_participants": 51,
+  "devices": [
+    "nexus 5",
+    "nexus 5x",
+    "galaxy s6",
+    "lg g watch"
+  ],
+  "sensor_placements": [],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "airplane",
+    "bicycle",
+    "brush_teeth",
+    "car_driving",
+    "chat",
+    "cooking",
+    "drinking",
+    "eating",
+    "golf",
+    "go_upstairs",
+    "ironing",
+    "jogging",
+    "lifting",
+    "on_bench",
+    "on_bus",
+    "on_toilet",
+    "sitting",
+    "stair_descending",
+    "stair_ascending",
+    "tv"
+  ],
+  "protocol_type": "observational",
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": \"20\",\n  \"n_participants\": \"51\",\n  \"devices\": \"Nexus 5, Nexus 5X, Galaxy S6, LG G watch\",\n  \"modalities\": \"accelerometer, gyroscope\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": null,\n  \"accelerometer_unit\": \"m/s^2\",\n  \"gyroscope_unit\": \"rad/s\"\n}",
+    "activities": "{\n  \"activities\": [\n    \"AIRPLANE\",\n    \"BICYCLE\",\n    \"BRUSH_TEETH\",\n    \"CAR_DRIVING\",\n    \"CHAT\",\n    \"COOKING\",\n    \"DRINKING\",\n    \"EATING\",\n    \"GOLF\",\n    \"GO_UPSTAIRS\",\n    \"IRONING\",\n    \"JOGGING\",\n    \"LIFTING\",\n    \"ON_BENCH\",\n    \"ON_BUS\",\n    \"ON_TOILET\",\n    \"SITTING\",\n    \"STAIR_DESCENDING\",\n    \"STAIR_ASCENDING\",\n    \"TV\"\n  ]\n}",
+    "protocol": "{\n  \"protocol_type\": \"observational\",\n  \"setting\": \"laboratory\"\n}"
+  }
+}

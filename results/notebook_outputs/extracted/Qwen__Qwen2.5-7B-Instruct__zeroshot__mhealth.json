@@ -1,0 +1,42 @@
+{
+  "sampling_rate_hz": 50,
+  "n_participants": 10,
+  "devices": [
+    "shimmer2"
+  ],
+  "sensor_placements": [
+    "chest",
+    "right wrist",
+    "left ankle"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer",
+    "electrocardiogram"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "deg/s",
+  "activities": [
+    "standing still",
+    "sitting and relaxing",
+    "lying down",
+    "walking",
+    "climbing stairs",
+    "waist bends forward",
+    "frontal elevation of arms",
+    "knees bending",
+    "cycling",
+    "jogging",
+    "running",
+    "jump front & back"
+  ],
+  "protocol_type": "observational",
+  "setting": "free-living",
+  "_raw": {
+    "acquisition": "```json\n{\n \"sampling_rate_hz\": 50,\n \"n_participants\": 10,\n \"devices\": \"Shimmer2\",\n \"modalities\": \"accelerometer, gyroscope, magnetometer, electrocardiogram\"\n}\n```",
+    "placement_units": "```json\n{\n \"sensor_placements\": \"chest, right wrist, left ankle\",\n \"accelerometer_unit\": \"m/s^2\",\n \"gyroscope_unit\": \"deg/s\"\n}\n```",
+    "activities": "```json\n{\n \"activities\": [\"Standing still\", \"Sitting and relaxing\", \"Lying down\", \"Walking\", \"Climbing stairs\", \"Waist bends forward\", \"Frontal elevation of arms\", \"Knees bending\", \"Cycling\", \"Jogging\", \"Running\", \"Jump front & back\"]\n}\n```",
+    "protocol": "```json\n{\n \"protocol_type\": \"observational\",\n \"setting\": \"free-living\"\n}\n```\n\nExplanation:\n- The protocol type is inferred as \"observational\" because the activities were performed in an out-of-lab environment with no constraints on how they must be executed, indicating free-living conditions.\n- The setting is \"free-living\" as the activities were performed in an out-of-lab environment without specific lab constraints."
+  }
+}

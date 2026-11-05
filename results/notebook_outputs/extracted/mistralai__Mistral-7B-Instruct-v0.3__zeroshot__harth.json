@@ -1,0 +1,38 @@
+{
+  "sampling_rate_hz": 50,
+  "n_participants": 22,
+  "devices": [
+    "axivity ax3"
+  ],
+  "sensor_placements": [
+    "right thigh",
+    "lower back"
+  ],
+  "modalities": [
+    "accelerometer"
+  ],
+  "accelerometer_unit": "g",
+  "gyroscope_unit": null,
+  "activities": [
+    "walking",
+    "running",
+    "shuffling",
+    "stairs (ascending)",
+    "stairs (descending)",
+    "standing",
+    "sitting",
+    "lying",
+    "cycling (sit)",
+    "cycling (stand)",
+    "cycling (sit, inactive)",
+    "cycling (stand, inactive)"
+  ],
+  "protocol_type": "observational",
+  "setting": "free-living",
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": 50,\n  \"n_participants\": 22,\n  \"devices\": \"Axivity AX3\",\n  \"modalities\": \"accelerometer\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": \"right thigh, lower back\",\n  \"accelerometer_unit\": \"g\",\n  \"gyroscope_unit\": null\n}",
+    "activities": "{\n  \"activities\": [\"walking\", \"running\", \"shuffling\", \"stairs (ascending)\", \"stairs (descending)\", \"standing\", \"sitting\", \"lying\", \"cycling (sit)\", \"cycling (stand)\", \"cycling (sit, inactive)\", \"cycling (stand, inactive)\"]\n}",
+    "protocol": "{\n  \"protocol_type\": \"observational\",\n  \"setting\": \"free-living\"\n}"
+  }
+}

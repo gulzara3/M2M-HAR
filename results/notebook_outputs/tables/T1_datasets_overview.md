@@ -1,0 +1,11 @@
+| dataset     | name                                         |   sessions |   subjects |   labels |   channels |   placements |   hours | split   |
+|:------------|:---------------------------------------------|-----------:|-----------:|---------:|-----------:|-------------:|--------:|:--------|
+| hapt        | HAPT (UCI-HAR raw with postural transitions) |       1214 |         30 |       12 |          6 |            1 |   4.500 | train   |
+| pamap2      | PAMAP2                                       |        107 |          9 |       12 |         18 |            3 |   5.400 | train   |
+| wisdm19     | WISDM 2019 (phone accelerometer)             |        910 |         51 |       18 |          3 |            1 |  66.700 | train   |
+| dsads       | DSADS (Daily and Sports Activities)          |        152 |          8 |       19 |         30 |            5 |  12.700 | train   |
+| realdisp    | REALDISP (ideal placement)                   |        540 |         17 |       33 |         54 |            9 |   4.000 | train   |
+| mhealth     | MHEALTH                                      |        126 |         10 |       12 |         15 |            3 |   1.900 | test    |
+| uschad      | USC-HAD                                      |        840 |         14 |       12 |          6 |            1 |   7.800 | test    |
+| harth       | HARTH                                        |       4257 |         22 |       12 |          6 |            2 |  35.100 | test    |
+| motionsense | MotionSense                                  |        360 |         24 |        6 |          6 |            1 |   7.800 | test    |

@@ -1,0 +1,32 @@
+{
+  "sampling_rate_hz": 50.0,
+  "n_participants": 24,
+  "devices": [
+    "iphone 6s"
+  ],
+  "sensor_placements": [
+    "front trouser pocket"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "not stated",
+  "gyroscope_unit": "not stated",
+  "activities": [
+    "dws",
+    "ups",
+    "sit",
+    "std",
+    "wlk",
+    "jog"
+  ],
+  "protocol_type": "observational",
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": \"50\",\n  \"n_participants\": \"24\",\n  \"devices\": \"iPhone 6s\",\n  \"modalities\": \"accelerometer, gyroscope\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": \"front trouser pocket\",\n  \"accelerometer_unit\": \"not stated\",\n  \"gyroscope_unit\": \"not stated\"\n}",
+    "activities": "{\n  \"activities\": [\"dws\", \"ups\", \"sit\", \"std\", \"wlk\", \"jog\"]\n}",
+    "protocol": "{\n  \"protocol_type\": \"observational\",\n  \"setting\": \"laboratory\"\n}"
+  }
+}

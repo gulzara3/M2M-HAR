@@ -1,0 +1,28 @@
+{
+  "sampling_rate_hz": 20,
+  "n_participants": 51,
+  "devices": [
+    "nexus 5",
+    "nexus 5x",
+    "galaxy s6",
+    "lg g watch"
+  ],
+  "sensor_placements": [],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": null,
+  "gyroscope_unit": null,
+  "activities": [
+    "null"
+  ],
+  "protocol_type": "observational",
+  "setting": "free-living",
+  "_raw": {
+    "acquisition": "{\n \"sampling_rate_hz\": 20,\n \"n_participants\": 51,\n \"devices\": [\"Nexus 5\", \"Nexus 5X\", \"Galaxy S6\", \"LG G watch\"],\n \"modalities\": [\"accelerometer\", \"gyroscope\"]\n}",
+    "placement_units": "{\n \"sensor_placements\": null,\n \"accelerometer_unit\": null,\n \"gyroscope_unit\": null\n}",
+    "activities": "{\n \"activities\": \"null\"\n}",
+    "protocol": "{\n \"protocol_type\": \"observational\",\n \"setting\": \"free-living\"\n}"
+  }
+}

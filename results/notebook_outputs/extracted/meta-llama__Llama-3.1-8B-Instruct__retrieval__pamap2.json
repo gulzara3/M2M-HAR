@@ -1,0 +1,59 @@
+{
+  "sampling_rate_hz": 100,
+  "n_participants": 9,
+  "devices": [
+    "samsung galaxy s ii smartphone",
+    "xsens mtx",
+    "shimmer2",
+    "axivity ax3"
+  ],
+  "sensor_placements": [
+    "body locations where sensors were worn (e.g. 'waist'",
+    "'chest'",
+    "'right wrist'",
+    "'ankle'",
+    "'front trouser pocket')."
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer",
+    "heart rate",
+    "temperature"
+  ],
+  "accelerometer_unit": "ms-2, scale: \u00b116g, resolution: 13-bit",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "lying quietly while doing nothing, small movements \u2013 e.g. changing the lying posture \u2013 are allowed",
+    "sitting in a chair in whatever posture the subject feels comfortable, changing sitting postures is also allowed",
+    "standing still or standing still and talking, possibly gesticulating",
+    "ironing 1-2 shirts or t-shirts",
+    "vacuum cleaning one or two office rooms (which includes moving objects, e.g. chairs, placed on the floor)",
+    "ascending stairs: was performed in a building between the ground and the top floors, a distance of five floors had to be covered going upstairs",
+    "descending stairs: was performed in a building between the ground and the top floors, a distance of five floors had to be covered going downstairs",
+    "walking outside with moderate to brisk pace with a speed of 4-6km/h, according to what was suitable for the subject",
+    "nordic walking: was performed outside on asphaltic terrain, using asphalt pads on the walking poles (it has to be noted, that none of the subjects was very familiar with this sport activity)",
+    "cycling: was performed outside with a real bike with slow to moderate pace, as if the subject would bike to work or bike for pleasure (but not as a sport activity)",
+    "running: meant jogging",
+    "watching tv",
+    "computer work",
+    "car driving",
+    "ascending stairs",
+    "descending stairs",
+    "vacuum cleaning",
+    "ironing",
+    "folding laundry",
+    "house cleaning",
+    "playing soccer",
+    "rope jumping",
+    "other (transient activities)"
+  ],
+  "protocol_type": "one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",
+  "setting": "one of 'laboratory', 'free-living', 'both', or null.",
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": 100,\n  \"n_participants\": 9,\n  \"devices\": \"Samsung Galaxy S II smartphone, Xsens MTx, Shimmer2, Axivity AX3\",\n  \"modalities\": \"accelerometer, gyroscope, magnetometer, heart rate, temperature\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": \"Body locations where sensors were worn (e.g. 'waist', 'chest', 'right wrist', 'ankle', 'front trouser pocket').\",\n  \"accelerometer_unit\": \"ms-2, scale: \u00b116g, resolution: 13-bit\",\n  \"gyroscope_unit\": \"rad/s\"\n}",
+    "activities": "{\n  \"activities\": [\n    \"lying quietly while doing nothing, small movements \u2013 e.g. changing the lying posture \u2013 are allowed\",\n    \"sitting in a chair in whatever posture the subject feels comfortable, changing sitting postures is also allowed\",\n    \"standing still or standing still and talking, possibly gesticulating\",\n    \"ironing 1-2 shirts or T-shirts\",\n    \"vacuum cleaning one or two office rooms (which includes moving objects, e.g. chairs, placed on the floor)\",\n    \"ascending stairs: was performed in a building between the ground and the top floors, a distance of five floors had to be covered going upstairs\",\n    \"descending stairs: was performed in a building between the ground and the top floors, a distance of five floors had to be covered going downstairs\",\n    \"walking outside with moderate to brisk pace with a speed of 4-6km/h, according to what was suitable for the subject\",\n    \"Nordic walking: was performed outside on asphaltic terrain, using asphalt pads on the walking poles (it has to be noted, that none of the subjects was very familiar with this sport activity)\",\n    \"cycling: was performed outside with a real bike with slow to moderate pace, as if the subject would bike to work or bike for pleasure (but not as a sport activity)\",\n    \"running: meant jogging\",\n    \"watching TV\",\n    \"computer work\",\n    \"car driving\",\n    \"ascending stairs\",\n    \"descending stairs\",\n    \"vacuum cleaning\",\n    \"ironing\",\n    \"folding laundry\",\n    \"house cleaning\",\n    \"playing soccer\",\n    \"rope jumping\",\n    \"other (transient activities)\"\n  ]\n}",
+    "protocol": "{\n  \"protocol_type\": \"One of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.\",\n  \"setting\": \"One of 'laboratory', 'free-living', 'both', or null.\"\n}"
+  }
+}

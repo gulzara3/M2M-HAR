@@ -1,0 +1,20 @@
+\begin{table}
+\caption{E1: field-level extraction accuracy (mean over data sets) by model and prompting variant.}
+\label{tab:T2_extraction_field_scores}
+\begin{tabular}{llrrrrrrrrrrr}
+\toprule
+model & variant & sampling\_rate\_hz & n\_participants & devices & sensor\_placements & modalities & accelerometer\_unit & gyroscope\_unit & activities & protocol\_type & setting & composite \\
+\midrule
+Llama-3.1-8B-Instruct & retrieval & 0.889 & 0.889 & 0.785 & 0.667 & 0.782 & 0.333 & 0.333 & 0.785 & 0.000 & 0.000 & 0.546 \\
+Llama-3.1-8B-Instruct & zeroshot & 0.889 & 0.889 & 0.785 & 0.604 & 0.830 & 0.444 & 0.333 & 0.851 & 0.000 & 0.000 & 0.563 \\
+Mistral-7B-Instruct-v0.3 & retrieval & 0.778 & 0.889 & 0.741 & 0.778 & 0.756 & 0.667 & 0.444 & 0.861 & 0.556 & 0.667 & 0.714 \\
+Mistral-7B-Instruct-v0.3 & zeroshot & 0.889 & 0.889 & 0.830 & 0.765 & 0.745 & 0.444 & 0.444 & 0.852 & 0.556 & 0.556 & 0.697 \\
+Qwen2.5-14B-Instruct & retrieval & 0.778 & 0.889 & 0.741 & 0.778 & 0.834 & 0.444 & 0.667 & 0.811 & 0.333 & 0.222 & 0.650 \\
+Qwen2.5-14B-Instruct & zeroshot & 0.889 & 0.889 & 0.741 & 0.778 & 0.844 & 0.556 & 0.667 & 0.756 & 0.667 & 0.222 & 0.701 \\
+Qwen2.5-7B-Instruct & retrieval & 0.778 & 0.778 & 0.741 & 0.519 & 0.830 & 0.556 & 0.556 & 0.966 & 0.333 & 0.444 & 0.650 \\
+Qwen2.5-7B-Instruct & zeroshot & 0.889 & 0.889 & 0.741 & 0.519 & 0.844 & 0.556 & 0.444 & 0.911 & 0.222 & 0.222 & 0.624 \\
+gemma-2-9b-it & retrieval & 0.778 & 0.778 & 0.741 & 0.727 & 0.830 & 0.667 & 0.556 & 0.695 & 0.556 & 0.556 & 0.688 \\
+gemma-2-9b-it & zeroshot & 0.889 & 0.889 & 0.815 & 0.522 & 0.830 & 0.556 & 0.667 & 0.800 & 0.333 & 0.667 & 0.697 \\
+\bottomrule
+\end{tabular}
+\end{table}

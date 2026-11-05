@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "M2M harmonisation record",
+  "description": "Metadata a cross-dataset HAR model consumes. Gold records in data/gold_records/ follow this schema.",
+  "type": "object",
+  "required": [
+    "dataset",
+    "sampling_rate_hz",
+    "n_participants",
+    "devices",
+    "sensor_placements",
+    "modalities",
+    "accelerometer_unit",
+    "gyroscope_unit",
+    "activities",
+    "protocol_type",
+    "setting",
+    "channels"
+  ],
+  "properties": {
+    "dataset": {
+      "type": "string",
+      "description": "Short dataset key, e.g. 'pamap2'."
+    },
+    "name": {
+      "type": "string"
+    },
+    "sampling_rate_hz": {
+      "oneOf": [
+        {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "number"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Nominal sampling rate in Hz (signal-verifiable)."
+    },
+    "n_participants": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "description": "File-verifiable."
+    },
+    "devices": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Documentation only."
+    },
+    "sensor_placements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Layout field."
+    },
+    "modalities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Layout field."
+    },
+    "accelerometer_unit": {
+      "enum": [
+        "g",
+        "m/s^2",
+        "milli-g",
+        null
+      ],
+      "description": "Signal-verifiable (resting gravity)."
+    },
+    "gyroscope_unit": {
+      "enum": [
+        "rad/s",
+        "deg/s",
+        null
+      ],
+      "description": "Signal-verifiable (angular-rate heuristic, medium confidence)."
+    },
+    "activities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Raw activity labels as in the files (file-verifiable)."
+    },
+    "protocol_type": {
+      "enum": [
+        "experimental",
+        "observational",
+        "survey",
+        null
+      ]
+    },
+    "setting": {
+      "enum": [
+        "laboratory",
+        "free-living",
+        "both",
+        null
+      ]
+    },
+    "canonical_map": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "Raw label -> one of the 33 canonical classes (src/m2m_tools/schema.py)."
+    },
+    "channels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "modality",
+          "axis",
+          "placement",
+          "unit"
+        ],
+        "properties": {
+          "modality": {
+            "type": "string"
+          },
+          "axis": {
+            "type": "string"
+          },
+          "placement": {
+            "type": "string"
+          },
+          "unit": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

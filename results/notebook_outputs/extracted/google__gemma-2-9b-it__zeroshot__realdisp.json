@@ -1,0 +1,33 @@
+{
+  "sampling_rate_hz": null,
+  "n_participants": 17,
+  "devices": [
+    "null"
+  ],
+  "sensor_placements": [
+    "body locations where sensors were worn (e.g. 'waist'",
+    "'chest'",
+    "'right wrist'",
+    "'ankle'",
+    "'front trouser pocket')."
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer",
+    "quaternion"
+  ],
+  "accelerometer_unit": "g",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "a1: walking a2: jogging a3: running a4: jump up a5: jump front & back a6: jump sideways a7: jump leg/arms open/closed a8: jump rope a9: trunk twist (arms outstretched) a10: trunk twist (elbows bent) a11: waist bends forward a12: waist rotation a13: waist bends (reach foot with opposite hand) a14: reach heels backwards a15: lateral bend (10_ to the left + 10_ to the right) a16: lateral bend with arm up (10_ to the left + 10_ to the right) a17: repetitive forward stretching a18: upper trunk and lower body opposite twist a19: lateral elevation of arms a20: frontal elevation of arms a21: frontal hand claps a22: frontal crossing of arms a23: shoulders high-amplitude rotation a24: shoulders low-amplitude rotation a25: arms inner rotation a26: knees (alternating) to the breast a27: heels (alternating) to the backside a28: knees bending (crouching) a29: knees (alternating) bending forward a30: rotation on the knees a31: rowing a32: elliptical bike a33: cycling"
+  ],
+  "protocol_type": "observational",
+  "setting": "free-living",
+  "_raw": {
+    "acquisition": "```json\n{\n \"sampling_rate_hz\": \"null\",\n \"n_participants\": 17,\n \"devices\": \"null\",\n \"modalities\": \"accelerometer, gyroscope, magnetometer, quaternion\"\n}\n```",
+    "placement_units": "```json\n{\n \"sensor_placements\": \"Body locations where sensors were worn (e.g. 'waist', 'chest', 'right wrist', 'ankle', 'front trouser pocket').\",\n \"accelerometer_unit\": \"g\",\n \"gyroscope_unit\": \"rad/s\"\n}\n```",
+    "activities": "```json\n{\n \"activities\": \"A1: Walking A2: Jogging A3: Running A4: Jump up A5: Jump front & back A6: Jump sideways A7: Jump leg/arms open/closed A8: Jump rope A9: Trunk twist (arms outstretched) A10: Trunk twist (elbows bent) A11: Waist bends forward A12: Waist rotation A13: Waist bends (reach foot with opposite hand) A14: Reach heels backwards A15: Lateral bend (10_ to the left + 10_ to the right) A16: Lateral bend with arm up (10_ to the left + 10_ to the right) A17: Repetitive forward stretching A18: Upper trunk and lower body opposite twist A19: Lateral elevation of arms A20: Frontal elevation of arms A21: Frontal hand claps A22: Frontal crossing of arms A23: Shoulders high-amplitude rotation A24: Shoulders low-amplitude rotation A25: Arms inner rotation A26: Knees (alternating) to the breast A27: Heels (alternating) to the backside A28: Knees bending (crouching) A29: Knees (alternating) bending forward A30: Rotation on the knees A31: Rowing A32: Elliptical bike A33: Cycling\"\n}\n```",
+    "protocol": "```json\n{\n \"protocol_type\": \"observational\",\n \"setting\": \"free-living\"\n}\n```"
+  }
+}

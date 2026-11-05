@@ -1,0 +1,52 @@
+{
+  "sampling_rate_hz": 9,
+  "n_participants": 9,
+  "devices": [
+    "samsung galaxy s ii smartphone",
+    "imu hand",
+    "imu chest",
+    "imu ankle",
+    "hr-monitor"
+  ],
+  "sensor_placements": [
+    "wrist",
+    "chest",
+    "ankle"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer",
+    "heart rate"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "lying",
+    "sitting",
+    "standing",
+    "walking",
+    "running",
+    "cycling",
+    "nordic walking",
+    "watching tv",
+    "computer work",
+    "car driving",
+    "ascending stairs",
+    "descending stairs",
+    "vacuum cleaning",
+    "ironing",
+    "folding laundry",
+    "house cleaning",
+    "playing soccer",
+    "rope jumping"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "```json\n{\n \"sampling_rate_hz\": 9,\n \"n_participants\": 9,\n \"devices\": \"Samsung Galaxy S II smartphone, IMU hand, IMU chest, IMU ankle, HR-monitor\",\n \"modalities\": \"accelerometer, gyroscope, magnetometer, heart rate\"\n}\n```",
+    "placement_units": "```json\n{\n \"sensor_placements\": \"wrist, chest, ankle\",\n \"accelerometer_unit\": \"m/s^2\",\n \"gyroscope_unit\": \"rad/s\"\n}\n```",
+    "activities": "```json\n{\n \"activities\": [\"lying\", \"sitting\", \"standing\", \"walking\", \"running\", \"cycling\", \"Nordic walking\", \"watching TV\", \"computer work\", \"car driving\", \"ascending stairs\", \"descending stairs\", \"vacuum cleaning\", \"ironing\", \"folding laundry\", \"house cleaning\", \"playing soccer\", \"rope jumping\"]\n}\n```",
+    "protocol": "```json\n{\n \"protocol_type\": \"experimental\",\n \"setting\": \"laboratory\"\n}\n```"
+  }
+}

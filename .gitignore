@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Notebook working directories and large artefacts (never commit raw datasets or model weights)
+m2m_smoke/
+m2m_work/
+raw/
+sessions/
+windows/
+*.pt
+*.pkl
+*.npz
+M2M_paper_assets_*.zip
+
+# Secrets
+.env
+*token*
+!**/tokenizer*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,42 @@
+{
+  "sampling_rate_hz": 50,
+  "n_participants": 10,
+  "devices": [
+    "shimmer2"
+  ],
+  "sensor_placements": [
+    "chest",
+    "right wrist",
+    "left ankle"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer",
+    "electrocardiogram"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "deg/s",
+  "activities": [
+    "standing still",
+    "sitting and relaxing",
+    "lying down",
+    "walking",
+    "climbing stairs",
+    "waist bends forward",
+    "frontal elevation of arms",
+    "knees bending (crouching)",
+    "cycling",
+    "jogging",
+    "running",
+    "jump front & back"
+  ],
+  "protocol_type": "experimental",
+  "setting": "out-of-lab",
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": 50,\n  \"n_participants\": 10,\n  \"devices\": \"Shimmer2\",\n  \"modalities\": \"accelerometer, gyroscope, magnetometer, electrocardiogram\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": [\"chest\", \"right wrist\", \"left ankle\"],\n  \"accelerometer_unit\": \"m/s^2\",\n  \"gyroscope_unit\": \"deg/s\"\n}",
+    "activities": "{\n  \"activities\": [\"Standing still\", \"Sitting and relaxing\", \"Lying down\", \"Walking\", \"Climbing stairs\", \"Waist bends forward\", \"Frontal elevation of arms\", \"Knees bending (crouching)\", \"Cycling\", \"Jogging\", \"Running\", \"Jump front & back\"]\n}",
+    "protocol": "{\n  \"protocol_type\": \"experimental\",\n  \"setting\": \"out-of-lab\"\n}"
+  }
+}

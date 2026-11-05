@@ -1,0 +1,86 @@
+{
+  "dataset": "harth",
+  "name": "HARTH",
+  "sampling_rate_hz": 50,
+  "devices": [
+    "Axivity AX3"
+  ],
+  "n_participants": 22,
+  "sensor_placements": [
+    "lower back",
+    "right thigh"
+  ],
+  "modalities": [
+    "accelerometer"
+  ],
+  "accelerometer_unit": "g",
+  "gyroscope_unit": null,
+  "activities": [
+    "ascending stairs",
+    "cycling (sit)",
+    "cycling (sit, inactive)",
+    "cycling (stand)",
+    "cycling (stand, inactive)",
+    "descending stairs",
+    "lying",
+    "running",
+    "shuffling",
+    "sitting",
+    "standing",
+    "walking"
+  ],
+  "protocol_type": "observational",
+  "setting": "free-living",
+  "channels": [
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "lower back",
+      "unit": "g"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "lower back",
+      "unit": "g"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "lower back",
+      "unit": "g"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "right thigh",
+      "unit": "g"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "right thigh",
+      "unit": "g"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "right thigh",
+      "unit": "g"
+    }
+  ],
+  "canonical_map": {
+    "descending stairs": "descending stairs",
+    "cycling (sit)": "cycling",
+    "running": "running",
+    "cycling (stand)": "cycling",
+    "shuffling": "shuffling",
+    "cycling (sit, inactive)": "cycling",
+    "cycling (stand, inactive)": "cycling",
+    "standing": "standing",
+    "walking": "walking",
+    "sitting": "sitting",
+    "lying": "lying",
+    "ascending stairs": "ascending stairs"
+  }
+}

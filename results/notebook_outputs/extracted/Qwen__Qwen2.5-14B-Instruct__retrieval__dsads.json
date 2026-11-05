@@ -1,0 +1,50 @@
+{
+  "sampling_rate_hz": 25,
+  "n_participants": 8,
+  "devices": [
+    "xsens mtx"
+  ],
+  "sensor_placements": [
+    "torso",
+    "right arm",
+    "left arm",
+    "right leg",
+    "left leg"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer"
+  ],
+  "accelerometer_unit": "null",
+  "gyroscope_unit": "null",
+  "activities": [
+    "sitting",
+    "standing",
+    "lying on back",
+    "lying on right side",
+    "ascending stairs",
+    "descending stairs",
+    "standing in elevator still",
+    "moving in elevator",
+    "walking in parking lot",
+    "walking on treadmill flat",
+    "walking on treadmill inclined",
+    "running on treadmill",
+    "exercising on stepper",
+    "exercising on cross trainer",
+    "cycling on exercise bike horizontal",
+    "cycling on exercise bike vertical",
+    "rowing",
+    "jumping",
+    "playing basketball"
+  ],
+  "protocol_type": "observational",
+  "setting": "free-living",
+  "_raw": {
+    "acquisition": "{\n \"sampling_rate_hz\": 25,\n \"n_participants\": 8,\n \"devices\": \"Xsens MTx\",\n \"modalities\": \"accelerometer, gyroscope, magnetometer\"\n}",
+    "placement_units": "{\n \"sensor_placements\": \"torso, right arm, left arm, right leg, left leg\",\n \"accelerometer_unit\": \"null\",\n \"gyroscope_unit\": \"null\"\n}",
+    "activities": "{\n \"activities\": [\"sitting\", \"standing\", \"lying on back\", \"lying on right side\", \"ascending stairs\", \"descending stairs\", \"standing in elevator still\", \"moving in elevator\", \"walking in parking lot\", \"walking on treadmill flat\", \"walking on treadmill inclined\", \"running on treadmill\", \"exercising on stepper\", \"exercising on cross trainer\", \"cycling on exercise bike horizontal\", \"cycling on exercise bike vertical\", \"rowing\", \"jumping\", \"playing basketball\"]\n}",
+    "protocol": "{\n \"protocol_type\": \"observational\",\n \"setting\": \"free-living\"\n}"
+  }
+}

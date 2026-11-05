@@ -1,0 +1,69 @@
+{
+  "sampling_rate_hz": null,
+  "n_participants": 17,
+  "devices": [
+    "not specified"
+  ],
+  "sensor_placements": [
+    "left calf (lc)",
+    "left thigh (lt)",
+    "right calf (rc)",
+    "right thigh (rt)",
+    "back (back)",
+    "left lower arm (lla)",
+    "left upper arm (lua)",
+    "right lower arm (rla)",
+    "right upper arm (rua)"
+  ],
+  "modalities": [
+    "acceleration",
+    "rate of turn",
+    "magnetic field",
+    "quaternions"
+  ],
+  "accelerometer_unit": "null",
+  "gyroscope_unit": "null",
+  "activities": [
+    "walking",
+    "jogging",
+    "running",
+    "jump",
+    "jump front & back",
+    "jump sideways",
+    "jump leg/arms open/closed",
+    "jump rope",
+    "trunk twist (arms outstretched)",
+    "trunk twist (elbows bent)",
+    "waist bends forward",
+    "waist rotation",
+    "waist bends (reach foot with opposite hand)",
+    "reach heels backwards",
+    "lateral bend (10_ to the left + 10_ to the right)",
+    "lateral bend with arm up (10_ to the left + 10_ to the right)",
+    "repetitive forward stretching",
+    "upper trunk and lower body opposite twist",
+    "lateral elevation of arms",
+    "frontal elevation of arms",
+    "frontal hand claps",
+    "frontal crossing of arms",
+    "shoulders high-amplitude rotation",
+    "shoulders low-amplitude rotation",
+    "arms inner rotation",
+    "knees (alternating) to the breast",
+    "heels (alternating) to the backside",
+    "knees bending (crouching)",
+    "knees (alternating) bending forward",
+    "rotation on the knees",
+    "rowing",
+    "elliptical bike",
+    "cycling"
+  ],
+  "protocol_type": "observational",
+  "setting": "both",
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": null,\n  \"n_participants\": 17,\n  \"devices\": \"Not specified\",\n  \"modalities\": \"acceleration, rate of turn, magnetic field, quaternions\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": \"left calf (LC), left thigh (LT), right calf (RC), right thigh (RT), back (BACK), left lower arm (LLA), left upper arm (LUA), right lower arm (RLA), right upper arm (RUA)\",\n  \"accelerometer_unit\": \"null\",\n  \"gyroscope_unit\": \"null\"\n}",
+    "activities": "{\n  \"activities\": [\n    \"Walking\",\n    \"Jogging\",\n    \"Running\",\n    \"Jump\",\n    \"Jump front & back\",\n    \"Jump sideways\",\n    \"Jump leg/arms open/closed\",\n    \"Jump rope\",\n    \"Trunk twist (arms outstretched)\",\n    \"Trunk twist (elbows bent)\",\n    \"Waist bends forward\",\n    \"Waist rotation\",\n    \"Waist bends (reach foot with opposite hand)\",\n    \"Reach heels backwards\",\n    \"Lateral bend (10_ to the left + 10_ to the right)\",\n    \"Lateral bend with arm up (10_ to the left + 10_ to the right)\",\n    \"Repetitive forward stretching\",\n    \"Upper trunk and lower body opposite twist\",\n    \"Lateral elevation of arms\",\n    \"Frontal elevation of arms\",\n    \"Frontal hand claps\",\n    \"Frontal crossing of arms\",\n    \"Shoulders high-amplitude rotation\",\n    \"Shoulders low-amplitude rotation\",\n    \"Arms inner rotation\",\n    \"Knees (alternating) to the breast\",\n    \"Heels (alternating) to the backside\",\n    \"Knees bending (crouching)\",\n    \"Knees (alternating) bending forward\",\n    \"Rotation on the knees\",\n    \"Rowing\",\n    \"Elliptical bike\",\n    \"Cycling\"\n  ]\n}",
+    "protocol": "{\n  \"protocol_type\": \"observational\",\n  \"setting\": \"both\"\n}"
+  }
+}

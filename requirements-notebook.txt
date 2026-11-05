@@ -1,0 +1,19 @@
+# Full pipeline (notebooks/M2M_Metadata_to_Model.ipynb). The notebook installs these itself on Colab.
+# Paper run: Google Colab, NVIDIA L4 (24 GB), Python 3.12, PyTorch preinstalled on Colab.
+torch
+transformers>=4.44
+accelerate
+bitsandbytes
+json-repair
+pypdf
+beautifulsoup4
+requests
+numpy
+pandas
+scipy
+scikit-learn
+umap-learn
+nltk
+pyarrow
+tqdm
+matplotlib

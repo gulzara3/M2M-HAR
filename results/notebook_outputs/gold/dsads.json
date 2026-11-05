@@ -1,0 +1,248 @@
+{
+  "dataset": "dsads",
+  "name": "DSADS (Daily and Sports Activities)",
+  "sampling_rate_hz": 25,
+  "devices": [
+    "Xsens MTx"
+  ],
+  "n_participants": 8,
+  "sensor_placements": [
+    "left arm",
+    "left leg",
+    "right arm",
+    "right leg",
+    "torso"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "ascending stairs",
+    "cycling on exercise bike (horizontal)",
+    "cycling on exercise bike (vertical)",
+    "descending stairs",
+    "exercising on cross trainer",
+    "exercising on stepper",
+    "jumping",
+    "lying on back",
+    "lying on right side",
+    "moving around in elevator",
+    "playing basketball",
+    "rowing",
+    "running on treadmill (8 km/h)",
+    "sitting",
+    "standing",
+    "standing in elevator still",
+    "walking in parking lot",
+    "walking on treadmill (15 deg incline)",
+    "walking on treadmill (flat, 4 km/h)"
+  ],
+  "protocol_type": "experimental",
+  "setting": "both",
+  "channels": [
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "torso",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "torso",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "torso",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "torso",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "torso",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "torso",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "right arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "right arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "right arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "right arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "right arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "right arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "left arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "left arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "left arm",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "left arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "left arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "left arm",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "right leg",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "right leg",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "right leg",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "right leg",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "right leg",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "right leg",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "left leg",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "left leg",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "left leg",
+      "unit": "m/s^2"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "left leg",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "left leg",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "left leg",
+      "unit": "rad/s"
+    }
+  ],
+  "canonical_map": {
+    "cycling on exercise bike (horizontal)": "cycling",
+    "lying on back": "lying",
+    "jumping": "jumping",
+    "moving around in elevator": "elevator",
+    "rowing": "rowing",
+    "running on treadmill (8 km/h)": "running",
+    "walking on treadmill (15 deg incline)": "walking",
+    "cycling on exercise bike (vertical)": "cycling",
+    "standing in elevator still": "elevator",
+    "ascending stairs": "ascending stairs",
+    "walking on treadmill (flat, 4 km/h)": "walking",
+    "playing basketball": "playing sport",
+    "exercising on stepper": "exercise (lower body)",
+    "exercising on cross trainer": "exercise (lower body)",
+    "descending stairs": "descending stairs",
+    "standing": "standing",
+    "sitting": "sitting",
+    "walking in parking lot": "walking",
+    "lying on right side": "lying"
+  }
+}

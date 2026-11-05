@@ -1,0 +1,38 @@
+{
+  "sampling_rate_hz": 50.0,
+  "n_participants": null,
+  "devices": [
+    "smartphone"
+  ],
+  "sensor_placements": [
+    "waist"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "standing",
+    "sitting",
+    "lying",
+    "walking",
+    "walking downstairs",
+    "walking upstairs",
+    "stand-to-sit",
+    "sit-to-stand",
+    "sit-to-lie",
+    "lie-to-sit",
+    "stand-to-lie",
+    "lie-to-stand"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "```json\n{\n \"sampling_rate_hz\": \"50\",\n \"n_participants\": null,\n \"devices\": \"Smartphone\",\n \"modalities\": \"accelerometer, gyroscope\"\n}\n```",
+    "placement_units": "```json\n{\n \"sensor_placements\": \"waist\",\n \"accelerometer_unit\": \"m/s^2\",\n \"gyroscope_unit\": \"rad/s\"\n}\n```",
+    "activities": "```json\n{\n \"activities\": [\n  \"standing\",\n  \"sitting\",\n  \"lying\",\n  \"walking\",\n  \"walking downstairs\",\n  \"walking upstairs\",\n  \"stand-to-sit\",\n  \"sit-to-stand\",\n  \"sit-to-lie\",\n  \"lie-to-sit\",\n  \"stand-to-lie\",\n  \"lie-to-stand\"\n ]\n}\n```",
+    "protocol": "```json\n{\n \"protocol_type\": \"experimental\",\n \"setting\": \"laboratory\"\n}\n```"
+  }
+}

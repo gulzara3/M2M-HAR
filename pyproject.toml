@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "m2m-tools"
+version = "1.0.0"
+description = "Metadata-to-Model (M2M): signal-verified LLM extraction of harmonisation metadata for cross-dataset human activity recognition"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Gulzar Alam" }, { name = "Ian McChesney" }, { name = "Peter Nicholl" }, { name = "Joseph Rafferty" },
+]
+keywords = ["human activity recognition", "metadata", "large language models", "data validation", "wearable sensors"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["numpy>=1.23", "pandas>=1.5", "scipy>=1.9"]
+
+[project.optional-dependencies]
+analysis = ["matplotlib>=3.6"]
+dev = ["pytest>=7", "jsonschema>=4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

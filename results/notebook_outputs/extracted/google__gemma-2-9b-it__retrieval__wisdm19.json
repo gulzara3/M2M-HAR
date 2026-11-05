@@ -1,0 +1,34 @@
+{
+  "sampling_rate_hz": 20.0,
+  "n_participants": 51,
+  "devices": [
+    "nexus 5",
+    "nexus 5x",
+    "galaxy s6",
+    "lg g watch"
+  ],
+  "sensor_placements": [
+    "body locations where sensors were worn (e.g. 'waist'",
+    "'chest'",
+    "'right wrist'",
+    "'ankle'",
+    "'front trouser pocket')."
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "the list of activity class names exactly as the data set labels them."
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "```json\n{\n \"sampling_rate_hz\": \"20\",\n \"n_participants\": \"51\",\n \"devices\": \"Nexus 5, Nexus 5X, Galaxy S6, LG G watch\",\n \"modalities\": \"accelerometer, gyroscope\"\n}\n```",
+    "placement_units": "```json\n{\n \"sensor_placements\": \"Body locations where sensors were worn (e.g. 'waist', 'chest', 'right wrist', 'ankle', 'front trouser pocket').\",\n \"accelerometer_unit\": \"m/s^2\",\n \"gyroscope_unit\": \"rad/s\"\n}\n```",
+    "activities": "```json\n{\n \"activities\": \"The list of activity class names exactly as the data set labels them.\"\n}\n```",
+    "protocol": "```json\n{\n \"protocol_type\": \"experimental\",\n \"setting\": \"laboratory\"\n}\n```"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "sampling_rate_hz": 50.0,
+  "n_participants": 24,
+  "devices": [
+    "iphone 6"
+  ],
+  "sensor_placements": [
+    "front pocket of trousers"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "g",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "dws",
+    "ups",
+    "sit",
+    "std",
+    "wlk",
+    "jog"
+  ],
+  "protocol_type": "observational",
+  "setting": "both",
+  "_raw": {
+    "acquisition": "```json\n{\n \"sampling_rate_hz\": \"50\",\n \"n_participants\": \"24\",\n \"devices\": \"iPhone 6\",\n \"modalities\": \"accelerometer, gyroscope\"\n}\n```",
+    "placement_units": "```json\n{\n \"sensor_placements\": \"Front pocket of trousers\",\n \"accelerometer_unit\": \"g\",\n \"gyroscope_unit\": \"rad/s\"\n}\n```",
+    "activities": "```json\n{\n \"activities\": [\n  \"dws\",\n  \"ups\",\n  \"sit\",\n  \"std\",\n  \"wlk\",\n  \"jog\"\n ]\n}\n```",
+    "protocol": "```json\n{\n \"protocol_type\": \"observational\",\n \"setting\": \"both\"\n}\n```"
+  }
+}

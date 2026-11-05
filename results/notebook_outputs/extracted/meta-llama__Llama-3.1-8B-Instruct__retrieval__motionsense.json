@@ -1,0 +1,32 @@
+{
+  "sampling_rate_hz": 50,
+  "n_participants": 24,
+  "devices": [
+    "iphone 6s"
+  ],
+  "sensor_placements": [
+    "front pocket"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": null,
+  "gyroscope_unit": null,
+  "activities": [
+    "the list of activity class names exactly as the data set labels them is: dws",
+    "ups",
+    "sit",
+    "std",
+    "wlk",
+    "jog"
+  ],
+  "protocol_type": "one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",
+  "setting": "one of 'laboratory', 'free-living', 'both', or null.",
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": 50,\n  \"n_participants\": 24,\n  \"devices\": \"iPhone 6s\",\n  \"modalities\": \"accelerometer, gyroscope\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": \"front pocket\",\n  \"accelerometer_unit\": null,\n  \"gyroscope_unit\": null\n}",
+    "activities": "{\n  \"activities\": \"The list of activity class names exactly as the data set labels them is: dws, ups, sit, std, wlk, jog\"\n}",
+    "protocol": "{\n  \"protocol_type\": \"One of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.\",\n  \"setting\": \"One of 'laboratory', 'free-living', 'both', or null.\"\n}"
+  }
+}

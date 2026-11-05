@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, the gold records or the results, please cite it as below."
+title: "M2M-HAR: Metadata-to-Model — signal-verified knowledge extraction from dataset documentation for cross-dataset human activity recognition"
+version: 1.0.0
+date-released: 2026-10-25
+license: MIT
+authors:
+  - family-names: Alam
+    given-names: Gulzar
+    affiliation: "School of Computing, Ulster University"
+  - family-names: McChesney
+    given-names: Ian
+    affiliation: "School of Computing, Ulster University"
+  - family-names: Nicholl
+    given-names: Peter
+    affiliation: "School of Computing, Ulster University"
+  - family-names: Rafferty
+    given-names: Joseph
+    affiliation: "School of Computing, Ulster University"
+keywords:
+  - human activity recognition
+  - metadata extraction
+  - large language models
+  - data validation
+  - cross-dataset generalisation
+preferred-citation:
+  type: unpublished
+  title: "Signal-verified knowledge extraction from dataset documentation: Measuring what harmonisation metadata is worth for cross-dataset human activity recognition"
+  authors:
+    - family-names: Alam
+      given-names: Gulzar
+    - family-names: McChesney
+      given-names: Ian
+    - family-names: Nicholl
+      given-names: Peter
+    - family-names: Rafferty
+      given-names: Joseph
+  year: 2026
+  notes: "Manuscript under review"

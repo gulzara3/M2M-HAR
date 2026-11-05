@@ -1,0 +1,64 @@
+{
+  "mode": "FULL",
+  "datasets_train": [
+    "hapt",
+    "pamap2",
+    "wisdm19",
+    "dsads",
+    "realdisp"
+  ],
+  "datasets_test": [
+    "mhealth",
+    "uschad",
+    "harth",
+    "motionsense"
+  ],
+  "n_windows_total": 53309,
+  "E1_best": {
+    "model": "Mistral-7B-Instruct-v0.3",
+    "variant": "retrieval",
+    "composite": 0.713549690588344
+  },
+  "E1_hardest_fields": [
+    "setting",
+    "protocol_type",
+    "gyroscope_unit"
+  ],
+  "E2_datasets_with_contradiction": 1,
+  "E2_contradiction_rate": 0.017857142857142856,
+  "E2_repair_gain_mean": 0.2254814212282641,
+  "E3_zeroshot": {
+    "M0_none": 0.2816427843500785,
+    "M1_generic": 0.2665259367166625,
+    "M2_extracted": 0.27033439811890875,
+    "M3_verified": 0.3626277007952115,
+    "M4_gold": 0.35444470198646955
+  },
+  "E3_gain_gold_over_none": 0.07280191763639104,
+  "E3_gain_verified_over_none": 0.080984916445133,
+  "E3_gain_extracted_over_none": -0.011308386231169754,
+  "E3_recovery_verified": 1.1124008690212244,
+  "E3_recovery_extracted": -0.15533088410733153,
+  "E4_cost_at_100pct": {
+    "placement": -0.002752161877833094,
+    "unit": 0.23141437557270483,
+    "rate": 0.018950024550672007,
+    "axis": 0.037596043165824565,
+    "label": 0.27587117587473603
+  },
+  "E5_alignment": {
+    "embedding": 0.8512759170653907,
+    "wordnet": 0.7136570382184417,
+    "llm_constrained": 0.7894146139760174
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "epochs": 25,
+  "target_hz": 30,
+  "window_sec": 5.0,
+  "text_encoder": "sentence-transformers/all-mpnet-base-v2",
+  "device": "cuda"
+}

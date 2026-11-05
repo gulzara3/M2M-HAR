@@ -1,0 +1,49 @@
+{
+  "sampling_rate_hz": 100,
+  "n_participants": 9,
+  "devices": [
+    "3 colibri wireless inertial measurement units (imu)",
+    "bm-cs5sr from bm innovations gmbh (hr-monitor)",
+    "viliv s5 umpc"
+  ],
+  "sensor_placements": [
+    "wrist",
+    "chest",
+    "dominant side's ankle"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope",
+    "magnetometer"
+  ],
+  "accelerometer_unit": "m/s^2",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "lying",
+    "sitting",
+    "standing",
+    "walking",
+    "running",
+    "cycling",
+    "nordic walking",
+    "watching tv",
+    "computer work",
+    "car driving",
+    "ascending stairs",
+    "descending stairs",
+    "vacuum cleaning",
+    "ironing",
+    "folding laundry",
+    "house cleaning",
+    "playing soccer",
+    "rope jumping"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "```json\n{\n \"sampling_rate_hz\": 100,\n \"n_participants\": 9,\n \"devices\": \"3 Colibri wireless inertial measurement units (IMU), BM-CS5SR from BM innovations GmbH (HR-monitor), Viliv S5 UMPC\",\n \"modalities\": \"accelerometer, gyroscope, magnetometer\"\n}\n```",
+    "placement_units": "```json\n{\n \"sensor_placements\": \"wrist, chest, dominant side's ankle\",\n \"accelerometer_unit\": \"m/s^2\",\n \"gyroscope_unit\": \"rad/s\"\n}\n```",
+    "activities": "```json\n{\n \"activities\": [\"lying\", \"sitting\", \"standing\", \"walking\", \"running\", \"cycling\", \"Nordic walking\", \"watching TV\", \"computer work\", \"car driving\", \"ascending stairs\", \"descending stairs\", \"vacuum cleaning\", \"ironing\", \"folding laundry\", \"house cleaning\", \"playing soccer\", \"rope jumping\"]\n}\n```",
+    "protocol": "```json\n{\n \"protocol_type\": \"experimental\",\n \"setting\": \"laboratory\"\n}\n```"
+  }
+}

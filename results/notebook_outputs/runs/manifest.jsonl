@@ -1,0 +1,153 @@
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "zeroshot", "dataset": "hapt", "time": "2026-10-22 21:35:11"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "zeroshot", "dataset": "pamap2", "time": "2026-10-22 21:35:31"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "zeroshot", "dataset": "wisdm19", "time": "2026-10-22 21:35:41"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "zeroshot", "dataset": "dsads", "time": "2026-10-22 21:35:56"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "zeroshot", "dataset": "realdisp", "time": "2026-10-22 21:36:26"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "zeroshot", "dataset": "mhealth", "time": "2026-10-22 21:36:43"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "zeroshot", "dataset": "uschad", "time": "2026-10-22 21:36:52"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "zeroshot", "dataset": "harth", "time": "2026-10-22 21:37:02"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "zeroshot", "dataset": "motionsense", "time": "2026-10-22 21:37:14"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "retrieval", "dataset": "hapt", "time": "2026-10-22 21:37:25"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "retrieval", "dataset": "pamap2", "time": "2026-10-22 21:37:39"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "retrieval", "dataset": "wisdm19", "time": "2026-10-22 21:37:50"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "retrieval", "dataset": "dsads", "time": "2026-10-22 21:38:05"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "retrieval", "dataset": "realdisp", "time": "2026-10-22 21:38:37"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "retrieval", "dataset": "mhealth", "time": "2026-10-22 21:38:50"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "retrieval", "dataset": "uschad", "time": "2026-10-22 21:38:59"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "retrieval", "dataset": "harth", "time": "2026-10-22 21:39:09"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-7B-Instruct", "variant": "retrieval", "dataset": "motionsense", "time": "2026-10-22 21:39:18"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "zeroshot", "dataset": "hapt", "time": "2026-10-22 21:42:52"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "zeroshot", "dataset": "pamap2", "time": "2026-10-22 21:43:27"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "zeroshot", "dataset": "wisdm19", "time": "2026-10-22 21:43:42"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "zeroshot", "dataset": "dsads", "time": "2026-10-22 21:44:03"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "zeroshot", "dataset": "realdisp", "time": "2026-10-22 21:44:44"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "zeroshot", "dataset": "mhealth", "time": "2026-10-22 21:45:07"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "zeroshot", "dataset": "uschad", "time": "2026-10-22 21:45:23"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "zeroshot", "dataset": "harth", "time": "2026-10-22 21:45:41"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "zeroshot", "dataset": "motionsense", "time": "2026-10-22 21:46:04"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "retrieval", "dataset": "hapt", "time": "2026-10-22 21:46:26"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "retrieval", "dataset": "pamap2", "time": "2026-10-22 21:46:52"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "retrieval", "dataset": "wisdm19", "time": "2026-10-22 21:47:08"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "retrieval", "dataset": "dsads", "time": "2026-10-22 21:47:32"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "retrieval", "dataset": "realdisp", "time": "2026-10-22 21:48:13"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "retrieval", "dataset": "mhealth", "time": "2026-10-22 21:48:34"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "retrieval", "dataset": "uschad", "time": "2026-10-22 21:48:48"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "retrieval", "dataset": "harth", "time": "2026-10-22 21:49:06"}
+{"stage": "extraction", "model": "Qwen/Qwen2.5-14B-Instruct", "variant": "retrieval", "dataset": "motionsense", "time": "2026-10-22 21:49:24"}
+{"stage": "train", "name": "E3_M0_none_s0", "condition": "M0_none", "seed": 0, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.3486960791423612, "mean_zeroshot_f1": 0.2544906207500719, "time": "2026-10-22 22:24:48"}
+{"stage": "train", "name": "E3_M0_none_s1", "condition": "M0_none", "seed": 1, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.23103421219113152, "mean_zeroshot_f1": 0.19577835335184182, "time": "2026-10-22 22:59:31"}
+{"stage": "train", "name": "E3_M0_none_s2", "condition": "M0_none", "seed": 2, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.26519806171674265, "mean_zeroshot_f1": 0.24071775221949965, "time": "2026-10-22 23:34:15"}
+{"stage": "train", "name": "E3_M1_generic_s0", "condition": "M1_generic", "seed": 0, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.3283288562803974, "mean_zeroshot_f1": 0.16130434119194142, "time": "2026-10-23 00:08:58"}
+{"stage": "train", "name": "E3_M1_generic_s1", "condition": "M1_generic", "seed": 1, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.1997296976068622, "mean_zeroshot_f1": 0.14941942770289504, "time": "2026-10-23 00:43:42"}
+{"stage": "train", "name": "E3_M1_generic_s2", "condition": "M1_generic", "seed": 2, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.271519256262728, "mean_zeroshot_f1": 0.11033610206377037, "time": "2026-10-23 01:18:26"}
+{"stage": "train", "name": "E3_M2_extracted_s0", "condition": "M2_extracted", "seed": 0, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.2747142297913923, "mean_zeroshot_f1": 0.16897901208702354, "time": "2026-10-23 02:00:50"}
+{"stage": "train", "name": "E3_M2_extracted_s1", "condition": "M2_extracted", "seed": 1, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.2589693175046488, "mean_zeroshot_f1": 0.20073766258661038, "time": "2026-10-23 02:43:13"}
+{"stage": "train", "name": "E3_M2_extracted_s2", "condition": "M2_extracted", "seed": 2, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.2773196470606851, "mean_zeroshot_f1": 0.1697482066623266, "time": "2026-10-23 03:25:34"}
+{"stage": "train", "name": "E3_M3_verified_s0", "condition": "M3_verified", "seed": 0, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.33613687998502173, "mean_zeroshot_f1": 0.2747452491152285, "time": "2026-10-23 03:55:23"}
+{"stage": "train", "name": "E3_M3_verified_s1", "condition": "M3_verified", "seed": 1, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.2817496103350545, "mean_zeroshot_f1": 0.20677934532385267, "time": "2026-10-23 04:25:30"}
+{"stage": "train", "name": "E3_M3_verified_s2", "condition": "M3_verified", "seed": 2, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.3786798984188048, "mean_zeroshot_f1": 0.3068720511724987, "time": "2026-10-23 04:55:37"}
+{"stage": "train", "name": "E3_M4_gold_s0", "condition": "M4_gold", "seed": 0, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.34313112768582765, "mean_zeroshot_f1": 0.29011493828864166, "time": "2026-10-23 05:30:46"}
+{"stage": "train", "name": "E3_M4_gold_s1", "condition": "M4_gold", "seed": 1, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.34789559724225366, "mean_zeroshot_f1": 0.27231126631103797, "time": "2026-10-23 06:05:46"}
+{"stage": "train", "name": "E3_M4_gold_s2", "condition": "M4_gold", "seed": 2, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.37230738103132727, "mean_zeroshot_f1": 0.3186362405876578, "time": "2026-10-23 06:41:10"}
+{"stage": "train", "name": "E4_placement_25_s0", "condition": "M4_gold", "seed": 0, "defect": "placement", "severity": 0.25, "mean_zeroshot_acc": 0.3232810417598349, "mean_zeroshot_f1": 0.25935501992899596, "time": "2026-10-23 07:16:12"}
+{"stage": "train", "name": "E4_placement_25_s1", "condition": "M4_gold", "seed": 1, "defect": "placement", "severity": 0.25, "mean_zeroshot_acc": 0.2773153914737534, "mean_zeroshot_f1": 0.20484444374402622, "time": "2026-10-23 07:51:12"}
+{"stage": "train", "name": "E4_placement_25_s2", "condition": "M4_gold", "seed": 2, "defect": "placement", "severity": 0.25, "mean_zeroshot_acc": 0.3623114283990771, "mean_zeroshot_f1": 0.30235276868310285, "time": "2026-10-23 08:26:12"}
+{"stage": "train", "name": "E4_placement_50_s0", "condition": "M4_gold", "seed": 0, "defect": "placement", "severity": 0.5, "mean_zeroshot_acc": 0.3367158665999213, "mean_zeroshot_f1": 0.27472995563877833, "time": "2026-10-23 09:01:11"}
+{"stage": "train", "name": "E4_placement_50_s1", "condition": "M4_gold", "seed": 1, "defect": "placement", "severity": 0.5, "mean_zeroshot_acc": 0.3439701327084347, "mean_zeroshot_f1": 0.2806441059437801, "time": "2026-10-23 09:36:10"}
+{"stage": "train", "name": "E4_placement_50_s2", "condition": "M4_gold", "seed": 2, "defect": "placement", "severity": 0.5, "mean_zeroshot_acc": 0.36524887478937673, "mean_zeroshot_f1": 0.29374290734255415, "time": "2026-10-23 10:11:08"}
+{"stage": "train", "name": "E4_placement_100_s0", "condition": "M4_gold", "seed": 0, "defect": "placement", "severity": 1.0, "mean_zeroshot_acc": 0.3422944789231832, "mean_zeroshot_f1": 0.294955332529388, "time": "2026-10-23 10:46:08"}
+{"stage": "train", "name": "E4_placement_100_s1", "condition": "M4_gold", "seed": 1, "defect": "placement", "severity": 1.0, "mean_zeroshot_acc": 0.37407573342809763, "mean_zeroshot_f1": 0.29885555230054384, "time": "2026-10-23 11:21:08"}
+{"stage": "train", "name": "E4_placement_100_s2", "condition": "M4_gold", "seed": 2, "defect": "placement", "severity": 1.0, "mean_zeroshot_acc": 0.355220379241627, "mean_zeroshot_f1": 0.29930880140146787, "time": "2026-10-23 11:56:09"}
+{"stage": "train", "name": "E4_unit_25_s0", "condition": "M4_gold", "seed": 0, "defect": "unit", "severity": 0.25, "mean_zeroshot_acc": 0.4020090063879891, "mean_zeroshot_f1": 0.3126014160601899, "time": "2026-10-23 12:31:09"}
+{"stage": "train", "name": "E4_unit_25_s1", "condition": "M4_gold", "seed": 1, "defect": "unit", "severity": 0.25, "mean_zeroshot_acc": 0.3392291474622343, "mean_zeroshot_f1": 0.30211642374057823, "time": "2026-10-23 13:06:08"}
+{"stage": "train", "name": "E4_unit_25_s2", "condition": "M4_gold", "seed": 2, "defect": "unit", "severity": 0.25, "mean_zeroshot_acc": 0.3955193783911728, "mean_zeroshot_f1": 0.3319858186927328, "time": "2026-10-23 13:41:06"}
+{"stage": "train", "name": "E4_unit_50_s0", "condition": "M4_gold", "seed": 0, "defect": "unit", "severity": 0.5, "mean_zeroshot_acc": 0.2213797936531397, "mean_zeroshot_f1": 0.1771114684875209, "time": "2026-10-23 14:16:05"}
+{"stage": "train", "name": "E4_unit_50_s1", "condition": "M4_gold", "seed": 1, "defect": "unit", "severity": 0.5, "mean_zeroshot_acc": 0.3120629784349359, "mean_zeroshot_f1": 0.239656382406432, "time": "2026-10-23 14:51:02"}
+{"stage": "train", "name": "E4_unit_50_s2", "condition": "M4_gold", "seed": 2, "defect": "unit", "severity": 0.5, "mean_zeroshot_acc": 0.28235621539841016, "mean_zeroshot_f1": 0.22970297887000096, "time": "2026-10-23 15:26:01"}
+{"stage": "train", "name": "E4_unit_100_s0", "condition": "M4_gold", "seed": 0, "defect": "unit", "severity": 1.0, "mean_zeroshot_acc": 0.1457841391229818, "mean_zeroshot_f1": 0.08547493167795699, "time": "2026-10-23 16:01:00"}
+{"stage": "train", "name": "E4_unit_100_s1", "condition": "M4_gold", "seed": 1, "defect": "unit", "severity": 1.0, "mean_zeroshot_acc": 0.12676460615578672, "mean_zeroshot_f1": 0.08503258169615541, "time": "2026-10-23 16:35:59"}
+{"stage": "train", "name": "E4_unit_100_s2", "condition": "M4_gold", "seed": 2, "defect": "unit", "severity": 1.0, "mean_zeroshot_acc": 0.09654223396252558, "mean_zeroshot_f1": 0.05226807369357103, "time": "2026-10-23 17:10:58"}
+{"stage": "train", "name": "E4_rate_25_s0", "condition": "M4_gold", "seed": 0, "defect": "rate", "severity": 0.25, "mean_zeroshot_acc": 0.3357021350010627, "mean_zeroshot_f1": 0.28303809300127275, "time": "2026-10-23 17:50:30"}
+{"stage": "train", "name": "E4_rate_25_s1", "condition": "M4_gold", "seed": 1, "defect": "rate", "severity": 0.25, "mean_zeroshot_acc": 0.34488779915837525, "mean_zeroshot_f1": 0.270612355374114, "time": "2026-10-23 18:23:37"}
+{"stage": "train", "name": "E4_rate_25_s2", "condition": "M4_gold", "seed": 2, "defect": "rate", "severity": 0.25, "mean_zeroshot_acc": 0.35963875664853556, "mean_zeroshot_f1": 0.2976951361439578, "time": "2026-10-23 18:53:17"}
+{"stage": "train", "name": "E4_rate_50_s0", "condition": "M4_gold", "seed": 0, "defect": "rate", "severity": 0.5, "mean_zeroshot_acc": 0.3571663025156725, "mean_zeroshot_f1": 0.2968194171255499, "time": "2026-10-23 19:26:29"}
+{"stage": "train", "name": "E4_rate_50_s1", "condition": "M4_gold", "seed": 1, "defect": "rate", "severity": 0.5, "mean_zeroshot_acc": 0.2894412709818627, "mean_zeroshot_f1": 0.21423707112887458, "time": "2026-10-23 19:54:06"}
+{"stage": "train", "name": "E4_rate_50_s2", "condition": "M4_gold", "seed": 2, "defect": "rate", "severity": 0.5, "mean_zeroshot_acc": 0.35614770827715847, "mean_zeroshot_f1": 0.277724231919886, "time": "2026-10-23 20:33:37"}
+{"stage": "train", "name": "E4_rate_100_s0", "condition": "M4_gold", "seed": 0, "defect": "rate", "severity": 1.0, "mean_zeroshot_acc": 0.3968821918055975, "mean_zeroshot_f1": 0.2817525614802441, "time": "2026-10-23 21:03:57"}
+{"stage": "train", "name": "E4_rate_100_s1", "condition": "M4_gold", "seed": 1, "defect": "rate", "severity": 1.0, "mean_zeroshot_acc": 0.3088929034245805, "mean_zeroshot_f1": 0.21881702868094555, "time": "2026-10-24 12:11:49"}
+{"stage": "train", "name": "E4_rate_100_s2", "condition": "M4_gold", "seed": 2, "defect": "rate", "severity": 1.0, "mean_zeroshot_acc": 0.3007089370772146, "mean_zeroshot_f1": 0.21820665615730384, "time": "2026-10-24 12:42:33"}
+{"stage": "train", "name": "E4_axis_25_s0", "condition": "M4_gold", "seed": 0, "defect": "axis", "severity": 0.25, "mean_zeroshot_acc": 0.37020405166224635, "mean_zeroshot_f1": 0.2969848899623584, "time": "2026-10-24 13:17:30"}
+{"stage": "train", "name": "E4_axis_25_s1", "condition": "M4_gold", "seed": 1, "defect": "axis", "severity": 0.25, "mean_zeroshot_acc": 0.35675984983790504, "mean_zeroshot_f1": 0.24964388262823467, "time": "2026-10-24 13:52:30"}
+{"stage": "train", "name": "E4_axis_25_s2", "condition": "M4_gold", "seed": 2, "defect": "axis", "severity": 0.25, "mean_zeroshot_acc": 0.3668967990323858, "mean_zeroshot_f1": 0.2992141530505415, "time": "2026-10-24 14:27:29"}
+{"stage": "train", "name": "E4_axis_50_s0", "condition": "M4_gold", "seed": 0, "defect": "axis", "severity": 0.5, "mean_zeroshot_acc": 0.36281071249131835, "mean_zeroshot_f1": 0.2831936399559147, "time": "2026-10-24 15:02:30"}
+{"stage": "train", "name": "E4_axis_50_s1", "condition": "M4_gold", "seed": 1, "defect": "axis", "severity": 0.5, "mean_zeroshot_acc": 0.29585381554358836, "mean_zeroshot_f1": 0.2444620702262455, "time": "2026-10-24 15:37:31"}
+{"stage": "train", "name": "E4_axis_50_s2", "condition": "M4_gold", "seed": 2, "defect": "axis", "severity": 0.5, "mean_zeroshot_acc": 0.3177467626563072, "mean_zeroshot_f1": 0.2652395386430308, "time": "2026-10-24 16:12:31"}
+{"stage": "train", "name": "E4_axis_100_s0", "condition": "M4_gold", "seed": 0, "defect": "axis", "severity": 1.0, "mean_zeroshot_acc": 0.30830230071578685, "mean_zeroshot_f1": 0.24411827026198613, "time": "2026-10-24 16:47:30"}
+{"stage": "train", "name": "E4_axis_100_s1", "condition": "M4_gold", "seed": 1, "defect": "axis", "severity": 1.0, "mean_zeroshot_acc": 0.3173572032251234, "mean_zeroshot_f1": 0.2619667055418816, "time": "2026-10-24 17:22:30"}
+{"stage": "train", "name": "E4_axis_100_s2", "condition": "M4_gold", "seed": 2, "defect": "axis", "severity": 1.0, "mean_zeroshot_acc": 0.32488647252102465, "mean_zeroshot_f1": 0.2545241623641594, "time": "2026-10-24 17:57:31"}
+{"stage": "train", "name": "E4_label_25_s0", "condition": "M4_gold", "seed": 0, "defect": "label", "severity": 0.25, "mean_zeroshot_acc": 0.27429598523179965, "mean_zeroshot_f1": 0.1829156447643721, "time": "2026-10-24 18:32:31"}
+{"stage": "train", "name": "E4_label_25_s1", "condition": "M4_gold", "seed": 1, "defect": "label", "severity": 0.25, "mean_zeroshot_acc": 0.313253649116245, "mean_zeroshot_f1": 0.21823511464848822, "time": "2026-10-24 19:07:30"}
+{"stage": "train", "name": "E4_label_25_s2", "condition": "M4_gold", "seed": 2, "defect": "label", "severity": 0.25, "mean_zeroshot_acc": 0.27087739648689546, "mean_zeroshot_f1": 0.19698231634158292, "time": "2026-10-24 19:42:31"}
+{"stage": "train", "name": "E4_label_50_s0", "condition": "M4_gold", "seed": 0, "defect": "label", "severity": 0.5, "mean_zeroshot_acc": 0.2360546416516521, "mean_zeroshot_f1": 0.15180680691406145, "time": "2026-10-24 20:17:29"}
+{"stage": "train", "name": "E4_label_50_s1", "condition": "M4_gold", "seed": 1, "defect": "label", "severity": 0.5, "mean_zeroshot_acc": 0.20552838750774471, "mean_zeroshot_f1": 0.1314839440995923, "time": "2026-10-24 20:52:30"}
+{"stage": "train", "name": "E4_label_50_s2", "condition": "M4_gold", "seed": 2, "defect": "label", "severity": 0.5, "mean_zeroshot_acc": 0.14820654131151328, "mean_zeroshot_f1": 0.11099309935642956, "time": "2026-10-24 21:27:28"}
+{"stage": "train", "name": "E4_label_100_s0", "condition": "M4_gold", "seed": 0, "defect": "label", "severity": 1.0, "mean_zeroshot_acc": 0.051663720216583976, "mean_zeroshot_f1": 0.049478339459675516, "time": "2026-10-24 22:02:22"}
+{"stage": "train", "name": "E4_label_100_s1", "condition": "M4_gold", "seed": 1, "defect": "label", "severity": 1.0, "mean_zeroshot_acc": 0.05996366005530941, "mean_zeroshot_f1": 0.05772508884230519, "time": "2026-10-24 22:37:17"}
+{"stage": "train", "name": "E4_label_100_s2", "condition": "M4_gold", "seed": 2, "defect": "label", "severity": 1.0, "mean_zeroshot_acc": 0.12409319806330707, "mean_zeroshot_f1": 0.09428912004581765, "time": "2026-10-24 23:12:11"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "zeroshot", "dataset": "hapt", "time": "2026-10-25 12:25:19"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "zeroshot", "dataset": "pamap2", "time": "2026-10-25 12:25:46"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "zeroshot", "dataset": "wisdm19", "time": "2026-10-25 12:26:05"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "zeroshot", "dataset": "dsads", "time": "2026-10-25 12:26:25"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "zeroshot", "dataset": "realdisp", "time": "2026-10-25 12:26:59"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "zeroshot", "dataset": "mhealth", "time": "2026-10-25 12:27:16"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "zeroshot", "dataset": "uschad", "time": "2026-10-25 12:27:28"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "zeroshot", "dataset": "harth", "time": "2026-10-25 12:27:40"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "zeroshot", "dataset": "motionsense", "time": "2026-10-25 12:27:56"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "retrieval", "dataset": "hapt", "time": "2026-10-25 12:28:13"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "retrieval", "dataset": "pamap2", "time": "2026-10-25 12:28:36"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "retrieval", "dataset": "wisdm19", "time": "2026-10-25 12:28:57"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "retrieval", "dataset": "dsads", "time": "2026-10-25 12:29:15"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "retrieval", "dataset": "realdisp", "time": "2026-10-25 12:29:48"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "retrieval", "dataset": "mhealth", "time": "2026-10-25 12:30:04"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "retrieval", "dataset": "uschad", "time": "2026-10-25 12:30:15"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "retrieval", "dataset": "harth", "time": "2026-10-25 12:30:30"}
+{"stage": "extraction", "model": "mistralai/Mistral-7B-Instruct-v0.3", "variant": "retrieval", "dataset": "motionsense", "time": "2026-10-25 12:30:43"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "zeroshot", "dataset": "hapt", "time": "2026-10-25 12:32:05"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "zeroshot", "dataset": "pamap2", "time": "2026-10-25 12:32:32"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "zeroshot", "dataset": "wisdm19", "time": "2026-10-25 12:32:46"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "zeroshot", "dataset": "dsads", "time": "2026-10-25 12:33:04"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "zeroshot", "dataset": "realdisp", "time": "2026-10-25 12:33:37"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "zeroshot", "dataset": "mhealth", "time": "2026-10-25 12:33:57"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "zeroshot", "dataset": "uschad", "time": "2026-10-25 12:34:08"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "zeroshot", "dataset": "harth", "time": "2026-10-25 12:34:22"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "zeroshot", "dataset": "motionsense", "time": "2026-10-25 12:34:37"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "retrieval", "dataset": "hapt", "time": "2026-10-25 12:34:50"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "retrieval", "dataset": "pamap2", "time": "2026-10-25 12:35:25"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "retrieval", "dataset": "wisdm19", "time": "2026-10-25 12:35:40"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "retrieval", "dataset": "dsads", "time": "2026-10-25 12:35:58"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "retrieval", "dataset": "realdisp", "time": "2026-10-25 12:36:29"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "retrieval", "dataset": "mhealth", "time": "2026-10-25 12:36:46"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "retrieval", "dataset": "uschad", "time": "2026-10-25 12:36:56"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "retrieval", "dataset": "harth", "time": "2026-10-25 12:37:11"}
+{"stage": "extraction", "model": "meta-llama/Llama-3.1-8B-Instruct", "variant": "retrieval", "dataset": "motionsense", "time": "2026-10-25 12:37:24"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "zeroshot", "dataset": "hapt", "time": "2026-10-25 12:39:04"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "zeroshot", "dataset": "pamap2", "time": "2026-10-25 12:39:50"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "zeroshot", "dataset": "wisdm19", "time": "2026-10-25 12:40:14"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "zeroshot", "dataset": "dsads", "time": "2026-10-25 12:40:47"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "zeroshot", "dataset": "realdisp", "time": "2026-10-25 12:41:35"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "zeroshot", "dataset": "mhealth", "time": "2026-10-25 12:42:03"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "zeroshot", "dataset": "uschad", "time": "2026-10-25 12:42:24"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "zeroshot", "dataset": "harth", "time": "2026-10-25 12:42:44"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "zeroshot", "dataset": "motionsense", "time": "2026-10-25 12:43:12"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "retrieval", "dataset": "hapt", "time": "2026-10-25 12:43:37"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "retrieval", "dataset": "pamap2", "time": "2026-10-25 12:44:09"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "retrieval", "dataset": "wisdm19", "time": "2026-10-25 12:44:31"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "retrieval", "dataset": "dsads", "time": "2026-10-25 12:45:05"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "retrieval", "dataset": "realdisp", "time": "2026-10-25 12:45:54"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "retrieval", "dataset": "mhealth", "time": "2026-10-25 12:46:20"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "retrieval", "dataset": "uschad", "time": "2026-10-25 12:46:41"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "retrieval", "dataset": "harth", "time": "2026-10-25 12:47:02"}
+{"stage": "extraction", "model": "google/gemma-2-9b-it", "variant": "retrieval", "dataset": "motionsense", "time": "2026-10-25 12:47:23"}
+{"stage": "train", "name": "E3_M3_verified_s0", "condition": "M3_verified", "seed": 0, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.33253593485940414, "mean_zeroshot_f1": 0.26597987198107914, "time": "2026-10-25 13:24:15"}
+{"stage": "train", "name": "E3_M3_verified_s1", "condition": "M3_verified", "seed": 1, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.3689742857179026, "mean_zeroshot_f1": 0.28249020670150304, "time": "2026-10-25 13:59:13"}
+{"stage": "train", "name": "E3_M3_verified_s2", "condition": "M3_verified", "seed": 2, "defect": null, "severity": 0.0, "mean_zeroshot_acc": 0.38637288180832774, "mean_zeroshot_f1": 0.33104536015006425, "time": "2026-10-25 14:34:09"}

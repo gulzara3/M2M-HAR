@@ -1,0 +1,86 @@
+{
+  "dataset": "hapt",
+  "name": "HAPT (UCI-HAR raw with postural transitions)",
+  "sampling_rate_hz": 50,
+  "devices": [
+    "Samsung Galaxy S II smartphone"
+  ],
+  "n_participants": 30,
+  "sensor_placements": [
+    "waist (smartphone)"
+  ],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "g",
+  "gyroscope_unit": "rad/s",
+  "activities": [
+    "laying",
+    "lie to sit",
+    "lie to stand",
+    "sit to lie",
+    "sit to stand",
+    "sitting",
+    "stand to lie",
+    "stand to sit",
+    "standing",
+    "walking",
+    "walking downstairs",
+    "walking upstairs"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "channels": [
+    {
+      "modality": "accelerometer",
+      "axis": "x",
+      "placement": "waist (smartphone)",
+      "unit": "g"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "y",
+      "placement": "waist (smartphone)",
+      "unit": "g"
+    },
+    {
+      "modality": "accelerometer",
+      "axis": "z",
+      "placement": "waist (smartphone)",
+      "unit": "g"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "x",
+      "placement": "waist (smartphone)",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "y",
+      "placement": "waist (smartphone)",
+      "unit": "rad/s"
+    },
+    {
+      "modality": "gyroscope",
+      "axis": "z",
+      "placement": "waist (smartphone)",
+      "unit": "rad/s"
+    }
+  ],
+  "canonical_map": {
+    "sit to lie": "transition",
+    "lie to sit": "transition",
+    "walking downstairs": "descending stairs",
+    "stand to lie": "transition",
+    "walking upstairs": "ascending stairs",
+    "sit to stand": "transition",
+    "stand to sit": "transition",
+    "standing": "standing",
+    "walking": "walking",
+    "sitting": "sitting",
+    "lie to stand": "transition",
+    "laying": "lying"
+  }
+}

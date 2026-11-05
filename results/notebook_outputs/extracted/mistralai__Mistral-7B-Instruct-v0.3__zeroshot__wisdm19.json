@@ -1,0 +1,46 @@
+{
+  "sampling_rate_hz": 20.0,
+  "n_participants": 51,
+  "devices": [
+    "nexus 5",
+    "nexus 5x",
+    "galaxy s6",
+    "lg g watch"
+  ],
+  "sensor_placements": [],
+  "modalities": [
+    "accelerometer",
+    "gyroscope"
+  ],
+  "accelerometer_unit": "real",
+  "gyroscope_unit": "real",
+  "activities": [
+    "airplane",
+    "bicycle",
+    "brush_teeth",
+    "car_driving",
+    "chat",
+    "cooking",
+    "dining",
+    "drinking",
+    "eating",
+    "gym",
+    "handball",
+    "ironing",
+    "jogging",
+    "music",
+    "phone_talk",
+    "sitting",
+    "tv",
+    "walking",
+    "washing_hands"
+  ],
+  "protocol_type": "experimental",
+  "setting": "laboratory",
+  "_raw": {
+    "acquisition": "{\n  \"sampling_rate_hz\": \"20\",\n  \"n_participants\": \"51\",\n  \"devices\": \"Nexus 5, Nexus 5X, Galaxy S6, LG G watch\",\n  \"modalities\": \"accelerometer, gyroscope\"\n}",
+    "placement_units": "{\n  \"sensor_placements\": null,\n  \"accelerometer_unit\": \"real\",\n  \"gyroscope_unit\": \"real\"\n}",
+    "activities": "{\n  \"activities\": [\n    \"AIRPLANE\",\n    \"BICYCLE\",\n    \"BRUSH_TEETH\",\n    \"CAR_DRIVING\",\n    \"CHAT\",\n    \"COOKING\",\n    \"DINING\",\n    \"DRINKING\",\n    \"EATING\",\n    \"GYM\",\n    \"HANDBALL\",\n    \"IRONING\",\n    \"JOGGING\",\n    \"MUSIC\",\n    \"PHONE_TALK\",\n    \"SITTING\",\n    \"TV\",\n    \"WALKING\",\n    \"WASHING_HANDS\"\n  ]\n}",
+    "protocol": "{\n  \"protocol_type\": \"experimental\",\n  \"setting\": \"laboratory\"\n}"
+  }
+}

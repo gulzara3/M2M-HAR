@@ -1,0 +1,901 @@
+dataset,field,status,documented,data,confidence,corrected,model,variant
+hapt,sampling_rate_hz,unverifiable,50,,none,False,Qwen2.5-7B-Instruct,zeroshot
+hapt,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,Qwen2.5-7B-Instruct,zeroshot
+hapt,gyroscope_unit,confirmed,rad/s,rad/s (p99≈1.4),medium,False,Qwen2.5-7B-Instruct,zeroshot
+hapt,n_participants,confirmed,30,30,high,False,Qwen2.5-7B-Instruct,zeroshot
+hapt,sensor_placements,contradicted,[],['waist (smartphone)'],medium,True,Qwen2.5-7B-Instruct,zeroshot
+hapt,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-7B-Instruct,zeroshot
+hapt,activities,confirmed,12,12,high,False,Qwen2.5-7B-Instruct,zeroshot
+hapt,devices,unverifiable,['samsung galaxy s ii smartphone'],,none,False,Qwen2.5-7B-Instruct,zeroshot
+hapt,protocol_type,unverifiable,observational,,none,False,Qwen2.5-7B-Instruct,zeroshot
+hapt,setting,unverifiable,free-living,,none,False,Qwen2.5-7B-Instruct,zeroshot
+pamap2,sampling_rate_hz,confirmed,100,100.00000000009095,high,False,Qwen2.5-7B-Instruct,zeroshot
+pamap2,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False,Qwen2.5-7B-Instruct,zeroshot
+pamap2,gyroscope_unit,confirmed,rad/s,rad/s (p99≈3.9),medium,False,Qwen2.5-7B-Instruct,zeroshot
+pamap2,n_participants,confirmed,9,9,high,False,Qwen2.5-7B-Instruct,zeroshot
+pamap2,sensor_placements,confirmed,"['wrist', 'chest', ""dominant side's ankle""]","['ankle (dominant side)', 'chest', 'wrist (dominant arm)']",medium,False,Qwen2.5-7B-Instruct,zeroshot
+pamap2,modalities,confirmed,"['accelerometer', 'gyroscope', 'magnetometer']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-7B-Instruct,zeroshot
+pamap2,activities,contradicted,18,12,high,True,Qwen2.5-7B-Instruct,zeroshot
+pamap2,devices,unverifiable,"['3 colibri wireless inertial measurement units (imu)', 'bm-cs5sr from bm innovations gmbh (hr-monitor)', 'viliv s5 umpc']",,none,False,Qwen2.5-7B-Instruct,zeroshot
+pamap2,protocol_type,unverifiable,experimental,,none,False,Qwen2.5-7B-Instruct,zeroshot
+pamap2,setting,unverifiable,laboratory,,none,False,Qwen2.5-7B-Instruct,zeroshot
+wisdm19,sampling_rate_hz,confirmed,20,20.00501525827587,high,False,Qwen2.5-7B-Instruct,zeroshot
+wisdm19,accelerometer_unit,contradicted,,m/s^2 (|a|≈9.78),high,True,Qwen2.5-7B-Instruct,zeroshot
+wisdm19,gyroscope_unit,unverifiable,,,none,False,Qwen2.5-7B-Instruct,zeroshot
+wisdm19,n_participants,confirmed,51,51,high,False,Qwen2.5-7B-Instruct,zeroshot
+wisdm19,sensor_placements,contradicted,[],['front trouser pocket (smartphone)'],medium,True,Qwen2.5-7B-Instruct,zeroshot
+wisdm19,modalities,contradicted,"['accelerometer', 'gyroscope']",['accelerometer'],medium,True,Qwen2.5-7B-Instruct,zeroshot
+wisdm19,activities,confirmed,18,18,high,False,Qwen2.5-7B-Instruct,zeroshot
+wisdm19,devices,unverifiable,"['nexus 5', 'nexus 5x', 'galaxy s6', 'lg g watch']",,none,False,Qwen2.5-7B-Instruct,zeroshot
+wisdm19,protocol_type,unverifiable,,,none,False,Qwen2.5-7B-Instruct,zeroshot
+wisdm19,setting,unverifiable,,,none,False,Qwen2.5-7B-Instruct,zeroshot
+dsads,sampling_rate_hz,unverifiable,25,,none,False,Qwen2.5-7B-Instruct,zeroshot
+dsads,accelerometer_unit,contradicted,,m/s^2 (|a|≈9.85),high,True,Qwen2.5-7B-Instruct,zeroshot
+dsads,gyroscope_unit,contradicted,,rad/s (p99≈2.2),medium,True,Qwen2.5-7B-Instruct,zeroshot
+dsads,n_participants,confirmed,8,8,high,False,Qwen2.5-7B-Instruct,zeroshot
+dsads,sensor_placements,contradicted,"['t (torso)', 'ra (right arm)', 'la (left arm)', 'rl (right leg)', 'll (left leg)']","['left arm', 'left leg', 'right arm', 'right leg', 'torso']",medium,True,Qwen2.5-7B-Instruct,zeroshot
+dsads,modalities,confirmed,"['accelerometer', 'gyroscope', 'magnetometer']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-7B-Instruct,zeroshot
+dsads,activities,confirmed,19,19,high,False,Qwen2.5-7B-Instruct,zeroshot
+dsads,devices,unverifiable,['five xsens mtx units'],,none,False,Qwen2.5-7B-Instruct,zeroshot
+dsads,protocol_type,unverifiable,observational,,none,False,Qwen2.5-7B-Instruct,zeroshot
+dsads,setting,unverifiable,both,,none,False,Qwen2.5-7B-Instruct,zeroshot
+realdisp,sampling_rate_hz,contradicted,,50.000000000045475,high,True,Qwen2.5-7B-Instruct,zeroshot
+realdisp,accelerometer_unit,contradicted,,m/s^2 (|a|≈10.05),high,True,Qwen2.5-7B-Instruct,zeroshot
+realdisp,gyroscope_unit,contradicted,,rad/s (p99≈4.1),medium,True,Qwen2.5-7B-Instruct,zeroshot
+realdisp,n_participants,confirmed,17,17,high,False,Qwen2.5-7B-Instruct,zeroshot
+realdisp,sensor_placements,confirmed,"['left calf (lc)', 'left thigh (lt)', 'right calf (rc)', 'right thigh (rt)', 'back (back)', 'left lower arm (lla)', 'left upper arm (lua)', 'right lower arm (rla)', 'right upper arm (rua)']","['back', 'left calf', 'left lower arm', 'left thigh', 'left upper arm', 'right calf', 'right lower arm', 'right thigh', 'right upper arm']",medium,False,Qwen2.5-7B-Instruct,zeroshot
+realdisp,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'quaternion']","['accelerometer', 'gyroscope']",medium,True,Qwen2.5-7B-Instruct,zeroshot
+realdisp,activities,confirmed,33,33,high,False,Qwen2.5-7B-Instruct,zeroshot
+realdisp,devices,unverifiable,"['left calf (lc)', 'left thigh (lt)', 'right calf (rc)', 'right thigh (rt)', 'back (back)', 'left lower arm (lla)', 'left upper arm (lua)', 'right lower arm (rla)', 'right upper arm (rua)']",,none,False,Qwen2.5-7B-Instruct,zeroshot
+realdisp,protocol_type,unverifiable,,,none,False,Qwen2.5-7B-Instruct,zeroshot
+realdisp,setting,unverifiable,,,none,False,Qwen2.5-7B-Instruct,zeroshot
+mhealth,sampling_rate_hz,unverifiable,50,,none,False,Qwen2.5-7B-Instruct,zeroshot
+mhealth,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False,Qwen2.5-7B-Instruct,zeroshot
+mhealth,gyroscope_unit,contradicted,deg/s,rad/s (p99≈1.0),medium,True,Qwen2.5-7B-Instruct,zeroshot
+mhealth,n_participants,confirmed,10,10,high,False,Qwen2.5-7B-Instruct,zeroshot
+mhealth,sensor_placements,confirmed,"['chest', 'right wrist', 'left ankle']","['chest', 'left ankle', 'right lower arm']",medium,False,Qwen2.5-7B-Instruct,zeroshot
+mhealth,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'electrocardiogram']","['accelerometer', 'gyroscope']",medium,True,Qwen2.5-7B-Instruct,zeroshot
+mhealth,activities,confirmed,12,12,high,False,Qwen2.5-7B-Instruct,zeroshot
+mhealth,devices,unverifiable,['shimmer2'],,none,False,Qwen2.5-7B-Instruct,zeroshot
+mhealth,protocol_type,unverifiable,observational,,none,False,Qwen2.5-7B-Instruct,zeroshot
+mhealth,setting,unverifiable,free-living,,none,False,Qwen2.5-7B-Instruct,zeroshot
+uschad,sampling_rate_hz,unverifiable,100,,none,False,Qwen2.5-7B-Instruct,zeroshot
+uschad,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,Qwen2.5-7B-Instruct,zeroshot
+uschad,gyroscope_unit,confirmed,deg/s,deg/s (p99≈106.8),medium,False,Qwen2.5-7B-Instruct,zeroshot
+uschad,n_participants,contradicted,,14,high,True,Qwen2.5-7B-Instruct,zeroshot
+uschad,sensor_placements,contradicted,"['waist', 'chest', 'right wrist', 'ankle', 'front trouser pocket']",['front right hip'],medium,True,Qwen2.5-7B-Instruct,zeroshot
+uschad,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-7B-Instruct,zeroshot
+uschad,activities,confirmed,12,12,high,False,Qwen2.5-7B-Instruct,zeroshot
+uschad,devices,unverifiable,['motionnode'],,none,False,Qwen2.5-7B-Instruct,zeroshot
+uschad,protocol_type,unverifiable,,,none,False,Qwen2.5-7B-Instruct,zeroshot
+uschad,setting,unverifiable,,,none,False,Qwen2.5-7B-Instruct,zeroshot
+harth,sampling_rate_hz,confirmed,50,50.000047683761295,high,False,Qwen2.5-7B-Instruct,zeroshot
+harth,accelerometer_unit,confirmed,g,g (|a|≈1.00),high,False,Qwen2.5-7B-Instruct,zeroshot
+harth,gyroscope_unit,unverifiable,,,none,False,Qwen2.5-7B-Instruct,zeroshot
+harth,n_participants,confirmed,22,22,high,False,Qwen2.5-7B-Instruct,zeroshot
+harth,sensor_placements,confirmed,"['right front thigh', 'lower back']","['lower back', 'right thigh']",medium,False,Qwen2.5-7B-Instruct,zeroshot
+harth,modalities,confirmed,['accelerometer'],['accelerometer'],medium,False,Qwen2.5-7B-Instruct,zeroshot
+harth,activities,confirmed,14,12,high,False,Qwen2.5-7B-Instruct,zeroshot
+harth,devices,unverifiable,['axivity ax3'],,none,False,Qwen2.5-7B-Instruct,zeroshot
+harth,protocol_type,unverifiable,observational,,none,False,Qwen2.5-7B-Instruct,zeroshot
+harth,setting,unverifiable,free-living,,none,False,Qwen2.5-7B-Instruct,zeroshot
+motionsense,sampling_rate_hz,unverifiable,50,,none,False,Qwen2.5-7B-Instruct,zeroshot
+motionsense,accelerometer_unit,contradicted,,g (|a|≈1.03),high,True,Qwen2.5-7B-Instruct,zeroshot
+motionsense,gyroscope_unit,contradicted,,rad/s (p99≈3.2),medium,True,Qwen2.5-7B-Instruct,zeroshot
+motionsense,n_participants,confirmed,24,24,high,False,Qwen2.5-7B-Instruct,zeroshot
+motionsense,sensor_placements,contradicted,[],['front trouser pocket (smartphone)'],medium,True,Qwen2.5-7B-Instruct,zeroshot
+motionsense,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-7B-Instruct,zeroshot
+motionsense,activities,contradicted,6,6,high,True,Qwen2.5-7B-Instruct,zeroshot
+motionsense,devices,unverifiable,['iphone 6s'],,none,False,Qwen2.5-7B-Instruct,zeroshot
+motionsense,protocol_type,unverifiable,observational,,none,False,Qwen2.5-7B-Instruct,zeroshot
+motionsense,setting,unverifiable,free-living,,none,False,Qwen2.5-7B-Instruct,zeroshot
+hapt,sampling_rate_hz,unverifiable,50,,none,False,Qwen2.5-7B-Instruct,retrieval
+hapt,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,Qwen2.5-7B-Instruct,retrieval
+hapt,gyroscope_unit,confirmed,rad/s,rad/s (p99≈1.4),medium,False,Qwen2.5-7B-Instruct,retrieval
+hapt,n_participants,contradicted,,30,high,True,Qwen2.5-7B-Instruct,retrieval
+hapt,sensor_placements,contradicted,[],['waist (smartphone)'],medium,True,Qwen2.5-7B-Instruct,retrieval
+hapt,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-7B-Instruct,retrieval
+hapt,activities,confirmed,12,12,high,False,Qwen2.5-7B-Instruct,retrieval
+hapt,devices,unverifiable,['smartphone'],,none,False,Qwen2.5-7B-Instruct,retrieval
+hapt,protocol_type,unverifiable,experimental,,none,False,Qwen2.5-7B-Instruct,retrieval
+hapt,setting,unverifiable,laboratory,,none,False,Qwen2.5-7B-Instruct,retrieval
+pamap2,sampling_rate_hz,contradicted,9,100.00000000009095,high,True,Qwen2.5-7B-Instruct,retrieval
+pamap2,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False,Qwen2.5-7B-Instruct,retrieval
+pamap2,gyroscope_unit,confirmed,rad/s,rad/s (p99≈3.9),medium,False,Qwen2.5-7B-Instruct,retrieval
+pamap2,n_participants,confirmed,9,9,high,False,Qwen2.5-7B-Instruct,retrieval
+pamap2,sensor_placements,confirmed,"['wrist', 'chest', 'ankle']","['ankle (dominant side)', 'chest', 'wrist (dominant arm)']",medium,False,Qwen2.5-7B-Instruct,retrieval
+pamap2,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'heart rate']","['accelerometer', 'gyroscope']",medium,True,Qwen2.5-7B-Instruct,retrieval
+pamap2,activities,contradicted,18,12,high,True,Qwen2.5-7B-Instruct,retrieval
+pamap2,devices,unverifiable,"['samsung galaxy s ii smartphone', 'imu hand', 'imu chest', 'imu ankle', 'hr-monitor']",,none,False,Qwen2.5-7B-Instruct,retrieval
+pamap2,protocol_type,unverifiable,experimental,,none,False,Qwen2.5-7B-Instruct,retrieval
+pamap2,setting,unverifiable,laboratory,,none,False,Qwen2.5-7B-Instruct,retrieval
+wisdm19,sampling_rate_hz,confirmed,20,20.00501525827587,high,False,Qwen2.5-7B-Instruct,retrieval
+wisdm19,accelerometer_unit,contradicted,,m/s^2 (|a|≈9.78),high,True,Qwen2.5-7B-Instruct,retrieval
+wisdm19,gyroscope_unit,unverifiable,,,none,False,Qwen2.5-7B-Instruct,retrieval
+wisdm19,n_participants,confirmed,51,51,high,False,Qwen2.5-7B-Instruct,retrieval
+wisdm19,sensor_placements,contradicted,[],['front trouser pocket (smartphone)'],medium,True,Qwen2.5-7B-Instruct,retrieval
+wisdm19,modalities,contradicted,"['accelerometer', 'gyroscope']",['accelerometer'],medium,True,Qwen2.5-7B-Instruct,retrieval
+wisdm19,activities,confirmed,18,18,high,False,Qwen2.5-7B-Instruct,retrieval
+wisdm19,devices,unverifiable,"['nexus 5', 'nexus 5x', 'galaxy s6', 'lg g watch']",,none,False,Qwen2.5-7B-Instruct,retrieval
+wisdm19,protocol_type,unverifiable,,,none,False,Qwen2.5-7B-Instruct,retrieval
+wisdm19,setting,unverifiable,laboratory,,none,False,Qwen2.5-7B-Instruct,retrieval
+dsads,sampling_rate_hz,unverifiable,25,,none,False,Qwen2.5-7B-Instruct,retrieval
+dsads,accelerometer_unit,contradicted,g,m/s^2 (|a|≈9.85),high,True,Qwen2.5-7B-Instruct,retrieval
+dsads,gyroscope_unit,confirmed,rad/s,rad/s (p99≈2.2),medium,False,Qwen2.5-7B-Instruct,retrieval
+dsads,n_participants,confirmed,8,8,high,False,Qwen2.5-7B-Instruct,retrieval
+dsads,sensor_placements,contradicted,"['t (torso)', 'ra (right arm)', 'la (left arm)', 'rl (right leg)', 'll (left leg)']","['left arm', 'left leg', 'right arm', 'right leg', 'torso']",medium,True,Qwen2.5-7B-Instruct,retrieval
+dsads,modalities,confirmed,"['accelerometer', 'gyroscope', 'magnetometer']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-7B-Instruct,retrieval
+dsads,activities,confirmed,19,19,high,False,Qwen2.5-7B-Instruct,retrieval
+dsads,devices,unverifiable,['five xsens mtx units'],,none,False,Qwen2.5-7B-Instruct,retrieval
+dsads,protocol_type,unverifiable,null,,none,False,Qwen2.5-7B-Instruct,retrieval
+dsads,setting,unverifiable,both,,none,False,Qwen2.5-7B-Instruct,retrieval
+realdisp,sampling_rate_hz,contradicted,,50.000000000045475,high,True,Qwen2.5-7B-Instruct,retrieval
+realdisp,accelerometer_unit,contradicted,,m/s^2 (|a|≈10.05),high,True,Qwen2.5-7B-Instruct,retrieval
+realdisp,gyroscope_unit,contradicted,,rad/s (p99≈4.1),medium,True,Qwen2.5-7B-Instruct,retrieval
+realdisp,n_participants,confirmed,17,17,high,False,Qwen2.5-7B-Instruct,retrieval
+realdisp,sensor_placements,confirmed,"['left calf (lc)', 'left thigh (lt)', 'right calf (rc)', 'right thigh (rt)', 'back (back)', 'left lower arm (lla)', 'left upper arm (lua)', 'right lower arm (rla)', 'right upper arm (rua)']","['back', 'left calf', 'left lower arm', 'left thigh', 'left upper arm', 'right calf', 'right lower arm', 'right thigh', 'right upper arm']",medium,False,Qwen2.5-7B-Instruct,retrieval
+realdisp,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'quaternion']","['accelerometer', 'gyroscope']",medium,True,Qwen2.5-7B-Instruct,retrieval
+realdisp,activities,confirmed,33,33,high,False,Qwen2.5-7B-Instruct,retrieval
+realdisp,devices,unverifiable,"['s1: left calf (lc)', 's2: left thigh (lt)', 's3: right calf (rc)', 's4: right thigh (rt)', 's5: back (back)', 's6: left lower arm (lla)', 's7: left upper arm (lua)', 's8: right lower arm (rla)', 's9: right upper arm (rua)']",,none,False,Qwen2.5-7B-Instruct,retrieval
+realdisp,protocol_type,unverifiable,,,none,False,Qwen2.5-7B-Instruct,retrieval
+realdisp,setting,unverifiable,,,none,False,Qwen2.5-7B-Instruct,retrieval
+mhealth,sampling_rate_hz,unverifiable,50,,none,False,Qwen2.5-7B-Instruct,retrieval
+mhealth,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False,Qwen2.5-7B-Instruct,retrieval
+mhealth,gyroscope_unit,contradicted,deg/s,rad/s (p99≈1.0),medium,True,Qwen2.5-7B-Instruct,retrieval
+mhealth,n_participants,confirmed,10,10,high,False,Qwen2.5-7B-Instruct,retrieval
+mhealth,sensor_placements,confirmed,"['chest', 'right wrist', 'left ankle']","['chest', 'left ankle', 'right lower arm']",medium,False,Qwen2.5-7B-Instruct,retrieval
+mhealth,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'electrocardiogram']","['accelerometer', 'gyroscope']",medium,True,Qwen2.5-7B-Instruct,retrieval
+mhealth,activities,confirmed,12,12,high,False,Qwen2.5-7B-Instruct,retrieval
+mhealth,devices,unverifiable,['shimmer2'],,none,False,Qwen2.5-7B-Instruct,retrieval
+mhealth,protocol_type,unverifiable,observational,,none,False,Qwen2.5-7B-Instruct,retrieval
+mhealth,setting,unverifiable,free-living,,none,False,Qwen2.5-7B-Instruct,retrieval
+uschad,sampling_rate_hz,unverifiable,100,,none,False,Qwen2.5-7B-Instruct,retrieval
+uschad,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,Qwen2.5-7B-Instruct,retrieval
+uschad,gyroscope_unit,confirmed,deg/s,deg/s (p99≈106.8),medium,False,Qwen2.5-7B-Instruct,retrieval
+uschad,n_participants,contradicted,,14,high,True,Qwen2.5-7B-Instruct,retrieval
+uschad,sensor_placements,contradicted,"['waist', 'chest', 'right wrist', 'ankle', 'front trouser pocket']",['front right hip'],medium,True,Qwen2.5-7B-Instruct,retrieval
+uschad,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-7B-Instruct,retrieval
+uschad,activities,confirmed,12,12,high,False,Qwen2.5-7B-Instruct,retrieval
+uschad,devices,unverifiable,['motionnode'],,none,False,Qwen2.5-7B-Instruct,retrieval
+uschad,protocol_type,unverifiable,,,none,False,Qwen2.5-7B-Instruct,retrieval
+uschad,setting,unverifiable,,,none,False,Qwen2.5-7B-Instruct,retrieval
+harth,sampling_rate_hz,confirmed,50,50.000047683761295,high,False,Qwen2.5-7B-Instruct,retrieval
+harth,accelerometer_unit,confirmed,g,g (|a|≈1.00),high,False,Qwen2.5-7B-Instruct,retrieval
+harth,gyroscope_unit,unverifiable,,,none,False,Qwen2.5-7B-Instruct,retrieval
+harth,n_participants,confirmed,22,22,high,False,Qwen2.5-7B-Instruct,retrieval
+harth,sensor_placements,confirmed,"['right front thigh', 'lower back']","['lower back', 'right thigh']",medium,False,Qwen2.5-7B-Instruct,retrieval
+harth,modalities,confirmed,['accelerometer'],['accelerometer'],medium,False,Qwen2.5-7B-Instruct,retrieval
+harth,activities,confirmed,14,12,high,False,Qwen2.5-7B-Instruct,retrieval
+harth,devices,unverifiable,['axivity ax3'],,none,False,Qwen2.5-7B-Instruct,retrieval
+harth,protocol_type,unverifiable,observational,,none,False,Qwen2.5-7B-Instruct,retrieval
+harth,setting,unverifiable,free-living,,none,False,Qwen2.5-7B-Instruct,retrieval
+motionsense,sampling_rate_hz,unverifiable,50,,none,False,Qwen2.5-7B-Instruct,retrieval
+motionsense,accelerometer_unit,contradicted,,g (|a|≈1.03),high,True,Qwen2.5-7B-Instruct,retrieval
+motionsense,gyroscope_unit,contradicted,,rad/s (p99≈3.2),medium,True,Qwen2.5-7B-Instruct,retrieval
+motionsense,n_participants,confirmed,24,24,high,False,Qwen2.5-7B-Instruct,retrieval
+motionsense,sensor_placements,contradicted,[],['front trouser pocket (smartphone)'],medium,True,Qwen2.5-7B-Instruct,retrieval
+motionsense,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-7B-Instruct,retrieval
+motionsense,activities,confirmed,6,6,high,False,Qwen2.5-7B-Instruct,retrieval
+motionsense,devices,unverifiable,['iphone 6s'],,none,False,Qwen2.5-7B-Instruct,retrieval
+motionsense,protocol_type,unverifiable,observational,,none,False,Qwen2.5-7B-Instruct,retrieval
+motionsense,setting,unverifiable,free-living,,none,False,Qwen2.5-7B-Instruct,retrieval
+hapt,sampling_rate_hz,unverifiable,50.0,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+hapt,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,Mistral-7B-Instruct-v0.3,zeroshot
+hapt,gyroscope_unit,confirmed,rad/s,rad/s (p99≈1.4),medium,False,Mistral-7B-Instruct-v0.3,zeroshot
+hapt,n_participants,confirmed,30,30,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+hapt,sensor_placements,confirmed,['waist'],['waist (smartphone)'],medium,False,Mistral-7B-Instruct-v0.3,zeroshot
+hapt,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Mistral-7B-Instruct-v0.3,zeroshot
+hapt,activities,confirmed,12,12,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+hapt,devices,unverifiable,['samsung galaxy s ii'],,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+hapt,protocol_type,unverifiable,observational,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+hapt,setting,unverifiable,laboratory,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+pamap2,sampling_rate_hz,confirmed,100.0,100.00000000009095,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+pamap2,accelerometer_unit,contradicted,g,m/s^2 (|a|≈9.84),high,True,Mistral-7B-Instruct-v0.3,zeroshot
+pamap2,gyroscope_unit,confirmed,rad/s,rad/s (p99≈3.9),medium,False,Mistral-7B-Instruct-v0.3,zeroshot
+pamap2,n_participants,confirmed,9,9,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+pamap2,sensor_placements,confirmed,"['waist', 'chest', 'right wrist', 'ankle', 'front trouser pocket']","['ankle (dominant side)', 'chest', 'wrist (dominant arm)']",medium,False,Mistral-7B-Instruct-v0.3,zeroshot
+pamap2,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'temperature', 'heart rate']","['accelerometer', 'gyroscope']",medium,True,Mistral-7B-Instruct-v0.3,zeroshot
+pamap2,activities,contradicted,18,12,high,True,Mistral-7B-Instruct-v0.3,zeroshot
+pamap2,devices,unverifiable,"['colibri wireless imus', 'bm-cs5sr hr-monitor', 'viliv s5 umpc']",,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+pamap2,protocol_type,unverifiable,observational,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+pamap2,setting,unverifiable,laboratory,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+wisdm19,sampling_rate_hz,confirmed,20.0,20.00501525827587,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+wisdm19,accelerometer_unit,contradicted,real,m/s^2 (|a|≈9.78),high,True,Mistral-7B-Instruct-v0.3,zeroshot
+wisdm19,gyroscope_unit,unverifiable,real,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+wisdm19,n_participants,confirmed,51,51,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+wisdm19,sensor_placements,contradicted,[],['front trouser pocket (smartphone)'],medium,True,Mistral-7B-Instruct-v0.3,zeroshot
+wisdm19,modalities,contradicted,"['accelerometer', 'gyroscope']",['accelerometer'],medium,True,Mistral-7B-Instruct-v0.3,zeroshot
+wisdm19,activities,contradicted,19,18,high,True,Mistral-7B-Instruct-v0.3,zeroshot
+wisdm19,devices,unverifiable,"['nexus 5', 'nexus 5x', 'galaxy s6', 'lg g watch']",,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+wisdm19,protocol_type,unverifiable,experimental,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+wisdm19,setting,unverifiable,laboratory,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+dsads,sampling_rate_hz,unverifiable,25,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+dsads,accelerometer_unit,contradicted,null,m/s^2 (|a|≈9.85),high,True,Mistral-7B-Instruct-v0.3,zeroshot
+dsads,gyroscope_unit,confirmed,rad/s,rad/s (p99≈2.2),medium,False,Mistral-7B-Instruct-v0.3,zeroshot
+dsads,n_participants,confirmed,8,8,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+dsads,sensor_placements,confirmed,"['torso', 'right arm', 'left arm', 'right leg', 'left leg']","['left arm', 'left leg', 'right arm', 'right leg', 'torso']",medium,False,Mistral-7B-Instruct-v0.3,zeroshot
+dsads,modalities,confirmed,"['accelerometer', 'gyroscope', 'magnetometer']","['accelerometer', 'gyroscope']",medium,False,Mistral-7B-Instruct-v0.3,zeroshot
+dsads,activities,confirmed,19,19,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+dsads,devices,unverifiable,['xsens mtx'],,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+dsads,protocol_type,unverifiable,observational,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+dsads,setting,unverifiable,laboratory,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+realdisp,sampling_rate_hz,contradicted,,50.000000000045475,high,True,Mistral-7B-Instruct-v0.3,zeroshot
+realdisp,accelerometer_unit,contradicted,not stated,m/s^2 (|a|≈10.05),high,True,Mistral-7B-Instruct-v0.3,zeroshot
+realdisp,gyroscope_unit,contradicted,not stated / no gyroscope,rad/s (p99≈4.1),medium,True,Mistral-7B-Instruct-v0.3,zeroshot
+realdisp,n_participants,confirmed,17,17,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+realdisp,sensor_placements,confirmed,"['left calf (lc)', 'left thigh (lt)', 'right calf (rc)', 'right thigh (rt)', 'back (back)', 'left lower arm (lla)', 'left upper arm (lua)', 'right lower arm (rla)', 'right upper arm (rua)']","['back', 'left calf', 'left lower arm', 'left thigh', 'left upper arm', 'right calf', 'right lower arm', 'right thigh', 'right upper arm']",medium,False,Mistral-7B-Instruct-v0.3,zeroshot
+realdisp,modalities,contradicted,"['acceleration', 'rate of turn', 'magnetic field', 'quaternions']","['accelerometer', 'gyroscope']",medium,True,Mistral-7B-Instruct-v0.3,zeroshot
+realdisp,activities,confirmed,32,33,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+realdisp,devices,unverifiable,['not specified in the documentation'],,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+realdisp,protocol_type,unverifiable,observational,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+realdisp,setting,unverifiable,both,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+mhealth,sampling_rate_hz,unverifiable,50,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+mhealth,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False,Mistral-7B-Instruct-v0.3,zeroshot
+mhealth,gyroscope_unit,contradicted,deg/s,rad/s (p99≈1.0),medium,True,Mistral-7B-Instruct-v0.3,zeroshot
+mhealth,n_participants,confirmed,10,10,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+mhealth,sensor_placements,confirmed,"['chest', 'right wrist', 'left ankle']","['chest', 'left ankle', 'right lower arm']",medium,False,Mistral-7B-Instruct-v0.3,zeroshot
+mhealth,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'electrocardiogram']","['accelerometer', 'gyroscope']",medium,True,Mistral-7B-Instruct-v0.3,zeroshot
+mhealth,activities,confirmed,12,12,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+mhealth,devices,unverifiable,['shimmer2'],,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+mhealth,protocol_type,unverifiable,experimental,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+mhealth,setting,unverifiable,out-of-lab,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+uschad,sampling_rate_hz,unverifiable,100,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+uschad,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,Mistral-7B-Instruct-v0.3,zeroshot
+uschad,gyroscope_unit,contradicted,dps,deg/s (p99≈106.8),medium,True,Mistral-7B-Instruct-v0.3,zeroshot
+uschad,n_participants,contradicted,,14,high,True,Mistral-7B-Instruct-v0.3,zeroshot
+uschad,sensor_placements,contradicted,['not specified in the documentation'],['front right hip'],medium,True,Mistral-7B-Instruct-v0.3,zeroshot
+uschad,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Mistral-7B-Instruct-v0.3,zeroshot
+uschad,activities,confirmed,12,12,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+uschad,devices,unverifiable,['motionnode'],,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+uschad,protocol_type,unverifiable,experimental,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+uschad,setting,unverifiable,laboratory,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+harth,sampling_rate_hz,confirmed,50,50.000047683761295,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+harth,accelerometer_unit,confirmed,g,g (|a|≈1.00),high,False,Mistral-7B-Instruct-v0.3,zeroshot
+harth,gyroscope_unit,unverifiable,,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+harth,n_participants,confirmed,22,22,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+harth,sensor_placements,confirmed,"['right thigh', 'lower back']","['lower back', 'right thigh']",medium,False,Mistral-7B-Instruct-v0.3,zeroshot
+harth,modalities,confirmed,['accelerometer'],['accelerometer'],medium,False,Mistral-7B-Instruct-v0.3,zeroshot
+harth,activities,confirmed,12,12,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+harth,devices,unverifiable,['axivity ax3'],,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+harth,protocol_type,unverifiable,observational,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+harth,setting,unverifiable,free-living,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+motionsense,sampling_rate_hz,unverifiable,50.0,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+motionsense,accelerometer_unit,contradicted,not stated,g (|a|≈1.03),high,True,Mistral-7B-Instruct-v0.3,zeroshot
+motionsense,gyroscope_unit,contradicted,not stated,rad/s (p99≈3.2),medium,True,Mistral-7B-Instruct-v0.3,zeroshot
+motionsense,n_participants,confirmed,24,24,high,False,Mistral-7B-Instruct-v0.3,zeroshot
+motionsense,sensor_placements,confirmed,['front trouser pocket'],['front trouser pocket (smartphone)'],medium,False,Mistral-7B-Instruct-v0.3,zeroshot
+motionsense,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Mistral-7B-Instruct-v0.3,zeroshot
+motionsense,activities,contradicted,6,6,high,True,Mistral-7B-Instruct-v0.3,zeroshot
+motionsense,devices,unverifiable,['iphone 6s'],,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+motionsense,protocol_type,unverifiable,experimental,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+motionsense,setting,unverifiable,laboratory,,none,False,Mistral-7B-Instruct-v0.3,zeroshot
+hapt,sampling_rate_hz,unverifiable,50,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+hapt,accelerometer_unit,contradicted,m/s^2,g (|a|≈1.01),high,True,Mistral-7B-Instruct-v0.3,retrieval
+hapt,gyroscope_unit,confirmed,rad/s,rad/s (p99≈1.4),medium,False,Mistral-7B-Instruct-v0.3,retrieval
+hapt,n_participants,confirmed,30,30,high,False,Mistral-7B-Instruct-v0.3,retrieval
+hapt,sensor_placements,confirmed,['waist'],['waist (smartphone)'],medium,False,Mistral-7B-Instruct-v0.3,retrieval
+hapt,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Mistral-7B-Instruct-v0.3,retrieval
+hapt,activities,confirmed,12,12,high,False,Mistral-7B-Instruct-v0.3,retrieval
+hapt,devices,unverifiable,['samsung galaxy s ii smartphone'],,none,False,Mistral-7B-Instruct-v0.3,retrieval
+hapt,protocol_type,unverifiable,experimental,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+hapt,setting,unverifiable,laboratory,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+pamap2,sampling_rate_hz,contradicted,9.0,100.00000000009095,high,True,Mistral-7B-Instruct-v0.3,retrieval
+pamap2,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False,Mistral-7B-Instruct-v0.3,retrieval
+pamap2,gyroscope_unit,confirmed,rad/s,rad/s (p99≈3.9),medium,False,Mistral-7B-Instruct-v0.3,retrieval
+pamap2,n_participants,confirmed,9,9,high,False,Mistral-7B-Instruct-v0.3,retrieval
+pamap2,sensor_placements,confirmed,"['wrist', 'chest', 'ankle']","['ankle (dominant side)', 'chest', 'wrist (dominant arm)']",medium,False,Mistral-7B-Instruct-v0.3,retrieval
+pamap2,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'heart rate']","['accelerometer', 'gyroscope']",medium,True,Mistral-7B-Instruct-v0.3,retrieval
+pamap2,activities,contradicted,19,12,high,True,Mistral-7B-Instruct-v0.3,retrieval
+pamap2,devices,unverifiable,"['z520 cpu', 'viliv i.2.']",,none,False,Mistral-7B-Instruct-v0.3,retrieval
+pamap2,protocol_type,unverifiable,experimental,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+pamap2,setting,unverifiable,laboratory,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+wisdm19,sampling_rate_hz,confirmed,20.0,20.00501525827587,high,False,Mistral-7B-Instruct-v0.3,retrieval
+wisdm19,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.78),high,False,Mistral-7B-Instruct-v0.3,retrieval
+wisdm19,gyroscope_unit,unverifiable,rad/s,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+wisdm19,n_participants,confirmed,51,51,high,False,Mistral-7B-Instruct-v0.3,retrieval
+wisdm19,sensor_placements,contradicted,[],['front trouser pocket (smartphone)'],medium,True,Mistral-7B-Instruct-v0.3,retrieval
+wisdm19,modalities,contradicted,"['accelerometer', 'gyroscope']",['accelerometer'],medium,True,Mistral-7B-Instruct-v0.3,retrieval
+wisdm19,activities,contradicted,20,18,high,True,Mistral-7B-Instruct-v0.3,retrieval
+wisdm19,devices,unverifiable,"['nexus 5', 'nexus 5x', 'galaxy s6', 'lg g watch']",,none,False,Mistral-7B-Instruct-v0.3,retrieval
+wisdm19,protocol_type,unverifiable,observational,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+wisdm19,setting,unverifiable,laboratory,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+dsads,sampling_rate_hz,unverifiable,25,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+dsads,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.85),high,False,Mistral-7B-Instruct-v0.3,retrieval
+dsads,gyroscope_unit,confirmed,rad/s,rad/s (p99≈2.2),medium,False,Mistral-7B-Instruct-v0.3,retrieval
+dsads,n_participants,confirmed,8,8,high,False,Mistral-7B-Instruct-v0.3,retrieval
+dsads,sensor_placements,confirmed,"['torso', 'right arm', 'left arm', 'right leg', 'left leg']","['left arm', 'left leg', 'right arm', 'right leg', 'torso']",medium,False,Mistral-7B-Instruct-v0.3,retrieval
+dsads,modalities,confirmed,"['accelerometer', 'gyroscope', 'magnetometer']","['accelerometer', 'gyroscope']",medium,False,Mistral-7B-Instruct-v0.3,retrieval
+dsads,activities,confirmed,19,19,high,False,Mistral-7B-Instruct-v0.3,retrieval
+dsads,devices,unverifiable,['xsens mtx'],,none,False,Mistral-7B-Instruct-v0.3,retrieval
+dsads,protocol_type,unverifiable,observational,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+dsads,setting,unverifiable,both,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+realdisp,sampling_rate_hz,contradicted,,50.000000000045475,high,True,Mistral-7B-Instruct-v0.3,retrieval
+realdisp,accelerometer_unit,contradicted,null,m/s^2 (|a|≈10.05),high,True,Mistral-7B-Instruct-v0.3,retrieval
+realdisp,gyroscope_unit,contradicted,null,rad/s (p99≈4.1),medium,True,Mistral-7B-Instruct-v0.3,retrieval
+realdisp,n_participants,confirmed,17,17,high,False,Mistral-7B-Instruct-v0.3,retrieval
+realdisp,sensor_placements,confirmed,"['left calf (lc)', 'left thigh (lt)', 'right calf (rc)', 'right thigh (rt)', 'back (back)', 'left lower arm (lla)', 'left upper arm (lua)', 'right lower arm (rla)', 'right upper arm (rua)']","['back', 'left calf', 'left lower arm', 'left thigh', 'left upper arm', 'right calf', 'right lower arm', 'right thigh', 'right upper arm']",medium,False,Mistral-7B-Instruct-v0.3,retrieval
+realdisp,modalities,contradicted,"['acceleration', 'rate of turn', 'magnetic field', 'quaternions']","['accelerometer', 'gyroscope']",medium,True,Mistral-7B-Instruct-v0.3,retrieval
+realdisp,activities,confirmed,33,33,high,False,Mistral-7B-Instruct-v0.3,retrieval
+realdisp,devices,unverifiable,['not specified'],,none,False,Mistral-7B-Instruct-v0.3,retrieval
+realdisp,protocol_type,unverifiable,observational,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+realdisp,setting,unverifiable,both,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+mhealth,sampling_rate_hz,unverifiable,50,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+mhealth,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False,Mistral-7B-Instruct-v0.3,retrieval
+mhealth,gyroscope_unit,contradicted,deg/s,rad/s (p99≈1.0),medium,True,Mistral-7B-Instruct-v0.3,retrieval
+mhealth,n_participants,confirmed,10,10,high,False,Mistral-7B-Instruct-v0.3,retrieval
+mhealth,sensor_placements,confirmed,"['chest', 'right wrist', 'left ankle']","['chest', 'left ankle', 'right lower arm']",medium,False,Mistral-7B-Instruct-v0.3,retrieval
+mhealth,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'electrocardiogram']","['accelerometer', 'gyroscope']",medium,True,Mistral-7B-Instruct-v0.3,retrieval
+mhealth,activities,confirmed,12,12,high,False,Mistral-7B-Instruct-v0.3,retrieval
+mhealth,devices,unverifiable,['shimmer2'],,none,False,Mistral-7B-Instruct-v0.3,retrieval
+mhealth,protocol_type,unverifiable,experimental,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+mhealth,setting,unverifiable,out-of-lab,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+uschad,sampling_rate_hz,unverifiable,100,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+uschad,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,Mistral-7B-Instruct-v0.3,retrieval
+uschad,gyroscope_unit,contradicted,dps,deg/s (p99≈106.8),medium,True,Mistral-7B-Instruct-v0.3,retrieval
+uschad,n_participants,contradicted,,14,high,True,Mistral-7B-Instruct-v0.3,retrieval
+uschad,sensor_placements,contradicted,['not specified in the documentation'],['front right hip'],medium,True,Mistral-7B-Instruct-v0.3,retrieval
+uschad,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Mistral-7B-Instruct-v0.3,retrieval
+uschad,activities,confirmed,12,12,high,False,Mistral-7B-Instruct-v0.3,retrieval
+uschad,devices,unverifiable,['motionnode'],,none,False,Mistral-7B-Instruct-v0.3,retrieval
+uschad,protocol_type,unverifiable,experimental,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+uschad,setting,unverifiable,laboratory,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+harth,sampling_rate_hz,confirmed,50,50.000047683761295,high,False,Mistral-7B-Instruct-v0.3,retrieval
+harth,accelerometer_unit,confirmed,g,g (|a|≈1.00),high,False,Mistral-7B-Instruct-v0.3,retrieval
+harth,gyroscope_unit,unverifiable,,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+harth,n_participants,confirmed,22,22,high,False,Mistral-7B-Instruct-v0.3,retrieval
+harth,sensor_placements,confirmed,"['right thigh', 'lower back']","['lower back', 'right thigh']",medium,False,Mistral-7B-Instruct-v0.3,retrieval
+harth,modalities,confirmed,['accelerometer'],['accelerometer'],medium,False,Mistral-7B-Instruct-v0.3,retrieval
+harth,activities,confirmed,12,12,high,False,Mistral-7B-Instruct-v0.3,retrieval
+harth,devices,unverifiable,['axivity ax3'],,none,False,Mistral-7B-Instruct-v0.3,retrieval
+harth,protocol_type,unverifiable,observational,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+harth,setting,unverifiable,free-living,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+motionsense,sampling_rate_hz,unverifiable,50.0,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+motionsense,accelerometer_unit,contradicted,not stated,g (|a|≈1.03),high,True,Mistral-7B-Instruct-v0.3,retrieval
+motionsense,gyroscope_unit,contradicted,not stated,rad/s (p99≈3.2),medium,True,Mistral-7B-Instruct-v0.3,retrieval
+motionsense,n_participants,confirmed,24,24,high,False,Mistral-7B-Instruct-v0.3,retrieval
+motionsense,sensor_placements,confirmed,['front trouser pocket'],['front trouser pocket (smartphone)'],medium,False,Mistral-7B-Instruct-v0.3,retrieval
+motionsense,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Mistral-7B-Instruct-v0.3,retrieval
+motionsense,activities,contradicted,6,6,high,True,Mistral-7B-Instruct-v0.3,retrieval
+motionsense,devices,unverifiable,['iphone 6s'],,none,False,Mistral-7B-Instruct-v0.3,retrieval
+motionsense,protocol_type,unverifiable,observational,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+motionsense,setting,unverifiable,laboratory,,none,False,Mistral-7B-Instruct-v0.3,retrieval
+hapt,sampling_rate_hz,unverifiable,50,,none,False,Llama-3.1-8B-Instruct,zeroshot
+hapt,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,Llama-3.1-8B-Instruct,zeroshot
+hapt,gyroscope_unit,confirmed,rad/s,rad/s (p99≈1.4),medium,False,Llama-3.1-8B-Instruct,zeroshot
+hapt,n_participants,confirmed,30,30,high,False,Llama-3.1-8B-Instruct,zeroshot
+hapt,sensor_placements,contradicted,"['waist', 'chest', 'right wrist', 'ankle', 'front trouser pocket']",['waist (smartphone)'],medium,True,Llama-3.1-8B-Instruct,zeroshot
+hapt,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Llama-3.1-8B-Instruct,zeroshot
+hapt,activities,confirmed,12,12,high,False,Llama-3.1-8B-Instruct,zeroshot
+hapt,devices,unverifiable,['samsung galaxy s ii smartphone'],,none,False,Llama-3.1-8B-Instruct,zeroshot
+hapt,protocol_type,unverifiable,"one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",,none,False,Llama-3.1-8B-Instruct,zeroshot
+hapt,setting,unverifiable,"one of 'laboratory', 'free-living', 'both', or null.",,none,False,Llama-3.1-8B-Instruct,zeroshot
+pamap2,sampling_rate_hz,confirmed,100.0,100.00000000009095,high,False,Llama-3.1-8B-Instruct,zeroshot
+pamap2,accelerometer_unit,contradicted,"ms-2, scale: ±16g, resolution: 13-bit",m/s^2 (|a|≈9.84),high,True,Llama-3.1-8B-Instruct,zeroshot
+pamap2,gyroscope_unit,confirmed,rad/s,rad/s (p99≈3.9),medium,False,Llama-3.1-8B-Instruct,zeroshot
+pamap2,n_participants,confirmed,9,9,high,False,Llama-3.1-8B-Instruct,zeroshot
+pamap2,sensor_placements,confirmed,"[""body locations where sensors were worn (e.g. 'wrist'"", ""'chest'"", ""'ankle'"", ""'front trouser pocket').""]","['ankle (dominant side)', 'chest', 'wrist (dominant arm)']",medium,False,Llama-3.1-8B-Instruct,zeroshot
+pamap2,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'heart rate']","['accelerometer', 'gyroscope']",medium,True,Llama-3.1-8B-Instruct,zeroshot
+pamap2,activities,contradicted,19,12,high,True,Llama-3.1-8B-Instruct,zeroshot
+pamap2,devices,unverifiable,['3 colibri wireless inertial measurement units (imu) and a heart rate monitor (hr-monitor)'],,none,False,Llama-3.1-8B-Instruct,zeroshot
+pamap2,protocol_type,unverifiable,"one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",,none,False,Llama-3.1-8B-Instruct,zeroshot
+pamap2,setting,unverifiable,"one of 'laboratory', 'free-living', 'both', or null.",,none,False,Llama-3.1-8B-Instruct,zeroshot
+wisdm19,sampling_rate_hz,confirmed,20,20.00501525827587,high,False,Llama-3.1-8B-Instruct,zeroshot
+wisdm19,accelerometer_unit,contradicted,,m/s^2 (|a|≈9.78),high,True,Llama-3.1-8B-Instruct,zeroshot
+wisdm19,gyroscope_unit,unverifiable,,,none,False,Llama-3.1-8B-Instruct,zeroshot
+wisdm19,n_participants,confirmed,51,51,high,False,Llama-3.1-8B-Instruct,zeroshot
+wisdm19,sensor_placements,contradicted,"[""body locations where sensors were worn (e.g. 'waist'"", ""'chest'"", ""'right wrist'"", ""'ankle'"", ""'front trouser pocket').""]",['front trouser pocket (smartphone)'],medium,True,Llama-3.1-8B-Instruct,zeroshot
+wisdm19,modalities,contradicted,"['accelerometer', 'gyroscope']",['accelerometer'],medium,True,Llama-3.1-8B-Instruct,zeroshot
+wisdm19,activities,contradicted,1,18,high,True,Llama-3.1-8B-Instruct,zeroshot
+wisdm19,devices,unverifiable,"['nexus 5', 'nexus 5x', 'galaxy s6', 'lg g watch']",,none,False,Llama-3.1-8B-Instruct,zeroshot
+wisdm19,protocol_type,unverifiable,"one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",,none,False,Llama-3.1-8B-Instruct,zeroshot
+wisdm19,setting,unverifiable,"one of 'laboratory', 'free-living', 'both', or null.",,none,False,Llama-3.1-8B-Instruct,zeroshot
+dsads,sampling_rate_hz,unverifiable,25,,none,False,Llama-3.1-8B-Instruct,zeroshot
+dsads,accelerometer_unit,contradicted,,m/s^2 (|a|≈9.85),high,True,Llama-3.1-8B-Instruct,zeroshot
+dsads,gyroscope_unit,contradicted,,rad/s (p99≈2.2),medium,True,Llama-3.1-8B-Instruct,zeroshot
+dsads,n_participants,confirmed,8,8,high,False,Llama-3.1-8B-Instruct,zeroshot
+dsads,sensor_placements,contradicted,"['torso', 'arms', 'and legs']","['left arm', 'left leg', 'right arm', 'right leg', 'torso']",medium,True,Llama-3.1-8B-Instruct,zeroshot
+dsads,modalities,confirmed,"['accelerometer', 'gyroscope', 'magnetometer']","['accelerometer', 'gyroscope']",medium,False,Llama-3.1-8B-Instruct,zeroshot
+dsads,activities,confirmed,14,19,high,False,Llama-3.1-8B-Instruct,zeroshot
+dsads,devices,unverifiable,['xsens mtx units'],,none,False,Llama-3.1-8B-Instruct,zeroshot
+dsads,protocol_type,unverifiable,,,none,False,Llama-3.1-8B-Instruct,zeroshot
+dsads,setting,unverifiable,,,none,False,Llama-3.1-8B-Instruct,zeroshot
+realdisp,sampling_rate_hz,contradicted,,50.000000000045475,high,True,Llama-3.1-8B-Instruct,zeroshot
+realdisp,accelerometer_unit,contradicted,,m/s^2 (|a|≈10.05),high,True,Llama-3.1-8B-Instruct,zeroshot
+realdisp,gyroscope_unit,contradicted,,rad/s (p99≈4.1),medium,True,Llama-3.1-8B-Instruct,zeroshot
+realdisp,n_participants,confirmed,17,17,high,False,Llama-3.1-8B-Instruct,zeroshot
+realdisp,sensor_placements,confirmed,"[""body locations where sensors were worn (e.g. 'left calf'"", ""'left thigh'"", ""'right calf'"", ""'right thigh'"", ""'back'"", ""'left lower arm'"", ""'left upper arm'"", ""'right lower arm'"", ""'right upper arm').""]","['back', 'left calf', 'left lower arm', 'left thigh', 'left upper arm', 'right calf', 'right lower arm', 'right thigh', 'right upper arm']",medium,False,Llama-3.1-8B-Instruct,zeroshot
+realdisp,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'quaternions']","['accelerometer', 'gyroscope']",medium,True,Llama-3.1-8B-Instruct,zeroshot
+realdisp,activities,confirmed,33,33,high,False,Llama-3.1-8B-Instruct,zeroshot
+realdisp,devices,unverifiable,"['samsung galaxy s ii smartphone', 'xsens mtx', 'shimmer2', 'axivity ax3']",,none,False,Llama-3.1-8B-Instruct,zeroshot
+realdisp,protocol_type,unverifiable,"one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",,none,False,Llama-3.1-8B-Instruct,zeroshot
+realdisp,setting,unverifiable,"one of 'laboratory', 'free-living', 'both', or null.",,none,False,Llama-3.1-8B-Instruct,zeroshot
+mhealth,sampling_rate_hz,unverifiable,50,,none,False,Llama-3.1-8B-Instruct,zeroshot
+mhealth,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False,Llama-3.1-8B-Instruct,zeroshot
+mhealth,gyroscope_unit,contradicted,deg/s,rad/s (p99≈1.0),medium,True,Llama-3.1-8B-Instruct,zeroshot
+mhealth,n_participants,confirmed,10,10,high,False,Llama-3.1-8B-Instruct,zeroshot
+mhealth,sensor_placements,confirmed,"['chest', 'right wrist', 'left ankle']","['chest', 'left ankle', 'right lower arm']",medium,False,Llama-3.1-8B-Instruct,zeroshot
+mhealth,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'ecg']","['accelerometer', 'gyroscope']",medium,True,Llama-3.1-8B-Instruct,zeroshot
+mhealth,activities,confirmed,12,12,high,False,Llama-3.1-8B-Instruct,zeroshot
+mhealth,devices,unverifiable,['shimmer2 wearable sensors'],,none,False,Llama-3.1-8B-Instruct,zeroshot
+mhealth,protocol_type,unverifiable,"one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",,none,False,Llama-3.1-8B-Instruct,zeroshot
+mhealth,setting,unverifiable,"one of 'laboratory', 'free-living', 'both', or null.",,none,False,Llama-3.1-8B-Instruct,zeroshot
+uschad,sampling_rate_hz,unverifiable,100,,none,False,Llama-3.1-8B-Instruct,zeroshot
+uschad,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,Llama-3.1-8B-Instruct,zeroshot
+uschad,gyroscope_unit,contradicted,dps,deg/s (p99≈106.8),medium,True,Llama-3.1-8B-Instruct,zeroshot
+uschad,n_participants,contradicted,,14,high,True,Llama-3.1-8B-Instruct,zeroshot
+uschad,sensor_placements,contradicted,"[""body locations where sensors were worn (e.g. 'waist'"", ""'chest'"", ""'right wrist'"", ""'ankle'"", ""'front trouser pocket').""]",['front right hip'],medium,True,Llama-3.1-8B-Instruct,zeroshot
+uschad,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Llama-3.1-8B-Instruct,zeroshot
+uschad,activities,confirmed,12,12,high,False,Llama-3.1-8B-Instruct,zeroshot
+uschad,devices,unverifiable,['motionnode'],,none,False,Llama-3.1-8B-Instruct,zeroshot
+uschad,protocol_type,unverifiable,,,none,False,Llama-3.1-8B-Instruct,zeroshot
+uschad,setting,unverifiable,,,none,False,Llama-3.1-8B-Instruct,zeroshot
+harth,sampling_rate_hz,confirmed,50,50.000047683761295,high,False,Llama-3.1-8B-Instruct,zeroshot
+harth,accelerometer_unit,confirmed,g,g (|a|≈1.00),high,False,Llama-3.1-8B-Instruct,zeroshot
+harth,gyroscope_unit,unverifiable,,,none,False,Llama-3.1-8B-Instruct,zeroshot
+harth,n_participants,confirmed,22,22,high,False,Llama-3.1-8B-Instruct,zeroshot
+harth,sensor_placements,contradicted,['right front thigh and lower back'],"['lower back', 'right thigh']",medium,True,Llama-3.1-8B-Instruct,zeroshot
+harth,modalities,confirmed,['accelerometer'],['accelerometer'],medium,False,Llama-3.1-8B-Instruct,zeroshot
+harth,activities,confirmed,12,12,high,False,Llama-3.1-8B-Instruct,zeroshot
+harth,devices,unverifiable,['axivity ax3'],,none,False,Llama-3.1-8B-Instruct,zeroshot
+harth,protocol_type,unverifiable,"one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",,none,False,Llama-3.1-8B-Instruct,zeroshot
+harth,setting,unverifiable,"one of 'laboratory', 'free-living', 'both', or null.",,none,False,Llama-3.1-8B-Instruct,zeroshot
+motionsense,sampling_rate_hz,unverifiable,50,,none,False,Llama-3.1-8B-Instruct,zeroshot
+motionsense,accelerometer_unit,contradicted,,g (|a|≈1.03),high,True,Llama-3.1-8B-Instruct,zeroshot
+motionsense,gyroscope_unit,contradicted,,rad/s (p99≈3.2),medium,True,Llama-3.1-8B-Instruct,zeroshot
+motionsense,n_participants,confirmed,24,24,high,False,Llama-3.1-8B-Instruct,zeroshot
+motionsense,sensor_placements,confirmed,['front trouser pocket'],['front trouser pocket (smartphone)'],medium,False,Llama-3.1-8B-Instruct,zeroshot
+motionsense,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Llama-3.1-8B-Instruct,zeroshot
+motionsense,activities,confirmed,6,6,high,False,Llama-3.1-8B-Instruct,zeroshot
+motionsense,devices,unverifiable,['iphone 6s'],,none,False,Llama-3.1-8B-Instruct,zeroshot
+motionsense,protocol_type,unverifiable,"one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",,none,False,Llama-3.1-8B-Instruct,zeroshot
+motionsense,setting,unverifiable,"one of 'laboratory', 'free-living', 'both', or null.",,none,False,Llama-3.1-8B-Instruct,zeroshot
+hapt,sampling_rate_hz,unverifiable,50,,none,False,Llama-3.1-8B-Instruct,retrieval
+hapt,accelerometer_unit,contradicted,,g (|a|≈1.01),high,True,Llama-3.1-8B-Instruct,retrieval
+hapt,gyroscope_unit,contradicted,,rad/s (p99≈1.4),medium,True,Llama-3.1-8B-Instruct,retrieval
+hapt,n_participants,confirmed,30,30,high,False,Llama-3.1-8B-Instruct,retrieval
+hapt,sensor_placements,confirmed,['waist'],['waist (smartphone)'],medium,False,Llama-3.1-8B-Instruct,retrieval
+hapt,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Llama-3.1-8B-Instruct,retrieval
+hapt,activities,confirmed,12,12,high,False,Llama-3.1-8B-Instruct,retrieval
+hapt,devices,unverifiable,['samsung galaxy s ii smartphone'],,none,False,Llama-3.1-8B-Instruct,retrieval
+hapt,protocol_type,unverifiable,"one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",,none,False,Llama-3.1-8B-Instruct,retrieval
+hapt,setting,unverifiable,"one of 'laboratory', 'free-living', 'both', or null.",,none,False,Llama-3.1-8B-Instruct,retrieval
+pamap2,sampling_rate_hz,confirmed,100,100.00000000009095,high,False,Llama-3.1-8B-Instruct,retrieval
+pamap2,accelerometer_unit,contradicted,"ms-2, scale: ±16g, resolution: 13-bit",m/s^2 (|a|≈9.84),high,True,Llama-3.1-8B-Instruct,retrieval
+pamap2,gyroscope_unit,confirmed,rad/s,rad/s (p99≈3.9),medium,False,Llama-3.1-8B-Instruct,retrieval
+pamap2,n_participants,confirmed,9,9,high,False,Llama-3.1-8B-Instruct,retrieval
+pamap2,sensor_placements,contradicted,"[""body locations where sensors were worn (e.g. 'waist'"", ""'chest'"", ""'right wrist'"", ""'ankle'"", ""'front trouser pocket').""]","['ankle (dominant side)', 'chest', 'wrist (dominant arm)']",medium,True,Llama-3.1-8B-Instruct,retrieval
+pamap2,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'heart rate', 'temperature']","['accelerometer', 'gyroscope']",medium,True,Llama-3.1-8B-Instruct,retrieval
+pamap2,activities,contradicted,23,12,high,True,Llama-3.1-8B-Instruct,retrieval
+pamap2,devices,unverifiable,"['samsung galaxy s ii smartphone', 'xsens mtx', 'shimmer2', 'axivity ax3']",,none,False,Llama-3.1-8B-Instruct,retrieval
+pamap2,protocol_type,unverifiable,"one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",,none,False,Llama-3.1-8B-Instruct,retrieval
+pamap2,setting,unverifiable,"one of 'laboratory', 'free-living', 'both', or null.",,none,False,Llama-3.1-8B-Instruct,retrieval
+wisdm19,sampling_rate_hz,confirmed,20,20.00501525827587,high,False,Llama-3.1-8B-Instruct,retrieval
+wisdm19,accelerometer_unit,contradicted,,m/s^2 (|a|≈9.78),high,True,Llama-3.1-8B-Instruct,retrieval
+wisdm19,gyroscope_unit,unverifiable,,,none,False,Llama-3.1-8B-Instruct,retrieval
+wisdm19,n_participants,confirmed,51,51,high,False,Llama-3.1-8B-Instruct,retrieval
+wisdm19,sensor_placements,contradicted,"[""body locations where sensors were worn (e.g. 'waist'"", ""'chest'"", ""'right wrist'"", ""'ankle'"", ""'front trouser pocket').""]",['front trouser pocket (smartphone)'],medium,True,Llama-3.1-8B-Instruct,retrieval
+wisdm19,modalities,contradicted,"['accelerometer', 'gyroscope']",['accelerometer'],medium,True,Llama-3.1-8B-Instruct,retrieval
+wisdm19,activities,contradicted,1,18,high,True,Llama-3.1-8B-Instruct,retrieval
+wisdm19,devices,unverifiable,"['nexus 5', 'nexus 5x', 'galaxy s6', 'lg g watch']",,none,False,Llama-3.1-8B-Instruct,retrieval
+wisdm19,protocol_type,unverifiable,"one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",,none,False,Llama-3.1-8B-Instruct,retrieval
+wisdm19,setting,unverifiable,"one of 'laboratory', 'free-living', 'both', or null.",,none,False,Llama-3.1-8B-Instruct,retrieval
+dsads,sampling_rate_hz,unverifiable,25,,none,False,Llama-3.1-8B-Instruct,retrieval
+dsads,accelerometer_unit,contradicted,,m/s^2 (|a|≈9.85),high,True,Llama-3.1-8B-Instruct,retrieval
+dsads,gyroscope_unit,contradicted,,rad/s (p99≈2.2),medium,True,Llama-3.1-8B-Instruct,retrieval
+dsads,n_participants,confirmed,8,8,high,False,Llama-3.1-8B-Instruct,retrieval
+dsads,sensor_placements,contradicted,"['torso', 'arms', 'and legs']","['left arm', 'left leg', 'right arm', 'right leg', 'torso']",medium,True,Llama-3.1-8B-Instruct,retrieval
+dsads,modalities,confirmed,"['accelerometer', 'gyroscope', 'magnetometer']","['accelerometer', 'gyroscope']",medium,False,Llama-3.1-8B-Instruct,retrieval
+dsads,activities,confirmed,14,19,high,False,Llama-3.1-8B-Instruct,retrieval
+dsads,devices,unverifiable,['xsens mtx units'],,none,False,Llama-3.1-8B-Instruct,retrieval
+dsads,protocol_type,unverifiable,,,none,False,Llama-3.1-8B-Instruct,retrieval
+dsads,setting,unverifiable,,,none,False,Llama-3.1-8B-Instruct,retrieval
+realdisp,sampling_rate_hz,contradicted,,50.000000000045475,high,True,Llama-3.1-8B-Instruct,retrieval
+realdisp,accelerometer_unit,contradicted,g,m/s^2 (|a|≈10.05),high,True,Llama-3.1-8B-Instruct,retrieval
+realdisp,gyroscope_unit,confirmed,rad/s,rad/s (p99≈4.1),medium,False,Llama-3.1-8B-Instruct,retrieval
+realdisp,n_participants,confirmed,17,17,high,False,Llama-3.1-8B-Instruct,retrieval
+realdisp,sensor_placements,confirmed,"[""body locations where sensors were worn (e.g. 'left calf'"", ""'left thigh'"", ""'right calf'"", ""'right thigh'"", ""'back'"", ""'left lower arm'"", ""'left upper arm'"", ""'right lower arm'"", ""'right upper arm').""]","['back', 'left calf', 'left lower arm', 'left thigh', 'left upper arm', 'right calf', 'right lower arm', 'right thigh', 'right upper arm']",medium,False,Llama-3.1-8B-Instruct,retrieval
+realdisp,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'quaternions']","['accelerometer', 'gyroscope']",medium,True,Llama-3.1-8B-Instruct,retrieval
+realdisp,activities,confirmed,33,33,high,False,Llama-3.1-8B-Instruct,retrieval
+realdisp,devices,unverifiable,"['samsung galaxy s ii smartphone', 'xsens mtx', 'shimmer2', 'axivity ax3']",,none,False,Llama-3.1-8B-Instruct,retrieval
+realdisp,protocol_type,unverifiable,,,none,False,Llama-3.1-8B-Instruct,retrieval
+realdisp,setting,unverifiable,,,none,False,Llama-3.1-8B-Instruct,retrieval
+mhealth,sampling_rate_hz,unverifiable,50,,none,False,Llama-3.1-8B-Instruct,retrieval
+mhealth,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False,Llama-3.1-8B-Instruct,retrieval
+mhealth,gyroscope_unit,contradicted,deg/s,rad/s (p99≈1.0),medium,True,Llama-3.1-8B-Instruct,retrieval
+mhealth,n_participants,confirmed,10,10,high,False,Llama-3.1-8B-Instruct,retrieval
+mhealth,sensor_placements,confirmed,"['chest', 'right wrist', 'left ankle']","['chest', 'left ankle', 'right lower arm']",medium,False,Llama-3.1-8B-Instruct,retrieval
+mhealth,modalities,contradicted,"['acceleration', 'gyroscope', 'magnetometer', 'ecg']","['accelerometer', 'gyroscope']",medium,True,Llama-3.1-8B-Instruct,retrieval
+mhealth,activities,confirmed,12,12,high,False,Llama-3.1-8B-Instruct,retrieval
+mhealth,devices,unverifiable,['shimmer2 wearable sensors'],,none,False,Llama-3.1-8B-Instruct,retrieval
+mhealth,protocol_type,unverifiable,"one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",,none,False,Llama-3.1-8B-Instruct,retrieval
+mhealth,setting,unverifiable,"one of 'laboratory', 'free-living', 'both', or null.",,none,False,Llama-3.1-8B-Instruct,retrieval
+uschad,sampling_rate_hz,unverifiable,100,,none,False,Llama-3.1-8B-Instruct,retrieval
+uschad,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,Llama-3.1-8B-Instruct,retrieval
+uschad,gyroscope_unit,contradicted,dps,deg/s (p99≈106.8),medium,True,Llama-3.1-8B-Instruct,retrieval
+uschad,n_participants,contradicted,,14,high,True,Llama-3.1-8B-Instruct,retrieval
+uschad,sensor_placements,contradicted,"[""body locations where sensors were worn (e.g. 'waist'"", ""'chest'"", ""'right wrist'"", ""'ankle'"", ""'front trouser pocket').""]",['front right hip'],medium,True,Llama-3.1-8B-Instruct,retrieval
+uschad,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Llama-3.1-8B-Instruct,retrieval
+uschad,activities,confirmed,12,12,high,False,Llama-3.1-8B-Instruct,retrieval
+uschad,devices,unverifiable,['motionnode'],,none,False,Llama-3.1-8B-Instruct,retrieval
+uschad,protocol_type,unverifiable,,,none,False,Llama-3.1-8B-Instruct,retrieval
+uschad,setting,unverifiable,,,none,False,Llama-3.1-8B-Instruct,retrieval
+harth,sampling_rate_hz,confirmed,50,50.000047683761295,high,False,Llama-3.1-8B-Instruct,retrieval
+harth,accelerometer_unit,confirmed,g,g (|a|≈1.00),high,False,Llama-3.1-8B-Instruct,retrieval
+harth,gyroscope_unit,unverifiable,,,none,False,Llama-3.1-8B-Instruct,retrieval
+harth,n_participants,confirmed,22,22,high,False,Llama-3.1-8B-Instruct,retrieval
+harth,sensor_placements,contradicted,['right front thigh and lower back'],"['lower back', 'right thigh']",medium,True,Llama-3.1-8B-Instruct,retrieval
+harth,modalities,confirmed,['accelerometer'],['accelerometer'],medium,False,Llama-3.1-8B-Instruct,retrieval
+harth,activities,contradicted,14,12,high,True,Llama-3.1-8B-Instruct,retrieval
+harth,devices,unverifiable,['axivity ax3'],,none,False,Llama-3.1-8B-Instruct,retrieval
+harth,protocol_type,unverifiable,"one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",,none,False,Llama-3.1-8B-Instruct,retrieval
+harth,setting,unverifiable,"one of 'laboratory', 'free-living', 'both', or null.",,none,False,Llama-3.1-8B-Instruct,retrieval
+motionsense,sampling_rate_hz,unverifiable,50,,none,False,Llama-3.1-8B-Instruct,retrieval
+motionsense,accelerometer_unit,contradicted,,g (|a|≈1.03),high,True,Llama-3.1-8B-Instruct,retrieval
+motionsense,gyroscope_unit,contradicted,,rad/s (p99≈3.2),medium,True,Llama-3.1-8B-Instruct,retrieval
+motionsense,n_participants,confirmed,24,24,high,False,Llama-3.1-8B-Instruct,retrieval
+motionsense,sensor_placements,confirmed,['front pocket'],['front trouser pocket (smartphone)'],medium,False,Llama-3.1-8B-Instruct,retrieval
+motionsense,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Llama-3.1-8B-Instruct,retrieval
+motionsense,activities,contradicted,6,6,high,True,Llama-3.1-8B-Instruct,retrieval
+motionsense,devices,unverifiable,['iphone 6s'],,none,False,Llama-3.1-8B-Instruct,retrieval
+motionsense,protocol_type,unverifiable,"one of 'experimental' (scripted activities), 'observational' (free-living), 'survey', or null.",,none,False,Llama-3.1-8B-Instruct,retrieval
+motionsense,setting,unverifiable,"one of 'laboratory', 'free-living', 'both', or null.",,none,False,Llama-3.1-8B-Instruct,retrieval
+hapt,sampling_rate_hz,unverifiable,50.0,,none,False,gemma-2-9b-it,zeroshot
+hapt,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,gemma-2-9b-it,zeroshot
+hapt,gyroscope_unit,confirmed,rad/s,rad/s (p99≈1.4),medium,False,gemma-2-9b-it,zeroshot
+hapt,n_participants,confirmed,30,30,high,False,gemma-2-9b-it,zeroshot
+hapt,sensor_placements,confirmed,['waist'],['waist (smartphone)'],medium,False,gemma-2-9b-it,zeroshot
+hapt,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,gemma-2-9b-it,zeroshot
+hapt,activities,confirmed,12,12,high,False,gemma-2-9b-it,zeroshot
+hapt,devices,unverifiable,['samsung galaxy s ii smartphone'],,none,False,gemma-2-9b-it,zeroshot
+hapt,protocol_type,unverifiable,scripted,,none,False,gemma-2-9b-it,zeroshot
+hapt,setting,unverifiable,laboratory,,none,False,gemma-2-9b-it,zeroshot
+pamap2,sampling_rate_hz,confirmed,100.0,100.00000000009095,high,False,gemma-2-9b-it,zeroshot
+pamap2,accelerometer_unit,contradicted,ms^-2,m/s^2 (|a|≈9.84),high,True,gemma-2-9b-it,zeroshot
+pamap2,gyroscope_unit,confirmed,rad/s,rad/s (p99≈3.9),medium,False,gemma-2-9b-it,zeroshot
+pamap2,n_participants,confirmed,9,9,high,False,gemma-2-9b-it,zeroshot
+pamap2,sensor_placements,contradicted,"[""body locations where sensors were worn (e.g. 'waist'"", ""'chest'"", ""'right wrist'"", ""'ankle'"", ""'front trouser pocket').""]","['ankle (dominant side)', 'chest', 'wrist (dominant arm)']",medium,True,gemma-2-9b-it,zeroshot
+pamap2,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'heart rate']","['accelerometer', 'gyroscope']",medium,True,gemma-2-9b-it,zeroshot
+pamap2,activities,contradicted,19,12,high,True,gemma-2-9b-it,zeroshot
+pamap2,devices,unverifiable,['3 colibri wireless imus and a bm-cs5sr hr-monitor'],,none,False,gemma-2-9b-it,zeroshot
+pamap2,protocol_type,unverifiable,observational,,none,False,gemma-2-9b-it,zeroshot
+pamap2,setting,unverifiable,both,,none,False,gemma-2-9b-it,zeroshot
+wisdm19,sampling_rate_hz,confirmed,20.0,20.00501525827587,high,False,gemma-2-9b-it,zeroshot
+wisdm19,accelerometer_unit,contradicted,g,m/s^2 (|a|≈9.78),high,True,gemma-2-9b-it,zeroshot
+wisdm19,gyroscope_unit,unverifiable,rad/s,,none,False,gemma-2-9b-it,zeroshot
+wisdm19,n_participants,confirmed,51,51,high,False,gemma-2-9b-it,zeroshot
+wisdm19,sensor_placements,contradicted,"[""body locations where sensors were worn (e.g. 'waist'"", ""'chest'"", ""'right wrist'"", ""'ankle'"", ""'front trouser pocket').""]",['front trouser pocket (smartphone)'],medium,True,gemma-2-9b-it,zeroshot
+wisdm19,modalities,contradicted,"['accelerometer', 'gyroscope']",['accelerometer'],medium,True,gemma-2-9b-it,zeroshot
+wisdm19,activities,confirmed,18,18,high,False,gemma-2-9b-it,zeroshot
+wisdm19,devices,unverifiable,"['nexus 5', 'nexus 5x', 'galaxy s6', 'lg g watch']",,none,False,gemma-2-9b-it,zeroshot
+wisdm19,protocol_type,unverifiable,experimental,,none,False,gemma-2-9b-it,zeroshot
+wisdm19,setting,unverifiable,laboratory,,none,False,gemma-2-9b-it,zeroshot
+dsads,sampling_rate_hz,unverifiable,25.0,,none,False,gemma-2-9b-it,zeroshot
+dsads,accelerometer_unit,contradicted,g,m/s^2 (|a|≈9.85),high,True,gemma-2-9b-it,zeroshot
+dsads,gyroscope_unit,confirmed,rad/s,rad/s (p99≈2.2),medium,False,gemma-2-9b-it,zeroshot
+dsads,n_participants,confirmed,8,8,high,False,gemma-2-9b-it,zeroshot
+dsads,sensor_placements,contradicted,"[""body locations where sensors were worn (e.g. 'waist'"", ""'chest'"", ""'right wrist'"", ""'ankle'"", ""'front trouser pocket').""]","['left arm', 'left leg', 'right arm', 'right leg', 'torso']",medium,True,gemma-2-9b-it,zeroshot
+dsads,modalities,confirmed,"['accelerometer', 'gyroscope', 'magnetometer']","['accelerometer', 'gyroscope']",medium,False,gemma-2-9b-it,zeroshot
+dsads,activities,confirmed,19,19,high,False,gemma-2-9b-it,zeroshot
+dsads,devices,unverifiable,['xsens mtx'],,none,False,gemma-2-9b-it,zeroshot
+dsads,protocol_type,unverifiable,observational,,none,False,gemma-2-9b-it,zeroshot
+dsads,setting,unverifiable,both,,none,False,gemma-2-9b-it,zeroshot
+realdisp,sampling_rate_hz,contradicted,,50.000000000045475,high,True,gemma-2-9b-it,zeroshot
+realdisp,accelerometer_unit,contradicted,g,m/s^2 (|a|≈10.05),high,True,gemma-2-9b-it,zeroshot
+realdisp,gyroscope_unit,confirmed,rad/s,rad/s (p99≈4.1),medium,False,gemma-2-9b-it,zeroshot
+realdisp,n_participants,confirmed,17,17,high,False,gemma-2-9b-it,zeroshot
+realdisp,sensor_placements,contradicted,"[""body locations where sensors were worn (e.g. 'waist'"", ""'chest'"", ""'right wrist'"", ""'ankle'"", ""'front trouser pocket').""]","['back', 'left calf', 'left lower arm', 'left thigh', 'left upper arm', 'right calf', 'right lower arm', 'right thigh', 'right upper arm']",medium,True,gemma-2-9b-it,zeroshot
+realdisp,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'quaternion']","['accelerometer', 'gyroscope']",medium,True,gemma-2-9b-it,zeroshot
+realdisp,activities,confirmed,1,33,high,False,gemma-2-9b-it,zeroshot
+realdisp,devices,unverifiable,['null'],,none,False,gemma-2-9b-it,zeroshot
+realdisp,protocol_type,unverifiable,observational,,none,False,gemma-2-9b-it,zeroshot
+realdisp,setting,unverifiable,free-living,,none,False,gemma-2-9b-it,zeroshot
+mhealth,sampling_rate_hz,unverifiable,50.0,,none,False,gemma-2-9b-it,zeroshot
+mhealth,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False,gemma-2-9b-it,zeroshot
+mhealth,gyroscope_unit,contradicted,deg/s,rad/s (p99≈1.0),medium,True,gemma-2-9b-it,zeroshot
+mhealth,n_participants,confirmed,10,10,high,False,gemma-2-9b-it,zeroshot
+mhealth,sensor_placements,confirmed,"['chest', 'right wrist', 'left ankle']","['chest', 'left ankle', 'right lower arm']",medium,False,gemma-2-9b-it,zeroshot
+mhealth,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'heart rate (ecg)']","['accelerometer', 'gyroscope']",medium,True,gemma-2-9b-it,zeroshot
+mhealth,activities,confirmed,12,12,high,False,gemma-2-9b-it,zeroshot
+mhealth,devices,unverifiable,['shimmer2'],,none,False,gemma-2-9b-it,zeroshot
+mhealth,protocol_type,unverifiable,observational,,none,False,gemma-2-9b-it,zeroshot
+mhealth,setting,unverifiable,free-living,,none,False,gemma-2-9b-it,zeroshot
+uschad,sampling_rate_hz,unverifiable,100.0,,none,False,gemma-2-9b-it,zeroshot
+uschad,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,gemma-2-9b-it,zeroshot
+uschad,gyroscope_unit,contradicted,dps,deg/s (p99≈106.8),medium,True,gemma-2-9b-it,zeroshot
+uschad,n_participants,contradicted,,14,high,True,gemma-2-9b-it,zeroshot
+uschad,sensor_placements,contradicted,['not specified in the documentation.'],['front right hip'],medium,True,gemma-2-9b-it,zeroshot
+uschad,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,gemma-2-9b-it,zeroshot
+uschad,activities,confirmed,12,12,high,False,gemma-2-9b-it,zeroshot
+uschad,devices,unverifiable,['motionnode'],,none,False,gemma-2-9b-it,zeroshot
+uschad,protocol_type,unverifiable,experimental,,none,False,gemma-2-9b-it,zeroshot
+uschad,setting,unverifiable,laboratory,,none,False,gemma-2-9b-it,zeroshot
+harth,sampling_rate_hz,confirmed,50.0,50.000047683761295,high,False,gemma-2-9b-it,zeroshot
+harth,accelerometer_unit,confirmed,g,g (|a|≈1.00),high,False,gemma-2-9b-it,zeroshot
+harth,gyroscope_unit,unverifiable,null,,none,False,gemma-2-9b-it,zeroshot
+harth,n_participants,confirmed,22,22,high,False,gemma-2-9b-it,zeroshot
+harth,sensor_placements,confirmed,"['right thigh', 'lower back']","['lower back', 'right thigh']",medium,False,gemma-2-9b-it,zeroshot
+harth,modalities,confirmed,['accelerometer'],['accelerometer'],medium,False,gemma-2-9b-it,zeroshot
+harth,activities,contradicted,12,12,high,True,gemma-2-9b-it,zeroshot
+harth,devices,unverifiable,['axivity ax3'],,none,False,gemma-2-9b-it,zeroshot
+harth,protocol_type,unverifiable,observational,,none,False,gemma-2-9b-it,zeroshot
+harth,setting,unverifiable,free-living,,none,False,gemma-2-9b-it,zeroshot
+motionsense,sampling_rate_hz,unverifiable,50.0,,none,False,gemma-2-9b-it,zeroshot
+motionsense,accelerometer_unit,confirmed,g,g (|a|≈1.03),high,False,gemma-2-9b-it,zeroshot
+motionsense,gyroscope_unit,confirmed,rad/s,rad/s (p99≈3.2),medium,False,gemma-2-9b-it,zeroshot
+motionsense,n_participants,confirmed,24,24,high,False,gemma-2-9b-it,zeroshot
+motionsense,sensor_placements,contradicted,['front pocket of trousers'],['front trouser pocket (smartphone)'],medium,True,gemma-2-9b-it,zeroshot
+motionsense,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,gemma-2-9b-it,zeroshot
+motionsense,activities,contradicted,6,6,high,True,gemma-2-9b-it,zeroshot
+motionsense,devices,unverifiable,['iphone 6'],,none,False,gemma-2-9b-it,zeroshot
+motionsense,protocol_type,unverifiable,observational,,none,False,gemma-2-9b-it,zeroshot
+motionsense,setting,unverifiable,both,,none,False,gemma-2-9b-it,zeroshot
+hapt,sampling_rate_hz,unverifiable,50.0,,none,False,gemma-2-9b-it,retrieval
+hapt,accelerometer_unit,contradicted,m/s^2,g (|a|≈1.01),high,True,gemma-2-9b-it,retrieval
+hapt,gyroscope_unit,confirmed,rad/s,rad/s (p99≈1.4),medium,False,gemma-2-9b-it,retrieval
+hapt,n_participants,contradicted,,30,high,True,gemma-2-9b-it,retrieval
+hapt,sensor_placements,confirmed,['waist'],['waist (smartphone)'],medium,False,gemma-2-9b-it,retrieval
+hapt,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,gemma-2-9b-it,retrieval
+hapt,activities,confirmed,12,12,high,False,gemma-2-9b-it,retrieval
+hapt,devices,unverifiable,['smartphone'],,none,False,gemma-2-9b-it,retrieval
+hapt,protocol_type,unverifiable,experimental,,none,False,gemma-2-9b-it,retrieval
+hapt,setting,unverifiable,laboratory,,none,False,gemma-2-9b-it,retrieval
+pamap2,sampling_rate_hz,contradicted,9.0,100.00000000009095,high,True,gemma-2-9b-it,retrieval
+pamap2,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False,gemma-2-9b-it,retrieval
+pamap2,gyroscope_unit,confirmed,rad/s,rad/s (p99≈3.9),medium,False,gemma-2-9b-it,retrieval
+pamap2,n_participants,confirmed,9,9,high,False,gemma-2-9b-it,retrieval
+pamap2,sensor_placements,confirmed,"['1 imu over the wrist on the dominant arm', '1 imu on the chest', ""1 imu on the dominant side's ankle""]","['ankle (dominant side)', 'chest', 'wrist (dominant arm)']",medium,False,gemma-2-9b-it,retrieval
+pamap2,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'heart rate']","['accelerometer', 'gyroscope']",medium,True,gemma-2-9b-it,retrieval
+pamap2,activities,contradicted,18,12,high,True,gemma-2-9b-it,retrieval
+pamap2,devices,unverifiable,"['viliv i', 'xsens mtx', 'shimmer2', 'axivity ax3']",,none,False,gemma-2-9b-it,retrieval
+pamap2,protocol_type,unverifiable,experimental,,none,False,gemma-2-9b-it,retrieval
+pamap2,setting,unverifiable,laboratory,,none,False,gemma-2-9b-it,retrieval
+wisdm19,sampling_rate_hz,confirmed,20.0,20.00501525827587,high,False,gemma-2-9b-it,retrieval
+wisdm19,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.78),high,False,gemma-2-9b-it,retrieval
+wisdm19,gyroscope_unit,unverifiable,rad/s,,none,False,gemma-2-9b-it,retrieval
+wisdm19,n_participants,confirmed,51,51,high,False,gemma-2-9b-it,retrieval
+wisdm19,sensor_placements,contradicted,"[""body locations where sensors were worn (e.g. 'waist'"", ""'chest'"", ""'right wrist'"", ""'ankle'"", ""'front trouser pocket').""]",['front trouser pocket (smartphone)'],medium,True,gemma-2-9b-it,retrieval
+wisdm19,modalities,contradicted,"['accelerometer', 'gyroscope']",['accelerometer'],medium,True,gemma-2-9b-it,retrieval
+wisdm19,activities,contradicted,1,18,high,True,gemma-2-9b-it,retrieval
+wisdm19,devices,unverifiable,"['nexus 5', 'nexus 5x', 'galaxy s6', 'lg g watch']",,none,False,gemma-2-9b-it,retrieval
+wisdm19,protocol_type,unverifiable,experimental,,none,False,gemma-2-9b-it,retrieval
+wisdm19,setting,unverifiable,laboratory,,none,False,gemma-2-9b-it,retrieval
+dsads,sampling_rate_hz,unverifiable,25.0,,none,False,gemma-2-9b-it,retrieval
+dsads,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.85),high,False,gemma-2-9b-it,retrieval
+dsads,gyroscope_unit,confirmed,rad/s,rad/s (p99≈2.2),medium,False,gemma-2-9b-it,retrieval
+dsads,n_participants,confirmed,8,8,high,False,gemma-2-9b-it,retrieval
+dsads,sensor_placements,confirmed,"['torso (t)', 'right arm (ra)', 'left arm (la)', 'right leg (rl)', 'left leg (ll)']","['left arm', 'left leg', 'right arm', 'right leg', 'torso']",medium,False,gemma-2-9b-it,retrieval
+dsads,modalities,confirmed,"['accelerometer', 'gyroscope', 'magnetometer']","['accelerometer', 'gyroscope']",medium,False,gemma-2-9b-it,retrieval
+dsads,activities,confirmed,15,19,high,False,gemma-2-9b-it,retrieval
+dsads,devices,unverifiable,['xsens mtx'],,none,False,gemma-2-9b-it,retrieval
+dsads,protocol_type,unverifiable,observational,,none,False,gemma-2-9b-it,retrieval
+dsads,setting,unverifiable,both,,none,False,gemma-2-9b-it,retrieval
+realdisp,sampling_rate_hz,contradicted,,50.000000000045475,high,True,gemma-2-9b-it,retrieval
+realdisp,accelerometer_unit,contradicted,g,m/s^2 (|a|≈10.05),high,True,gemma-2-9b-it,retrieval
+realdisp,gyroscope_unit,confirmed,rad/s,rad/s (p99≈4.1),medium,False,gemma-2-9b-it,retrieval
+realdisp,n_participants,confirmed,17,17,high,False,gemma-2-9b-it,retrieval
+realdisp,sensor_placements,contradicted,"[""body locations where sensors were worn (e.g. 'waist'"", ""'chest'"", ""'right wrist'"", ""'ankle'"", ""'front trouser pocket').""]","['back', 'left calf', 'left lower arm', 'left thigh', 'left upper arm', 'right calf', 'right lower arm', 'right thigh', 'right upper arm']",medium,True,gemma-2-9b-it,retrieval
+realdisp,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'quaternion']","['accelerometer', 'gyroscope']",medium,True,gemma-2-9b-it,retrieval
+realdisp,activities,confirmed,1,33,high,False,gemma-2-9b-it,retrieval
+realdisp,devices,unverifiable,['not specified'],,none,False,gemma-2-9b-it,retrieval
+realdisp,protocol_type,unverifiable,observational,,none,False,gemma-2-9b-it,retrieval
+realdisp,setting,unverifiable,free-living,,none,False,gemma-2-9b-it,retrieval
+mhealth,sampling_rate_hz,unverifiable,50.0,,none,False,gemma-2-9b-it,retrieval
+mhealth,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False,gemma-2-9b-it,retrieval
+mhealth,gyroscope_unit,contradicted,deg/s,rad/s (p99≈1.0),medium,True,gemma-2-9b-it,retrieval
+mhealth,n_participants,confirmed,10,10,high,False,gemma-2-9b-it,retrieval
+mhealth,sensor_placements,confirmed,"['chest', 'right wrist', 'left ankle']","['chest', 'left ankle', 'right lower arm']",medium,False,gemma-2-9b-it,retrieval
+mhealth,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'heart rate']","['accelerometer', 'gyroscope']",medium,True,gemma-2-9b-it,retrieval
+mhealth,activities,confirmed,12,12,high,False,gemma-2-9b-it,retrieval
+mhealth,devices,unverifiable,['shimmer2'],,none,False,gemma-2-9b-it,retrieval
+mhealth,protocol_type,unverifiable,observational,,none,False,gemma-2-9b-it,retrieval
+mhealth,setting,unverifiable,free-living,,none,False,gemma-2-9b-it,retrieval
+uschad,sampling_rate_hz,unverifiable,100.0,,none,False,gemma-2-9b-it,retrieval
+uschad,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,gemma-2-9b-it,retrieval
+uschad,gyroscope_unit,contradicted,dps,deg/s (p99≈106.8),medium,True,gemma-2-9b-it,retrieval
+uschad,n_participants,contradicted,,14,high,True,gemma-2-9b-it,retrieval
+uschad,sensor_placements,contradicted,['not specified in the documentation.'],['front right hip'],medium,True,gemma-2-9b-it,retrieval
+uschad,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,gemma-2-9b-it,retrieval
+uschad,activities,confirmed,12,12,high,False,gemma-2-9b-it,retrieval
+uschad,devices,unverifiable,['motionnode'],,none,False,gemma-2-9b-it,retrieval
+uschad,protocol_type,unverifiable,experimental,,none,False,gemma-2-9b-it,retrieval
+uschad,setting,unverifiable,laboratory,,none,False,gemma-2-9b-it,retrieval
+harth,sampling_rate_hz,confirmed,50.0,50.000047683761295,high,False,gemma-2-9b-it,retrieval
+harth,accelerometer_unit,confirmed,g,g (|a|≈1.00),high,False,gemma-2-9b-it,retrieval
+harth,gyroscope_unit,unverifiable,null,,none,False,gemma-2-9b-it,retrieval
+harth,n_participants,confirmed,22,22,high,False,gemma-2-9b-it,retrieval
+harth,sensor_placements,confirmed,"['right thigh', 'lower back']","['lower back', 'right thigh']",medium,False,gemma-2-9b-it,retrieval
+harth,modalities,confirmed,['accelerometer'],['accelerometer'],medium,False,gemma-2-9b-it,retrieval
+harth,activities,contradicted,12,12,high,True,gemma-2-9b-it,retrieval
+harth,devices,unverifiable,['axivity ax3'],,none,False,gemma-2-9b-it,retrieval
+harth,protocol_type,unverifiable,observational,,none,False,gemma-2-9b-it,retrieval
+harth,setting,unverifiable,free-living,,none,False,gemma-2-9b-it,retrieval
+motionsense,sampling_rate_hz,unverifiable,50.0,,none,False,gemma-2-9b-it,retrieval
+motionsense,accelerometer_unit,contradicted,null,g (|a|≈1.03),high,True,gemma-2-9b-it,retrieval
+motionsense,gyroscope_unit,contradicted,null,rad/s (p99≈3.2),medium,True,gemma-2-9b-it,retrieval
+motionsense,n_participants,confirmed,24,24,high,False,gemma-2-9b-it,retrieval
+motionsense,sensor_placements,confirmed,['front trouser pocket'],['front trouser pocket (smartphone)'],medium,False,gemma-2-9b-it,retrieval
+motionsense,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,gemma-2-9b-it,retrieval
+motionsense,activities,contradicted,6,6,high,True,gemma-2-9b-it,retrieval
+motionsense,devices,unverifiable,['iphone 6s'],,none,False,gemma-2-9b-it,retrieval
+motionsense,protocol_type,unverifiable,observational,,none,False,gemma-2-9b-it,retrieval
+motionsense,setting,unverifiable,free-living,,none,False,gemma-2-9b-it,retrieval
+hapt,sampling_rate_hz,unverifiable,50,,none,False,Qwen2.5-14B-Instruct,zeroshot
+hapt,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,Qwen2.5-14B-Instruct,zeroshot
+hapt,gyroscope_unit,confirmed,rad/s,rad/s (p99≈1.4),medium,False,Qwen2.5-14B-Instruct,zeroshot
+hapt,n_participants,confirmed,30,30,high,False,Qwen2.5-14B-Instruct,zeroshot
+hapt,sensor_placements,confirmed,['waist'],['waist (smartphone)'],medium,False,Qwen2.5-14B-Instruct,zeroshot
+hapt,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-14B-Instruct,zeroshot
+hapt,activities,confirmed,12,12,high,False,Qwen2.5-14B-Instruct,zeroshot
+hapt,devices,unverifiable,['samsung galaxy s ii smartphone'],,none,False,Qwen2.5-14B-Instruct,zeroshot
+hapt,protocol_type,unverifiable,experimental,,none,False,Qwen2.5-14B-Instruct,zeroshot
+hapt,setting,unverifiable,both,,none,False,Qwen2.5-14B-Instruct,zeroshot
+pamap2,sampling_rate_hz,confirmed,100.0,100.00000000009095,high,False,Qwen2.5-14B-Instruct,zeroshot
+pamap2,accelerometer_unit,contradicted,ms-2,m/s^2 (|a|≈9.84),high,True,Qwen2.5-14B-Instruct,zeroshot
+pamap2,gyroscope_unit,confirmed,rad/s,rad/s (p99≈3.9),medium,False,Qwen2.5-14B-Instruct,zeroshot
+pamap2,n_participants,confirmed,9,9,high,False,Qwen2.5-14B-Instruct,zeroshot
+pamap2,sensor_placements,confirmed,"['wrist', 'chest', 'ankle']","['ankle (dominant side)', 'chest', 'wrist (dominant arm)']",medium,False,Qwen2.5-14B-Instruct,zeroshot
+pamap2,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'heart rate']","['accelerometer', 'gyroscope']",medium,True,Qwen2.5-14B-Instruct,zeroshot
+pamap2,activities,contradicted,18,12,high,True,Qwen2.5-14B-Instruct,zeroshot
+pamap2,devices,unverifiable,['colibri wireless inertial measurement units (imus)'],,none,False,Qwen2.5-14B-Instruct,zeroshot
+pamap2,protocol_type,unverifiable,experimental,,none,False,Qwen2.5-14B-Instruct,zeroshot
+pamap2,setting,unverifiable,laboratory,,none,False,Qwen2.5-14B-Instruct,zeroshot
+wisdm19,sampling_rate_hz,confirmed,20,20.00501525827587,high,False,Qwen2.5-14B-Instruct,zeroshot
+wisdm19,accelerometer_unit,contradicted,,m/s^2 (|a|≈9.78),high,True,Qwen2.5-14B-Instruct,zeroshot
+wisdm19,gyroscope_unit,unverifiable,,,none,False,Qwen2.5-14B-Instruct,zeroshot
+wisdm19,n_participants,confirmed,51,51,high,False,Qwen2.5-14B-Instruct,zeroshot
+wisdm19,sensor_placements,contradicted,[],['front trouser pocket (smartphone)'],medium,True,Qwen2.5-14B-Instruct,zeroshot
+wisdm19,modalities,contradicted,"['accelerometer', 'gyroscope']",['accelerometer'],medium,True,Qwen2.5-14B-Instruct,zeroshot
+wisdm19,activities,contradicted,1,18,high,True,Qwen2.5-14B-Instruct,zeroshot
+wisdm19,devices,unverifiable,"['nexus 5', 'nexus 5x', 'galaxy s6', 'lg g watch']",,none,False,Qwen2.5-14B-Instruct,zeroshot
+wisdm19,protocol_type,unverifiable,observational,,none,False,Qwen2.5-14B-Instruct,zeroshot
+wisdm19,setting,unverifiable,free-living,,none,False,Qwen2.5-14B-Instruct,zeroshot
+dsads,sampling_rate_hz,unverifiable,25,,none,False,Qwen2.5-14B-Instruct,zeroshot
+dsads,accelerometer_unit,contradicted,null,m/s^2 (|a|≈9.85),high,True,Qwen2.5-14B-Instruct,zeroshot
+dsads,gyroscope_unit,contradicted,null,rad/s (p99≈2.2),medium,True,Qwen2.5-14B-Instruct,zeroshot
+dsads,n_participants,confirmed,8,8,high,False,Qwen2.5-14B-Instruct,zeroshot
+dsads,sensor_placements,confirmed,"['torso', 'right arm', 'left arm', 'right leg', 'left leg']","['left arm', 'left leg', 'right arm', 'right leg', 'torso']",medium,False,Qwen2.5-14B-Instruct,zeroshot
+dsads,modalities,confirmed,"['accelerometer', 'gyroscope', 'magnetometer']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-14B-Instruct,zeroshot
+dsads,activities,confirmed,19,19,high,False,Qwen2.5-14B-Instruct,zeroshot
+dsads,devices,unverifiable,['xsens mtx'],,none,False,Qwen2.5-14B-Instruct,zeroshot
+dsads,protocol_type,unverifiable,observational,,none,False,Qwen2.5-14B-Instruct,zeroshot
+dsads,setting,unverifiable,both,,none,False,Qwen2.5-14B-Instruct,zeroshot
+realdisp,sampling_rate_hz,contradicted,,50.000000000045475,high,True,Qwen2.5-14B-Instruct,zeroshot
+realdisp,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈10.05),high,False,Qwen2.5-14B-Instruct,zeroshot
+realdisp,gyroscope_unit,confirmed,rad/s,rad/s (p99≈4.1),medium,False,Qwen2.5-14B-Instruct,zeroshot
+realdisp,n_participants,confirmed,17,17,high,False,Qwen2.5-14B-Instruct,zeroshot
+realdisp,sensor_placements,confirmed,"['left calf (lc)', 'left thigh (lt)', 'right calf (rc)', 'right thigh (rt)', 'back (back)', 'left lower arm (lla)', 'left upper arm (lua)', 'right lower arm (rla)', 'right upper arm (rua)']","['back', 'left calf', 'left lower arm', 'left thigh', 'left upper arm', 'right calf', 'right lower arm', 'right thigh', 'right upper arm']",medium,False,Qwen2.5-14B-Instruct,zeroshot
+realdisp,modalities,confirmed,"['accelerometer', 'gyroscope', 'magnetometer']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-14B-Instruct,zeroshot
+realdisp,activities,confirmed,33,33,high,False,Qwen2.5-14B-Instruct,zeroshot
+realdisp,devices,unverifiable,['null'],,none,False,Qwen2.5-14B-Instruct,zeroshot
+realdisp,protocol_type,unverifiable,experimental,,none,False,Qwen2.5-14B-Instruct,zeroshot
+realdisp,setting,unverifiable,both,,none,False,Qwen2.5-14B-Instruct,zeroshot
+mhealth,sampling_rate_hz,unverifiable,50,,none,False,Qwen2.5-14B-Instruct,zeroshot
+mhealth,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False,Qwen2.5-14B-Instruct,zeroshot
+mhealth,gyroscope_unit,contradicted,deg/s,rad/s (p99≈1.0),medium,True,Qwen2.5-14B-Instruct,zeroshot
+mhealth,n_participants,confirmed,10,10,high,False,Qwen2.5-14B-Instruct,zeroshot
+mhealth,sensor_placements,confirmed,"['chest', 'right wrist', 'left ankle']","['chest', 'left ankle', 'right lower arm']",medium,False,Qwen2.5-14B-Instruct,zeroshot
+mhealth,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'heart rate']","['accelerometer', 'gyroscope']",medium,True,Qwen2.5-14B-Instruct,zeroshot
+mhealth,activities,contradicted,12,12,high,True,Qwen2.5-14B-Instruct,zeroshot
+mhealth,devices,unverifiable,['shimmer2'],,none,False,Qwen2.5-14B-Instruct,zeroshot
+mhealth,protocol_type,unverifiable,experimental,,none,False,Qwen2.5-14B-Instruct,zeroshot
+mhealth,setting,unverifiable,free-living,,none,False,Qwen2.5-14B-Instruct,zeroshot
+uschad,sampling_rate_hz,unverifiable,100,,none,False,Qwen2.5-14B-Instruct,zeroshot
+uschad,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,Qwen2.5-14B-Instruct,zeroshot
+uschad,gyroscope_unit,confirmed,deg/s,deg/s (p99≈106.8),medium,False,Qwen2.5-14B-Instruct,zeroshot
+uschad,n_participants,contradicted,,14,high,True,Qwen2.5-14B-Instruct,zeroshot
+uschad,sensor_placements,contradicted,['null'],['front right hip'],medium,True,Qwen2.5-14B-Instruct,zeroshot
+uschad,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-14B-Instruct,zeroshot
+uschad,activities,confirmed,12,12,high,False,Qwen2.5-14B-Instruct,zeroshot
+uschad,devices,unverifiable,['motionnode'],,none,False,Qwen2.5-14B-Instruct,zeroshot
+uschad,protocol_type,unverifiable,experimental,,none,False,Qwen2.5-14B-Instruct,zeroshot
+uschad,setting,unverifiable,,,none,False,Qwen2.5-14B-Instruct,zeroshot
+harth,sampling_rate_hz,confirmed,50,50.000047683761295,high,False,Qwen2.5-14B-Instruct,zeroshot
+harth,accelerometer_unit,confirmed,g,g (|a|≈1.00),high,False,Qwen2.5-14B-Instruct,zeroshot
+harth,gyroscope_unit,unverifiable,,,none,False,Qwen2.5-14B-Instruct,zeroshot
+harth,n_participants,confirmed,22,22,high,False,Qwen2.5-14B-Instruct,zeroshot
+harth,sensor_placements,confirmed,"['lower back', 'right front thigh']","['lower back', 'right thigh']",medium,False,Qwen2.5-14B-Instruct,zeroshot
+harth,modalities,confirmed,['accelerometer'],['accelerometer'],medium,False,Qwen2.5-14B-Instruct,zeroshot
+harth,activities,confirmed,12,12,high,False,Qwen2.5-14B-Instruct,zeroshot
+harth,devices,unverifiable,['axivity ax3'],,none,False,Qwen2.5-14B-Instruct,zeroshot
+harth,protocol_type,unverifiable,observational,,none,False,Qwen2.5-14B-Instruct,zeroshot
+harth,setting,unverifiable,free-living,,none,False,Qwen2.5-14B-Instruct,zeroshot
+motionsense,sampling_rate_hz,unverifiable,50.0,,none,False,Qwen2.5-14B-Instruct,zeroshot
+motionsense,accelerometer_unit,contradicted,m/s^2,g (|a|≈1.03),high,True,Qwen2.5-14B-Instruct,zeroshot
+motionsense,gyroscope_unit,confirmed,rad/s,rad/s (p99≈3.2),medium,False,Qwen2.5-14B-Instruct,zeroshot
+motionsense,n_participants,confirmed,24,24,high,False,Qwen2.5-14B-Instruct,zeroshot
+motionsense,sensor_placements,confirmed,['front trouser pocket'],['front trouser pocket (smartphone)'],medium,False,Qwen2.5-14B-Instruct,zeroshot
+motionsense,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-14B-Instruct,zeroshot
+motionsense,activities,confirmed,6,6,high,False,Qwen2.5-14B-Instruct,zeroshot
+motionsense,devices,unverifiable,['iphone 6s'],,none,False,Qwen2.5-14B-Instruct,zeroshot
+motionsense,protocol_type,unverifiable,observational,,none,False,Qwen2.5-14B-Instruct,zeroshot
+motionsense,setting,unverifiable,free-living,,none,False,Qwen2.5-14B-Instruct,zeroshot
+hapt,sampling_rate_hz,unverifiable,50,,none,False,Qwen2.5-14B-Instruct,retrieval
+hapt,accelerometer_unit,contradicted,m/s^2,g (|a|≈1.01),high,True,Qwen2.5-14B-Instruct,retrieval
+hapt,gyroscope_unit,confirmed,rad/s,rad/s (p99≈1.4),medium,False,Qwen2.5-14B-Instruct,retrieval
+hapt,n_participants,confirmed,30,30,high,False,Qwen2.5-14B-Instruct,retrieval
+hapt,sensor_placements,confirmed,['waist'],['waist (smartphone)'],medium,False,Qwen2.5-14B-Instruct,retrieval
+hapt,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-14B-Instruct,retrieval
+hapt,activities,confirmed,12,12,high,False,Qwen2.5-14B-Instruct,retrieval
+hapt,devices,unverifiable,['smartphone'],,none,False,Qwen2.5-14B-Instruct,retrieval
+hapt,protocol_type,unverifiable,experimental,,none,False,Qwen2.5-14B-Instruct,retrieval
+hapt,setting,unverifiable,laboratory,,none,False,Qwen2.5-14B-Instruct,retrieval
+pamap2,sampling_rate_hz,contradicted,9,100.00000000009095,high,True,Qwen2.5-14B-Instruct,retrieval
+pamap2,accelerometer_unit,contradicted,ms-2,m/s^2 (|a|≈9.84),high,True,Qwen2.5-14B-Instruct,retrieval
+pamap2,gyroscope_unit,confirmed,rad/s,rad/s (p99≈3.9),medium,False,Qwen2.5-14B-Instruct,retrieval
+pamap2,n_participants,confirmed,9,9,high,False,Qwen2.5-14B-Instruct,retrieval
+pamap2,sensor_placements,confirmed,"['wrist on the dominant arm', 'chest', ""dominant side's ankle""]","['ankle (dominant side)', 'chest', 'wrist (dominant arm)']",medium,False,Qwen2.5-14B-Instruct,retrieval
+pamap2,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'heart rate', 'temperature']","['accelerometer', 'gyroscope']",medium,True,Qwen2.5-14B-Instruct,retrieval
+pamap2,activities,contradicted,18,12,high,True,Qwen2.5-14B-Instruct,retrieval
+pamap2,devices,unverifiable,"['imus (inertial measurement units) placed on hand', 'chest', 'and ankle', 'and a hr-monitor']",,none,False,Qwen2.5-14B-Instruct,retrieval
+pamap2,protocol_type,unverifiable,experimental,,none,False,Qwen2.5-14B-Instruct,retrieval
+pamap2,setting,unverifiable,laboratory,,none,False,Qwen2.5-14B-Instruct,retrieval
+wisdm19,sampling_rate_hz,confirmed,20,20.00501525827587,high,False,Qwen2.5-14B-Instruct,retrieval
+wisdm19,accelerometer_unit,contradicted,,m/s^2 (|a|≈9.78),high,True,Qwen2.5-14B-Instruct,retrieval
+wisdm19,gyroscope_unit,unverifiable,,,none,False,Qwen2.5-14B-Instruct,retrieval
+wisdm19,n_participants,confirmed,51,51,high,False,Qwen2.5-14B-Instruct,retrieval
+wisdm19,sensor_placements,contradicted,[],['front trouser pocket (smartphone)'],medium,True,Qwen2.5-14B-Instruct,retrieval
+wisdm19,modalities,contradicted,"['accelerometer', 'gyroscope']",['accelerometer'],medium,True,Qwen2.5-14B-Instruct,retrieval
+wisdm19,activities,contradicted,0,18,high,True,Qwen2.5-14B-Instruct,retrieval
+wisdm19,devices,unverifiable,"['nexus 5', 'nexus 5x', 'galaxy s6', 'lg g watch']",,none,False,Qwen2.5-14B-Instruct,retrieval
+wisdm19,protocol_type,unverifiable,observational,,none,False,Qwen2.5-14B-Instruct,retrieval
+wisdm19,setting,unverifiable,free-living,,none,False,Qwen2.5-14B-Instruct,retrieval
+dsads,sampling_rate_hz,unverifiable,25,,none,False,Qwen2.5-14B-Instruct,retrieval
+dsads,accelerometer_unit,contradicted,null,m/s^2 (|a|≈9.85),high,True,Qwen2.5-14B-Instruct,retrieval
+dsads,gyroscope_unit,contradicted,null,rad/s (p99≈2.2),medium,True,Qwen2.5-14B-Instruct,retrieval
+dsads,n_participants,confirmed,8,8,high,False,Qwen2.5-14B-Instruct,retrieval
+dsads,sensor_placements,confirmed,"['torso', 'right arm', 'left arm', 'right leg', 'left leg']","['left arm', 'left leg', 'right arm', 'right leg', 'torso']",medium,False,Qwen2.5-14B-Instruct,retrieval
+dsads,modalities,confirmed,"['accelerometer', 'gyroscope', 'magnetometer']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-14B-Instruct,retrieval
+dsads,activities,confirmed,19,19,high,False,Qwen2.5-14B-Instruct,retrieval
+dsads,devices,unverifiable,['xsens mtx'],,none,False,Qwen2.5-14B-Instruct,retrieval
+dsads,protocol_type,unverifiable,observational,,none,False,Qwen2.5-14B-Instruct,retrieval
+dsads,setting,unverifiable,free-living,,none,False,Qwen2.5-14B-Instruct,retrieval
+realdisp,sampling_rate_hz,contradicted,,50.000000000045475,high,True,Qwen2.5-14B-Instruct,retrieval
+realdisp,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈10.05),high,False,Qwen2.5-14B-Instruct,retrieval
+realdisp,gyroscope_unit,confirmed,rad/s,rad/s (p99≈4.1),medium,False,Qwen2.5-14B-Instruct,retrieval
+realdisp,n_participants,confirmed,17,17,high,False,Qwen2.5-14B-Instruct,retrieval
+realdisp,sensor_placements,confirmed,"['left calf (lc)', 'left thigh (lt)', 'right calf (rc)', 'right thigh (rt)', 'back (back)', 'left lower arm (lla)', 'left upper arm (lua)', 'right lower arm (rla)', 'right upper arm (rua)']","['back', 'left calf', 'left lower arm', 'left thigh', 'left upper arm', 'right calf', 'right lower arm', 'right thigh', 'right upper arm']",medium,False,Qwen2.5-14B-Instruct,retrieval
+realdisp,modalities,confirmed,"['accelerometer', 'gyroscope', 'magnetometer']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-14B-Instruct,retrieval
+realdisp,activities,confirmed,33,33,high,False,Qwen2.5-14B-Instruct,retrieval
+realdisp,devices,unverifiable,[],,none,False,Qwen2.5-14B-Instruct,retrieval
+realdisp,protocol_type,unverifiable,observational,,none,False,Qwen2.5-14B-Instruct,retrieval
+realdisp,setting,unverifiable,free-living,,none,False,Qwen2.5-14B-Instruct,retrieval
+mhealth,sampling_rate_hz,unverifiable,50,,none,False,Qwen2.5-14B-Instruct,retrieval
+mhealth,accelerometer_unit,confirmed,m/s^2,m/s^2 (|a|≈9.84),high,False,Qwen2.5-14B-Instruct,retrieval
+mhealth,gyroscope_unit,contradicted,deg/s,rad/s (p99≈1.0),medium,True,Qwen2.5-14B-Instruct,retrieval
+mhealth,n_participants,confirmed,10,10,high,False,Qwen2.5-14B-Instruct,retrieval
+mhealth,sensor_placements,confirmed,"['chest', 'right wrist', 'left ankle']","['chest', 'left ankle', 'right lower arm']",medium,False,Qwen2.5-14B-Instruct,retrieval
+mhealth,modalities,contradicted,"['accelerometer', 'gyroscope', 'magnetometer', 'ecg']","['accelerometer', 'gyroscope']",medium,True,Qwen2.5-14B-Instruct,retrieval
+mhealth,activities,confirmed,12,12,high,False,Qwen2.5-14B-Instruct,retrieval
+mhealth,devices,unverifiable,['shimmer2'],,none,False,Qwen2.5-14B-Instruct,retrieval
+mhealth,protocol_type,unverifiable,observational,,none,False,Qwen2.5-14B-Instruct,retrieval
+mhealth,setting,unverifiable,free-living,,none,False,Qwen2.5-14B-Instruct,retrieval
+uschad,sampling_rate_hz,unverifiable,100,,none,False,Qwen2.5-14B-Instruct,retrieval
+uschad,accelerometer_unit,confirmed,g,g (|a|≈1.01),high,False,Qwen2.5-14B-Instruct,retrieval
+uschad,gyroscope_unit,confirmed,deg/s,deg/s (p99≈106.8),medium,False,Qwen2.5-14B-Instruct,retrieval
+uschad,n_participants,contradicted,,14,high,True,Qwen2.5-14B-Instruct,retrieval
+uschad,sensor_placements,contradicted,['null'],['front right hip'],medium,True,Qwen2.5-14B-Instruct,retrieval
+uschad,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-14B-Instruct,retrieval
+uschad,activities,confirmed,12,12,high,False,Qwen2.5-14B-Instruct,retrieval
+uschad,devices,unverifiable,['motionnode'],,none,False,Qwen2.5-14B-Instruct,retrieval
+uschad,protocol_type,unverifiable,,,none,False,Qwen2.5-14B-Instruct,retrieval
+uschad,setting,unverifiable,,,none,False,Qwen2.5-14B-Instruct,retrieval
+harth,sampling_rate_hz,confirmed,50,50.000047683761295,high,False,Qwen2.5-14B-Instruct,retrieval
+harth,accelerometer_unit,confirmed,g,g (|a|≈1.00),high,False,Qwen2.5-14B-Instruct,retrieval
+harth,gyroscope_unit,unverifiable,,,none,False,Qwen2.5-14B-Instruct,retrieval
+harth,n_participants,confirmed,22,22,high,False,Qwen2.5-14B-Instruct,retrieval
+harth,sensor_placements,confirmed,"['lower back', 'right front thigh']","['lower back', 'right thigh']",medium,False,Qwen2.5-14B-Instruct,retrieval
+harth,modalities,confirmed,['accelerometer'],['accelerometer'],medium,False,Qwen2.5-14B-Instruct,retrieval
+harth,activities,confirmed,12,12,high,False,Qwen2.5-14B-Instruct,retrieval
+harth,devices,unverifiable,['axivity ax3'],,none,False,Qwen2.5-14B-Instruct,retrieval
+harth,protocol_type,unverifiable,observational,,none,False,Qwen2.5-14B-Instruct,retrieval
+harth,setting,unverifiable,free-living,,none,False,Qwen2.5-14B-Instruct,retrieval
+motionsense,sampling_rate_hz,unverifiable,50.0,,none,False,Qwen2.5-14B-Instruct,retrieval
+motionsense,accelerometer_unit,contradicted,m/s^2,g (|a|≈1.03),high,True,Qwen2.5-14B-Instruct,retrieval
+motionsense,gyroscope_unit,confirmed,rad/s,rad/s (p99≈3.2),medium,False,Qwen2.5-14B-Instruct,retrieval
+motionsense,n_participants,confirmed,24,24,high,False,Qwen2.5-14B-Instruct,retrieval
+motionsense,sensor_placements,confirmed,['front trouser pocket'],['front trouser pocket (smartphone)'],medium,False,Qwen2.5-14B-Instruct,retrieval
+motionsense,modalities,confirmed,"['accelerometer', 'gyroscope']","['accelerometer', 'gyroscope']",medium,False,Qwen2.5-14B-Instruct,retrieval
+motionsense,activities,contradicted,6,6,high,True,Qwen2.5-14B-Instruct,retrieval
+motionsense,devices,unverifiable,['iphone 6s'],,none,False,Qwen2.5-14B-Instruct,retrieval
+motionsense,protocol_type,unverifiable,observational,,none,False,Qwen2.5-14B-Instruct,retrieval
+motionsense,setting,unverifiable,free-living,,none,False,Qwen2.5-14B-Instruct,retrieval
